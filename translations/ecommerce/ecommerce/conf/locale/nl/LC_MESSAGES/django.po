@@ -1,0 +1,4456 @@
+# edX translation file.
+# Copyright (C) 2024 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2024.
+# 
+# Translators:
+# Omar Al-Ithawi <i@omardo.com>, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-11-20 11:35+0000\n"
+"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2024\n"
+"Language-Team: Dutch (https://app.transifex.com/open-edx/teams/6205/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: core/admin.py:25
+msgid "Personal info"
+msgstr "Persoonlijke informatie"
+
+#: core/admin.py:26
+msgid "Permissions"
+msgstr "Rechten"
+
+#: core/admin.py:28
+msgid "Important dates"
+msgstr "Belangrijke data"
+
+#. Translators: "Waffle" is the name of a third-party library. It should not
+#. be translated
+#: core/admin.py:35
+#, python-brace-format
+msgid ""
+"User administration has been disabled due to the load on the database. This "
+"functionality can be restored by activating the {switch_name} Waffle switch."
+" Be careful when re-activating this switch!"
+msgstr ""
+"Het gebruikersbeheer is uitgeschakeld vanwege de belasting van de database. "
+"Deze functionaliteit kan worden hersteld door de {switch_name} "
+"Wafelschakelaar te activeren. Wees voorzichtig bij het opnieuw activeren van"
+" deze schakelaar!"
+
+#: core/models.py:41
+msgid "LMS base url for custom site/microsite"
+msgstr "LMS-basis-URL voor aangepaste site/microsite"
+
+#: core/models.py:42
+msgid "Root URL of this site's LMS (e.g. https://courses.stage.edx.org)"
+msgstr ""
+"Hoofd-URL van het LMS van deze site (bijvoorbeeld "
+"https://courses.stage.edx.org)"
+
+#: core/models.py:47
+msgid "Path to custom site theme"
+msgstr "Pad naar aangepast sitethema"
+
+#: core/models.py:54
+msgid "Payment processors"
+msgstr "Betalingsverwerkers"
+
+#: core/models.py:55
+msgid "Comma-separated list of processor names: 'cybersource,paypal'"
+msgstr ""
+"Door komma&#39;s gescheiden lijst met processornamen: "
+"&#39;cybersource,paypal&#39;"
+
+#: core/models.py:61
+msgid "Client-side payment processor"
+msgstr "Betalingsverwerker aan de klantzijde"
+
+#: core/models.py:62
+msgid "Processor that will be used for client-side payments"
+msgstr "Verwerker die wordt gebruikt voor betalingen aan de klantzijde"
+
+#: core/models.py:68
+msgid "OAuth settings"
+msgstr "OAuth-instellingen"
+
+#: core/models.py:69
+msgid "JSON string containing OAuth backend settings."
+msgstr "JSON-tekenreeks met OAuth-backend-instellingen."
+
+#: core/models.py:75
+msgid "Segment key"
+msgstr "Segmentsleutel"
+
+#: core/models.py:76
+msgid "Segment write/API key."
+msgstr "Segmentschrijf-/API-sleutel."
+
+#: core/models.py:82
+msgid "From email"
+msgstr "Van email"
+
+#: core/models.py:83
+msgid "Address from which emails are sent."
+msgstr "Adres van waaruit e-mails worden verzonden."
+
+#: core/models.py:89
+msgid "Enable enrollment codes"
+msgstr "Schakel inschrijfcodes in"
+
+#: core/models.py:90
+msgid "Enable the creation of enrollment codes."
+msgstr "Schakel het aanmaken van inschrijfcodes in."
+
+#: core/models.py:95
+msgid "Payment support email"
+msgstr "E-mail voor betalingsondersteuning"
+
+#: core/models.py:96
+msgid "Contact email for payment support issues."
+msgstr ""
+"Neem contact op met het e-mailadres voor problemen met "
+"betalingsondersteuning."
+
+#: core/models.py:102
+msgid "Payment support url"
+msgstr "URL voor betalingsondersteuning"
+
+#: core/models.py:103
+msgid "URL for payment support issues."
+msgstr "URL voor problemen met betalingsondersteuning."
+
+#: core/models.py:108
+msgid "UTM Cookie Name"
+msgstr "UTM-cookienaam"
+
+#: core/models.py:109
+msgid "Name of cookie storing UTM data."
+msgstr "Naam van de cookie die UTM-gegevens opslaat."
+
+#: core/models.py:115
+msgid "Affiliate Cookie Name"
+msgstr "Naam van affiliatecookie"
+
+#: core/models.py:116
+msgid "Name of cookie storing affiliate data."
+msgstr "Naam van de cookie die partnergegevens opslaat."
+
+#: core/models.py:122
+msgid "Send refund email notification"
+msgstr "E-mailmelding voor terugbetaling verzenden"
+
+#: core/models.py:127
+msgid "Enable SDN check"
+msgstr "Schakel SDN-controle in"
+
+#: core/models.py:128
+msgid "Enable SDN check at checkout."
+msgstr "Schakel SDN-controle in bij het afrekenen."
+
+#: core/models.py:132
+msgid "[Deprecated] US Treasury SDN API URL"
+msgstr "[Verouderd] US Treasury SDN API-URL"
+
+#: core/models.py:137
+msgid "[Deprecated] US Treasury SDN API key"
+msgstr "[Verouderd] US Treasury SDN API-sleutel"
+
+#: core/models.py:142
+msgid "SDN lists"
+msgstr "SDN-lijsten"
+
+#: core/models.py:143
+msgid "A comma-separated list of Treasury OFAC lists to check against."
+msgstr ""
+"Een door komma&#39;s gescheiden lijst met OFAC-lijsten van het ministerie "
+"van Financiën om te controleren."
+
+#: core/models.py:148
+msgid "Require Account Activation"
+msgstr "Accountactivering vereisen"
+
+#: core/models.py:149
+msgid ""
+"Require users to activate their account before allowing them to redeem a "
+"coupon."
+msgstr ""
+"Vereisen dat gebruikers hun account activeren voordat ze een kortingsbon "
+"kunnen inwisselen."
+
+#: core/models.py:153
+msgid "Optimizely snippet source URL"
+msgstr "Optimaliseer de bron-URL van het fragment"
+
+#: core/models.py:154
+msgid "This script will be loaded on every page."
+msgstr "Dit script wordt op elke pagina geladen."
+
+#: core/models.py:159
+msgid "Base Cookie Domain"
+msgstr "Basiscookiedomein"
+
+#: core/models.py:160
+msgid "Base cookie domain used to share cookies across services."
+msgstr ""
+"Basiscookiedomein dat wordt gebruikt om cookies tussen services te delen."
+
+#: core/models.py:166
+msgid "Enable embargo check"
+msgstr "Schakel embargocontrole in"
+
+#: core/models.py:167
+msgid "Enable embargo check at checkout."
+msgstr "Schakel embargocontrole in bij het afrekenen."
+
+#: core/models.py:171
+msgid "Discovery API URL"
+msgstr "Discovery-API-URL"
+
+#. Translators: Do not translate "Apple Pay"
+#: core/models.py:177
+msgid "Enable Apple Pay"
+msgstr "Schakel Apple Pay in"
+
+#: core/models.py:181
+msgid "Enable Partial Program Offer"
+msgstr "Gedeeltelijke programma-aanbieding inschakelen"
+
+#: core/models.py:182
+msgid ""
+"Enable the application of program offers to remaining unenrolled or "
+"unverified courses"
+msgstr ""
+"Schakel de toepassing van programma-aanbiedingen in op resterende niet-"
+"ingeschreven of niet-geverifieerde cursussen"
+
+#: core/models.py:187
+msgid "Hubspot Portal Secret Key"
+msgstr "Hubspot Portal geheime sleutel"
+
+#: core/models.py:188
+msgid "Secret key for Hubspot portal authentication"
+msgstr "Geheime sleutel voor Hubspot-portalauthenticatie"
+
+#: core/models.py:193
+msgid "Enable Microfrontend for Basket Page"
+msgstr "Schakel Microfrontend in voor winkelwagenpagina"
+
+#: core/models.py:194
+msgid ""
+"Use the microfrontend implementation of the basket page instead of the "
+"server-side template"
+msgstr ""
+"Gebruik de microfrontend-implementatie van de winkelwagenpagina in plaats "
+"van de server-side sjabloon"
+
+#: core/models.py:199
+msgid "Payment Microfrontend URL"
+msgstr "Betalingsmicrofrontend-URL"
+
+#: core/models.py:200
+msgid ""
+"URL for the Payment Microfrontend (used if Enable Microfrontend for Basket "
+"Page is set)"
+msgstr ""
+"URL voor de Payment Microfrontend (gebruikt als Microfrontend inschakelen "
+"voor winkelwagenpagina is ingesteld)"
+
+#: core/models.py:446
+msgid "last name"
+msgstr "achternaam"
+
+#: core/models.py:449
+msgid "first name"
+msgstr "Voornaam"
+
+#: core/models.py:450
+msgid "Full Name"
+msgstr "Voor-en achternaam"
+
+#: core/models.py:456
+msgid "LMS user id"
+msgstr "LMS-gebruikers-ID"
+
+#: core/models.py:710 extensions/basket/models.py:130
+#: templates/oscar/dashboard/offers/offer_detail.html:62
+#: templates/oscar/dashboard/offers/offer_detail.html:116
+#: templates/oscar/dashboard/offers/summary.html:10
+#: templates/oscar/dashboard/orders/order_detail.html:31
+#: templates/oscar/dashboard/orders/order_detail.html:42
+msgid "Name"
+msgstr "Naam"
+
+#: core/models.py:712 extensions/offer/models.py:582
+msgid "EnterpriseCustomer UUID"
+msgstr "EnterpriseCustomer-UUID"
+
+#: core/models.py:713 extensions/offer/models.py:452
+#: extensions/offer/models.py:676 extensions/offer/models.py:742
+msgid "UUID for an EnterpriseCustomer from the Enterprise Service."
+msgstr "UUID voor een EnterpriseCustomer van de Enterprise Service."
+
+#: coupons/views.py:76 coupons/views.py:125
+msgid "Coupon does not exist."
+msgstr "Coupon bestaat niet."
+
+#: coupons/views.py:81
+msgid "This coupon code is not yet valid."
+msgstr "Deze couponcode is nog niet geldig."
+
+#: coupons/views.py:83
+msgid "This coupon code has expired."
+msgstr "Deze couponcode is verlopen."
+
+#: coupons/views.py:95
+#, python-brace-format
+msgid "Product [{product}] not available for purchase."
+msgstr "Product [ {product} ] kan niet worden gekocht."
+
+#: coupons/views.py:100
+msgid "This coupon code is no longer available."
+msgstr "Deze couponcode is niet langer beschikbaar."
+
+#: coupons/views.py:120
+msgid "This coupon code is invalid."
+msgstr "Deze couponcode is ongeldig."
+
+#: coupons/views.py:127
+msgid "The voucher is not applicable to your current basket."
+msgstr "De voucher is niet van toepassing op uw huidige winkelmandje."
+
+#: coupons/views.py:137
+msgid "Welcome to edX"
+msgstr "Welkom bij edX"
+
+#: coupons/views.py:138
+msgid ""
+"Please choose from the courses selected by your organization to start "
+"learning."
+msgstr ""
+"Kies uit de door uw organisatie geselecteerde cursussen om te beginnen met "
+"leren."
+
+#: coupons/views.py:168
+msgid "Code not provided."
+msgstr "Code niet verstrekt."
+
+#: coupons/views.py:170
+msgid "SKU not provided."
+msgstr "SKU niet opgegeven."
+
+#: coupons/views.py:181
+msgid "The product does not exist."
+msgstr "Het product bestaat niet."
+
+#: coupons/views.py:195
+msgid "You are not eligible to use this coupon."
+msgstr "U komt niet in aanmerking om deze kortingsbon te gebruiken."
+
+#: coupons/views.py:210
+msgid "Couldn't find a matching Enterprise Customer for this coupon."
+msgstr ""
+"Kan geen overeenkomende Enterprise-klant vinden voor deze kortingsbon."
+
+#: coupons/views.py:218
+msgid ""
+"This coupon is not valid for purchasing a program. Try using this on an "
+"individual course in the program. If you need assistance, contact edX "
+"support."
+msgstr ""
+"Deze coupon is niet geldig voor de aankoop van een programma. Probeer dit "
+"eens te gebruiken voor een individuele cursus in het programma. Als u hulp "
+"nodig heeft, neem dan contact op met edX-ondersteuning."
+
+#: coupons/views.py:245
+msgid "Invalid data sharing consent token provided."
+msgstr "Ongeldige toestemmingstoken voor het delen van gegevens opgegeven."
+
+#: coupons/views.py:265
+#, python-brace-format
+msgid "You have already purchased {course} seat."
+msgstr "U heeft de {course} -stoel al gekocht."
+
+#: coupons/views.py:289
+#, python-brace-format
+msgid "A discount has been applied, courtesy of {enterprise_customer_name}."
+msgstr ""
+"Er is een korting toegepast, met dank aan {enterprise_customer_name} ."
+
+#: coupons/views.py:299
+msgid "This coupon code is not valid for this course. Try a different course."
+msgstr ""
+"Deze couponcode is niet geldig voor deze cursus. Probeer een andere cursus."
+
+#: courses/models.py:33 extensions/basket/models.py:20
+#: extensions/offer/models.py:238 extensions/payment/models.py:68
+#: templates/oscar/dashboard/offers/summary.html:14
+msgid "Site"
+msgstr "Locatie"
+
+#: courses/models.py:40
+msgid ""
+"Last date/time on which verification for this product can be submitted."
+msgstr ""
+"Laatste datum/tijd waarop verificatie voor dit product kan worden ingediend."
+
+#: courses/publishers.py:78
+#, python-brace-format
+msgid "Failed to publish commerce data for {course_id} to LMS."
+msgstr "Kan handelsgegevens voor {course_id} niet publiceren naar LMS."
+
+#: courses/utils.py:138
+msgid "Audit"
+msgstr "Controle"
+
+#: courses/utils.py:139
+msgid "Credit"
+msgstr "Credit"
+
+#: courses/utils.py:140
+msgid "Honor"
+msgstr "Eer"
+
+#: courses/utils.py:141
+msgid "Professional"
+msgstr "Professioneel"
+
+#: courses/utils.py:142
+msgid "Verified"
+msgstr "Geverifieerd"
+
+#: courses/utils.py:143
+msgid "Executive Education"
+msgstr "Executive onderwijs"
+
+#: courses/utils.py:144
+msgid "Paid Executive Education"
+msgstr "Betaalde Executive Education"
+
+#: courses/utils.py:145
+msgid "Unpaid Executive Education"
+msgstr "Onbetaalde Executive Education"
+
+#: courses/utils.py:146
+msgid "Paid Bootcamp"
+msgstr "Betaalde Bootcamp"
+
+#: courses/utils.py:147
+msgid "Unpaid Bootcamp"
+msgstr "Onbetaalde Bootcamp"
+
+#: credit/views.py:40
+msgid ""
+"An error has occurred. We could not confirm that you are eligible for course"
+" credit. Try the transaction again."
+msgstr ""
+"Er is een fout opgetreden. We kunnen niet bevestigen dat u in aanmerking "
+"komt voor cursuskrediet. Probeer de transactie opnieuw."
+
+#: credit/views.py:61
+#, python-brace-format
+msgid ""
+"Credit is not currently available for \"{course_name}\". If you are "
+"currently enrolled in the course, please try again after all grading is "
+"complete. If you need additional assistance, please contact the {site_name} "
+"Support Team."
+msgstr ""
+"Er is momenteel geen tegoed beschikbaar voor &quot; {course_name} &quot;. "
+"Als je momenteel bent ingeschreven voor de cursus, probeer het dan opnieuw "
+"nadat alle beoordelingen zijn voltooid. Als u aanvullende hulp nodig heeft, "
+"neem dan contact op met het {site_name} ondersteuningsteam."
+
+#: credit/views.py:75
+msgid ""
+"An error has occurred. We could not confirm that the institution you "
+"selected offers this course credit. Try the transaction again."
+msgstr ""
+"Er is een fout opgetreden. Wij kunnen niet bevestigen dat de door u "
+"geselecteerde instelling dit cursustegoed aanbiedt. Probeer de transactie "
+"opnieuw."
+
+#: enterprise/benefits.py:24
+#, python-format
+msgid "%d%% enterprise discount"
+msgstr "%d %% ondernemingskorting"
+
+#: enterprise/benefits.py:36
+#, python-brace-format
+msgid "{value} fixed-price enterprise discount"
+msgstr "{value} ondernemingskorting met een vaste prijs"
+
+#: enterprise/benefits.py:45 extensions/payment/models.py:86
+#: invoice/models.py:25 programs/constants.py:15
+msgid "Percentage"
+msgstr "Percentage"
+
+#: enterprise/benefits.py:46 extensions/payment/models.py:87
+#: programs/constants.py:16
+msgid "Absolute"
+msgstr "Absoluut"
+
+#: enterprise/conditions.py:216
+#, python-brace-format
+msgid ""
+"This coupon has been made available through {new_enterprise}. To redeem this"
+" coupon, you must first logout. When you log back in, please select "
+"{new_enterprise} as your enterprise and try again."
+msgstr ""
+"Deze coupon is beschikbaar gesteld via {new_enterprise} . Om deze "
+"kortingsbon in te wisselen, moet u eerst uitloggen. Wanneer u zich opnieuw "
+"aanmeldt, selecteert u {new_enterprise} als uw onderneming en probeert u het"
+" opnieuw."
+
+#: enterprise/conditions.py:370
+msgid ""
+"This code is not valid with your email. Please login with the correct email "
+"assigned to the code or contact your Learning Manager for additional "
+"questions."
+msgstr ""
+"Deze code is niet geldig met uw e-mailadres. Log in met het juiste "
+"e-mailadres dat aan de code is toegewezen of neem contact op met uw Learning"
+" Manager voor aanvullende vragen."
+
+#: enterprise/forms.py:38
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:30
+msgid "Enterprise Customer UUID"
+msgstr "UUID voor zakelijke klanten"
+
+#: enterprise/forms.py:39
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:31
+msgid "Enterprise Customer Catalog UUID"
+msgstr "Enterprise-klantcatalogus UUID"
+
+#: enterprise/forms.py:40 programs/forms.py:23
+msgid "Discount Type"
+msgstr "Kortingstype"
+
+#: enterprise/forms.py:42 programs/forms.py:25
+msgid "Discount Value"
+msgstr "Kortingswaarde"
+
+#: enterprise/forms.py:45
+msgid "Contract Discount Type"
+msgstr "Type contractkorting"
+
+#: enterprise/forms.py:48
+msgid "Contract Discount"
+msgstr "Contractkorting"
+
+#: enterprise/forms.py:51
+msgid "Prepaid Invoice Amount"
+msgstr "Vooruitbetaald factuurbedrag"
+
+#: enterprise/forms.py:53
+msgid "Salesforce Opportunity ID"
+msgstr "Salesforce Opportunity-ID"
+
+#: enterprise/forms.py:55
+msgid "Salesforce Opportunity Line Item"
+msgstr "Salesforce Opportunity-regelitem"
+
+#: enterprise/forms.py:58
+msgid "Emails Addresses"
+msgstr "E-mailadressen"
+
+#: enterprise/forms.py:59
+msgid "Comma separated emails which will receive the offer usage alerts"
+msgstr ""
+"Door komma&#39;s gescheiden e-mails die waarschuwingen over het gebruik van "
+"de aanbieding ontvangen"
+
+#: enterprise/forms.py:64
+msgid "Frequency for offer usage emails"
+msgstr "Frequentie voor e-mails over aanbiedingsgebruik"
+
+#: enterprise/forms.py:79
+msgid "The maximum number of enrollments that can redeem this offer."
+msgstr ""
+"Het maximale aantal inschrijvingen dat deze aanbieding kan inwisselen."
+
+#: enterprise/forms.py:80
+msgid "The maximum USD dollar amount that can be redeemed by this offer."
+msgstr ""
+"Het maximale USD-dollarbedrag dat door deze aanbieding kan worden "
+"ingewisseld."
+
+#: enterprise/forms.py:81
+msgid ""
+"The maximum number of enrollments, by a user, that can redeem this offer."
+msgstr ""
+"Het maximale aantal inschrijvingen per gebruiker dat deze aanbieding kan "
+"inwisselen."
+
+#: enterprise/forms.py:82
+msgid ""
+"The maximum USD dollar amount that can be redeemed using this offer by a "
+"user."
+msgstr ""
+"Het maximale USD-dollarbedrag dat door een gebruiker met deze aanbieding kan"
+" worden ingewisseld."
+
+#: enterprise/forms.py:85 programs/forms.py:35
+msgid "Start Date"
+msgstr "Begin datum"
+
+#: enterprise/forms.py:86 programs/forms.py:36
+msgid "End Date"
+msgstr "Einddatum"
+
+#: enterprise/forms.py:87
+msgid "Enrollment Limit"
+msgstr "Inschrijvingslimiet"
+
+#: enterprise/forms.py:88
+msgid "Bookings Limit"
+msgstr "Boekingslimiet"
+
+#: enterprise/forms.py:89
+msgid "Per User Enrollment Limit"
+msgstr "Inschrijvingslimiet per gebruiker"
+
+#: enterprise/forms.py:90
+msgid "Per User Bookings Limit"
+msgstr "Boekingslimiet per gebruiker"
+
+#: enterprise/forms.py:152 enterprise/forms.py:220
+#, python-brace-format
+msgid ""
+"Ensure new value must be greater than or equal to "
+"consumed({offer_enrollments}) value."
+msgstr ""
+"Zorg ervoor dat de nieuwe waarde groter moet zijn dan of gelijk is aan de "
+"verbruikte( {offer_enrollments} ) waarde."
+
+#: enterprise/forms.py:166
+msgid ""
+"Salesforce Opportunity ID must be 18 alphanumeric characters and begin with "
+"006."
+msgstr ""
+"De Salesforce Opportunity-ID moet uit 18 alfanumerieke tekens bestaan en "
+"beginnen met 006."
+
+#: enterprise/forms.py:176
+msgid ""
+"The Salesforce Opportunity Line Item must be 18 alphanumeric characters and "
+"begin with '00k'."
+msgstr ""
+"Het Salesforce Opportunity-regelitem moet 18 alfanumerieke tekens lang zijn "
+"en beginnen met &#39;00k&#39;."
+
+#: enterprise/forms.py:184 enterprise/forms.py:232
+msgid "Ensure this value is greater than or equal to 0."
+msgstr "Zorg ervoor dat deze waarde groter is dan of gelijk is aan 0."
+
+#: enterprise/forms.py:191 enterprise/forms.py:248
+#, python-brace-format
+msgid ""
+"Ensure new value must be greater than or equal to "
+"consumed({consumed_discount:.2f}) value."
+msgstr ""
+"Zorg ervoor dat de nieuwe waarde groter moet zijn dan of gelijk is aan de "
+"waarde verbruikt({consumed_discount:.2f})."
+
+#: enterprise/forms.py:265
+#, python-brace-format
+msgid "Given email address {email} is not a valid email."
+msgstr "Het opgegeven e-mailadres {email} is geen geldig e-mailadres."
+
+#: enterprise/forms.py:290
+msgid "An offer already exists for this Enterprise & Catalog combination."
+msgstr ""
+"Er bestaat al een aanbieding voor deze Enterprise &amp; Catalog-combinatie."
+
+#: enterprise/forms.py:293 enterprise/forms.py:302 programs/forms.py:73
+msgid "Percentage discounts cannot be greater than 100%."
+msgstr "Kortingspercentages kunnen niet groter zijn dan 100%."
+
+#: enterprise/forms.py:296 programs/forms.py:76
+msgid "A start date must be specified when specifying an end date."
+msgstr ""
+"Bij het opgeven van een einddatum moet een startdatum worden opgegeven."
+
+#: enterprise/forms.py:299 programs/forms.py:79
+msgid "The start date must occur before the end date."
+msgstr "De startdatum moet vóór de einddatum liggen."
+
+#: enterprise/forms.py:307
+msgid "More than 2 digits after the decimal not allowed for absolute value."
+msgstr ""
+"Meer dan 2 cijfers achter de komma zijn niet toegestaan voor de absolute "
+"waarde."
+
+#: enterprise/forms.py:312
+msgid "This field is required when contract discount type is absolute."
+msgstr "Dit veld is verplicht als het type contractkorting absoluut is."
+
+#: enterprise/forms.py:337
+msgid "Discount of type {} provided by {} for {}."
+msgstr "Korting van het type {} geleverd door {} voor {}."
+
+#: enterprise/templates/enterprise/enterprise_coupon_app.html:5
+msgid "Enterprise Coupon Codes"
+msgstr "Enterprise-couponcodes"
+
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:9
+#, python-format
+msgid "Edit Enterprise Offer: %(enterprise_customer_name)s"
+msgstr "Enterprise-aanbieding bewerken: %(enterprise_customer_name)s"
+
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:14
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:47
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:60
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:20
+msgid "Create Enterprise Offer"
+msgstr "Enterprise-aanbieding maken"
+
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:30
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:6
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:17
+#: templates/edx/partials/_administration_menu.html:14
+msgid "Enterprise Offers"
+msgstr "Enterprise-aanbiedingen"
+
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:34
+#: programs/templates/programs/programoffer_form.html:34
+#: templates/oscar/dashboard/catalogue/product_row_actions.html:11
+#: templates/oscar/dashboard/catalogue/product_update.html:267
+#: templates/oscar/dashboard/offers/offer_detail.html:64
+#: templates/oscar/dashboard/offers/offer_detail.html:77
+#: templates/oscar/dashboard/offers/offer_detail.html:82
+#: templates/oscar/dashboard/offers/offer_detail.html:97
+#: templates/oscar/dashboard/offers/summary.html:9
+#: templates/oscar/dashboard/offers/summary.html:19
+#: templates/oscar/dashboard/offers/summary.html:25
+#: templates/oscar/dashboard/offers/summary.html:30
+#: templates/oscar/dashboard/orders/order_detail.html:720
+msgid "Edit"
+msgstr "Bewerking"
+
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:36
+#: programs/templates/programs/programoffer_form.html:36
+msgid "Create"
+msgstr "Creëren"
+
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:45
+msgid "Edit Enterprise Offer"
+msgstr "Enterprise-aanbieding bewerken"
+
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:58
+#: programs/templates/programs/programoffer_form.html:58
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:62
+#: programs/templates/programs/programoffer_form.html:62
+#: templates/oscar/dashboard/catalogue/category_form.html:104
+#: templates/oscar/dashboard/catalogue/product_update.html:322
+#: templates/oscar/dashboard/partials/refund_action_modal.html:20
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:76
+#, python-format
+msgid ""
+"\n"
+"              %(platform_name)s Enterprise Offer Administration Tool\n"
+"              "
+msgstr ""
+"\n"
+"%(platform_name)s Beheerprogramma voor zakelijke aanbiedingen\n"
+"              "
+
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:26
+msgid "Current enterprise offers"
+msgstr "Actuele zakelijke aanbiedingen"
+
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:29
+msgid "Enterprise Customer Name"
+msgstr "Naam ondernemingsklant"
+
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:32
+#: programs/templates/programs/programoffer_list.html:31
+#: templates/oscar/dashboard/offers/offer_detail.html:71
+#: templates/oscar/dashboard/orders/order_detail.html:658
+#: templates/oscar/dashboard/orders/order_detail.html:708
+msgid "Type"
+msgstr "Type"
+
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:33
+#: programs/templates/programs/programoffer_list.html:32
+msgid "Value"
+msgstr "Waarde"
+
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:34
+#: programs/templates/programs/programoffer_list.html:33
+msgid "Start"
+msgstr "Begin"
+
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:35
+#: programs/templates/programs/programoffer_list.html:34
+msgid "End"
+msgstr "Einde"
+
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:64
+#, python-format
+msgid ""
+"\n"
+"                %(platform_name)s Enterprise Offer Administration Tool\n"
+"              "
+msgstr ""
+"\n"
+"%(platform_name)s Beheerprogramma voor zakelijke aanbiedingen\n"
+"              "
+
+#: enterprise/utils.py:239
+#, python-brace-format
+msgid "SKU {sku} does not exist."
+msgstr "SKU {sku} bestaat niet."
+
+#: enterprise/utils.py:248
+#, python-brace-format
+msgid "There is no Enterprise Customer associated with SKU {sku}."
+msgstr "Er is geen Enterprise Customer gekoppeld aan SKU {sku} ."
+
+#: enterprise/utils.py:256
+#, python-brace-format
+msgid ""
+"If you have concerns about sharing your data, please contact your "
+"administrator at {enterprise}."
+msgstr ""
+"Als u zich zorgen maakt over het delen van uw gegevens, neem dan contact op "
+"met uw beheerder via {enterprise} ."
+
+#: enterprise/utils.py:259
+#, python-brace-format
+msgid ""
+"If you have concerns about sharing your data, please contact your "
+"administrator at {enterprise} at {contact_info}."
+msgstr ""
+"Als u zich zorgen maakt over het delen van uw gegevens, neem dan contact op "
+"met uw beheerder op {enterprise} op {contact_info} ."
+
+#: enterprise/utils.py:265
+#, python-brace-format
+msgid "Enrollment in {course_name} was not complete."
+msgstr "De inschrijving voor {course_name} was niet voltooid."
+
+#: enterprise/views.py:39
+msgid "Enterprise offer updated!"
+msgstr "Enterprise-aanbieding bijgewerkt!"
+
+#: enterprise/views.py:62
+msgid "Enterprise offer created!"
+msgstr "Enterprise-aanbieding gemaakt!"
+
+#: extensions/api/exceptions.py:9
+msgid "You can't check out with an empty basket."
+msgstr "Met een leeg winkelmandje kunt u niet afrekenen."
+
+#: extensions/api/exceptions.py:12
+msgid ""
+"We couldn't locate the identification code necessary to find one of your "
+"products."
+msgstr ""
+"We kunnen de identificatiecode die nodig is om een van uw producten te "
+"vinden, niet vinden."
+
+#: extensions/api/exceptions.py:15
+msgid "We couldn't find one of the products you're looking for."
+msgstr "We konden een van de producten die u zocht niet vinden."
+
+#: extensions/api/exceptions.py:18
+msgid "One of the products you're trying to order is unavailable."
+msgstr "Een van de producten die u probeert te bestellen is niet beschikbaar."
+
+#: extensions/api/exceptions.py:21
+msgid ""
+"We couldn't find enough information about you to perform the calculation."
+msgstr ""
+"We konden niet genoeg informatie over u vinden om de berekening uit te "
+"voeren."
+
+#: extensions/api/serializers.py:261
+msgid "EXPIRED"
+msgstr "VERLOPEN"
+
+#: extensions/api/serializers.py:263
+msgid "INACTIVE"
+msgstr "INACTIEF"
+
+#: extensions/api/serializers.py:264
+msgid "ACTIVE"
+msgstr "ACTIEF"
+
+#: extensions/api/serializers.py:705
+msgid "Products must have a certificate type."
+msgstr "Producten moeten een certificaattype hebben."
+
+#: extensions/api/serializers.py:708 extensions/api/serializers.py:753
+msgid "Products must have a price."
+msgstr "Producten moeten een prijs hebben."
+
+#: extensions/api/serializers.py:715
+msgid "You need to provide a course UUID to create Course Entitlements."
+msgstr "U moet een cursus-UUID opgeven om cursusrechten te kunnen aanmaken."
+
+#: extensions/api/serializers.py:749
+msgid "Products must indicate whether ID verification is required."
+msgstr "Producten moeten aangeven of ID-verificatie vereist is."
+
+#: extensions/api/serializers.py:820
+#, python-brace-format
+msgid "Invalid product class [{product_class}] requested."
+msgstr "Ongeldige productklasse [ {product_class} ] aangevraagd."
+
+#: extensions/api/serializers.py:859
+#, python-brace-format
+msgid ""
+"Course [{course_id}] was not published to LMS because the switch "
+"[publish_course_modes_to_lms] is disabled. To avoid ghost SKUs, data has not"
+" been saved."
+msgstr ""
+"Cursus [ {course_id} ] is niet gepubliceerd naar LMS omdat de schakelaar "
+"[publish_course_modes_to_lms] is uitgeschakeld. Om spook-SKU&#39;s te "
+"voorkomen, zijn er geen gegevens opgeslagen."
+
+#: extensions/api/serializers.py:1562
+msgid "Enrollment code"
+msgstr "Inschrijfcode"
+
+#: extensions/api/serializers.py:1563
+msgid "Discount code"
+msgstr "Kortingscode"
+
+#: extensions/api/serializers.py:2060
+msgid "Invalid order number or order {} does not exists."
+msgstr "Ongeldig bestelnummer of bestelling {} bestaat niet."
+
+#: extensions/api/serializers.py:2115
+msgid "New coupon voucher assignment Failure. Error: {}"
+msgstr "Nieuwe couponvouchertoewijzing mislukt. Fout: {}"
+
+#: extensions/api/serializers.py:2133
+msgid ""
+"Your order {} can not be refunded as '{}' coupon are not supported to "
+"refund."
+msgstr ""
+"Uw bestelling {} kan niet worden terugbetaald, aangezien "
+"&#39;{}&#39;-coupons niet worden ondersteund."
+
+#: extensions/api/serializers.py:2164
+msgid "Could note create new voucher for the order: {}"
+msgstr "Kan een nieuwe voucher voor de bestelling aanmaken: {}"
+
+#: extensions/api/v2/views/baskets.py:445 extensions/basket/views.py:460
+#: extensions/iap/api/v1/views.py:131
+msgid "No SKUs provided."
+msgstr "Geen SKU&#39;s opgegeven."
+
+#: extensions/api/v2/views/baskets.py:456 extensions/basket/views.py:467
+#, python-brace-format
+msgid "Products with SKU(s) [{skus}] do not exist."
+msgstr "Producten met SKU(s) [ {skus} ] bestaan niet."
+
+#: extensions/api/v2/views/baskets.py:467
+msgid "Provide username or is_anonymous query param, but not both"
+msgstr ""
+"Geef gebruikersnaam of is_anonymous-queryparameter op, maar niet beide"
+
+#: extensions/api/v2/views/products.py:54
+#, python-brace-format
+msgid "Product API only supports {http_method} for {product_class} products."
+msgstr ""
+"Product-API ondersteunt alleen {http_method} voor {product_class} "
+"-producten."
+
+#: extensions/api/v2/views/products.py:69
+#, python-brace-format
+msgid "Missing or bad value for: [{name}]."
+msgstr "Ontbrekende of slechte waarde voor: [ {name} ]."
+
+#: extensions/basket/models.py:119
+#, python-brace-format
+msgid "{id} - {status} basket (owner: {owner}, lines: {num_lines})"
+msgstr "{id} - {status} mandje (eigenaar: {owner} , lijnen: {num_lines} )"
+
+#: extensions/basket/models.py:142 extensions/payment/models.py:28
+#: templates/oscar/basket/basket.html:9
+msgid "Basket"
+msgstr "Mand"
+
+#: extensions/basket/models.py:144
+msgid "Attribute Type"
+msgstr "Kenmerktype"
+
+#: extensions/basket/models.py:146
+msgid "Text Attribute"
+msgstr "Tekstkenmerk"
+
+#: extensions/basket/utils.py:155
+msgid ""
+"Due to export controls, we cannot allow you to access this course at this "
+"time."
+msgstr ""
+"Vanwege exportcontroles kunnen we u momenteel geen toegang tot deze cursus "
+"verlenen."
+
+#: extensions/basket/utils.py:245
+msgid "Click here to just purchase an enrollment for yourself"
+msgstr "Klik hier om eenvoudigweg een inschrijving voor uzelf aan te schaffen"
+
+#: extensions/basket/utils.py:248
+msgid "Click here to purchase multiple seats in this course"
+msgstr "Klik hier om meerdere plaatsen voor deze cursus te kopen"
+
+#: extensions/basket/utils.py:498
+#, python-brace-format
+msgid "Coupon code '{code}' has expired."
+msgstr "Couponcode &#39;{code}&#39; is verlopen."
+
+#: extensions/basket/utils.py:502
+#, python-brace-format
+msgid "Coupon code '{code}' is not active."
+msgstr "Couponcode &#39;{code}&#39; is niet actief."
+
+#: extensions/basket/utils.py:508
+#, python-brace-format
+msgid "Coupon code '{code}' is not available. {msg}"
+msgstr "Couponcode &#39;{code}&#39; is niet beschikbaar. {msg}"
+
+#: extensions/basket/utils.py:514
+#, python-brace-format
+msgid "Coupon code '{code}' is not valid for this basket."
+msgstr "Couponcode &#39;{code}&#39; is niet geldig voor dit winkelmandje."
+
+#: extensions/basket/utils.py:527
+#, python-brace-format
+msgid ""
+"Coupon code '{code}' is not valid for this basket for a bundled purchase."
+msgstr ""
+"Couponcode &#39;{code}&#39; is niet geldig voor dit winkelmandje bij een "
+"gebundelde aankoop."
+
+#: extensions/basket/utils.py:582
+#, python-brace-format
+msgid "Coupon code '{code}' added to basket."
+msgstr "Couponcode &#39;{code}&#39; toegevoegd aan winkelwagen."
+
+#: extensions/basket/utils.py:585
+#, python-brace-format
+msgid "Basket does not qualify for coupon code {code}."
+msgstr "Het winkelmandje komt niet in aanmerking voor couponcode {code} ."
+
+#: extensions/basket/views.py:206
+#, python-brace-format
+msgid "Could not apply the code '{code}'; it requires data sharing consent."
+msgstr ""
+"Kon de code &#39;{code}&#39; niet toepassen; hiervoor is toestemming voor "
+"het delen van gegevens vereist."
+
+#: extensions/basket/views.py:297
+msgid ""
+"After you complete your order you will be able to select course dates from "
+"your dashboard."
+msgstr ""
+"Nadat u uw bestelling heeft voltooid, kunt u cursusdata selecteren op uw "
+"dashboard."
+
+#: extensions/basket/views.py:312
+msgid ""
+"After you complete your order you will be automatically enrolled in the "
+"verified track of the course."
+msgstr ""
+"Nadat u uw bestelling heeft voltooid, wordt u automatisch ingeschreven voor "
+"het geverifieerde traject van de cursus."
+
+#: extensions/basket/views.py:316
+msgid "After you complete your order you will receive credit for your course."
+msgstr ""
+"Nadat u uw bestelling heeft afgerond, ontvangt u het tegoed voor uw cursus."
+
+#: extensions/basket/views.py:319
+msgid ""
+"After you complete your order you will be automatically enrolled in the "
+"course."
+msgstr ""
+"Nadat u uw bestelling heeft afgerond, wordt u automatisch ingeschreven voor "
+"de cursus."
+
+#: extensions/basket/views.py:323
+#, python-brace-format
+msgid ""
+"{paragraph_start}By purchasing, you and your organization agree to the "
+"following terms:{paragraph_end} {ul_start} {li_start}Each code is valid for "
+"the one course covered and can be used only one time.{li_end} {li_start}You "
+"are responsible for distributing codes to your learners in your "
+"organization.{li_end} {li_start}Each code will expire in one year from date "
+"of purchase or, if earlier, once the course is closed.{li_end} {li_start}If "
+"a course is not designated as self-paced, you should confirm that a course "
+"run is available before expiration. {li_end} {li_start}You may not resell "
+"codes to third parties.{li_end} {li_start}All edX for Business Sales are "
+"final and not eligible for refunds.{li_end}{ul_end} {paragraph_start}You "
+"will receive an email at {user_email} with your enrollment code(s). "
+"{paragraph_end}"
+msgstr ""
+"{paragraph_start} Door aankoop gaan u en uw organisatie akkoord met de "
+"volgende voorwaarden: {paragraph_end} {ul_start} {li_start} Elke code is "
+"geldig voor de betreffende cursus en kan slechts één keer worden gebruikt. "
+"{li_end} {li_start} U bent verantwoordelijk voor het verspreiden van codes "
+"onder uw studenten in uw organisatie. {li_end} {li_start} Elke code vervalt "
+"één jaar na de aankoopdatum of, indien eerder, zodra de cursus is gesloten. "
+"{li_end} {li_start} Als een cursus niet is aangemerkt als cursus in eigen "
+"tempo, moet u bevestigen dat een cursusuitvoering beschikbaar is vóór de "
+"vervaldatum. {li_end} {li_start} U mag codes niet doorverkopen aan derden. "
+"{li_end} {li_start} Alle edX for Business-verkopen zijn definitief en komen "
+"niet in aanmerking voor restitutie. {li_end} {ul_end} {paragraph_start} Je "
+"ontvangt een e-mail op {user_email} met je inschrijfcode(s). {paragraph_end}"
+
+#: extensions/basket/views.py:361
+#, python-brace-format
+msgid ""
+"{strong_start}Purchasing just for yourself?{strong_end}{paragraph_start}If "
+"you are purchasing a single code for someone else, please continue with "
+"checkout. However, if you are the learner {link_start}go back{link_end} to "
+"enroll directly.{paragraph_end}"
+msgstr ""
+"{strong_start} Alleen voor jezelf kopen? {strong_end} {paragraph_start} Als "
+"u een enkele code voor iemand anders koopt, ga dan verder met afrekenen. "
+"Bent u echter de leerling {link_start} , ga dan terug {link_end} om u direct"
+" in te schrijven. {paragraph_end}"
+
+#: extensions/basket/views.py:439
+msgid "You have already purchased these products"
+msgstr "U heeft deze producten al gekocht"
+
+#: extensions/basket/views.py:484
+msgid "No product is available to buy."
+msgstr "Er is geen product beschikbaar om te kopen."
+
+#: extensions/basket/views.py:902
+msgid "quantity successfully updated"
+msgstr "hoeveelheid succesvol bijgewerkt"
+
+#: extensions/basket/views.py:921
+msgid ""
+"Your basket couldn't be updated. Please correct any validation errors below."
+msgstr ""
+"Uw winkelmandje kon niet worden bijgewerkt. Corrigeer eventuele "
+"validatiefouten hieronder."
+
+#: extensions/basket/views.py:975
+#, python-brace-format
+msgid "You have already added coupon code '{code}' to your basket."
+msgstr ""
+"Je hebt couponcode &#39;{code}&#39; al aan je winkelmandje toegevoegd."
+
+#: extensions/basket/views.py:1051
+#, python-brace-format
+msgid "Coupon code '{code}' does not exist."
+msgstr "Couponcode &#39;{code}&#39; bestaat niet."
+
+#: extensions/basket/views.py:1136
+#, python-format
+msgid "No coupon found with id '%s'"
+msgstr "Geen coupon gevonden met id &#39; %s &#39;"
+
+#: extensions/basket/views.py:1140
+#, python-format
+msgid "Coupon code '%s' was removed from your basket."
+msgstr "Couponcode &#39; %s &#39; is uit uw winkelmandje verwijderd."
+
+#: extensions/catalogue/models.py:70
+msgid "Last date/time on which this product can be purchased."
+msgstr "Laatste datum/tijd waarop dit product kan worden gekocht."
+
+#: extensions/dashboard/forms.py:9
+#: templates/oscar/dashboard/refunds/refund_detail.html:50
+#: templates/oscar/dashboard/refunds/refund_list.html:60
+#: templates/oscar/dashboard/users/detail.html:40
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: extensions/dashboard/forms.py:10
+#: templates/oscar/dashboard/refunds/refund_list.html:61
+#: templates/oscar/dashboard/users/detail.html:48
+msgid "Email"
+msgstr "E-mail"
+
+#: extensions/dashboard/orders/views.py:74
+#, python-brace-format
+msgid ""
+"{link_start}Refund #{refund_id}{link_end} created! Click "
+"{link_start}here{link_end} to view it."
+msgstr ""
+"{link_start} Terugbetaling # {refund_id} {link_end} aangemaakt! Klik hier "
+"{link_start} {link_end} om het te bekijken."
+
+#: extensions/dashboard/orders/views.py:78
+msgid ""
+"A refund cannot be created for these lines. They may have already been "
+"refunded."
+msgstr ""
+"Voor deze lijnen kan geen restitutie worden aangemaakt. Mogelijk zijn ze al "
+"terugbetaald."
+
+#: extensions/dashboard/refunds/apps.py:13
+msgid "Refunds Dashboard"
+msgstr "Terugbetalingsdashboard"
+
+#: extensions/dashboard/refunds/forms.py:15
+#: templates/oscar/dashboard/partials/refund_table.html:9
+#: templates/oscar/dashboard/refunds/refund_list.html:56
+msgid "Refund ID"
+msgstr "Terugbetalings-ID"
+
+#: extensions/dashboard/refunds/forms.py:16 extensions/refund/models.py:72
+#: extensions/refund/models.py:316 extensions/voucher/utils.py:222
+#: extensions/voucher/utils.py:281 extensions/voucher/utils.py:318
+#: templates/oscar/dashboard/offers/offer_detail.html:118
+#: templates/oscar/dashboard/orders/line_detail.html:68
+#: templates/oscar/dashboard/orders/order_detail.html:62
+#: templates/oscar/dashboard/orders/order_detail.html:134
+#: templates/oscar/dashboard/orders/order_detail.html:625
+#: templates/oscar/dashboard/orders/order_list.html:97
+#: templates/oscar/dashboard/partials/refund_table.html:13
+#: templates/oscar/dashboard/refunds/refund_detail.html:73
+#: templates/oscar/dashboard/refunds/refund_detail.html:109
+#: templates/oscar/dashboard/refunds/refund_list.html:59
+#: templates/oscar/dashboard/users/detail.html:142
+msgid "Status"
+msgstr "Toestand"
+
+#: extensions/dashboard/users/views.py:48
+msgid "Failed to retrieve enrollment data."
+msgstr "Kan inschrijvingsgegevens niet ophalen."
+
+#: extensions/iap/models.py:14
+msgid ""
+"Number of times to retry failing IAP client actions (e.g., payment creation,"
+" payment execution)"
+msgstr ""
+"Aantal keren dat mislukte IAP-clientacties opnieuw moeten worden geprobeerd "
+"(bijvoorbeeld het maken van betalingen, het uitvoeren van betalingen)"
+
+#: extensions/iap/models.py:21
+msgid "Past number of days to fetch Android refunds for."
+msgstr ""
+"Afgelopen aantal dagen waarvoor Android-teruggaven kunnen worden opgehaald."
+
+#: extensions/iap/models.py:27
+msgid "mobile team email"
+msgstr "mobiele team-e-mail"
+
+#: extensions/iap/models.py:42
+msgid "Original Transaction ID"
+msgstr "Oorspronkelijke transactie-ID"
+
+#: extensions/offer/constants.py:32
+msgid "Day 3"
+msgstr "Dag 3"
+
+#: extensions/offer/constants.py:33
+msgid "Day 10"
+msgstr "Dag 10"
+
+#: extensions/offer/constants.py:34
+msgid "Day 19"
+msgstr "Dag 19"
+
+#: extensions/offer/constants.py:40
+msgid "Assign"
+msgstr "Toewijzen"
+
+#: extensions/offer/constants.py:41
+msgid "Remind"
+msgstr "Herinneren"
+
+#: extensions/offer/constants.py:42
+msgid "Revoke"
+msgstr "Herroepen"
+
+#: extensions/offer/constants.py:77
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: extensions/offer/constants.py:78
+msgid "Manual"
+msgstr "Handmatig"
+
+#: extensions/offer/models.py:447
+msgid "Course Catalog ID from the Discovery Service."
+msgstr "Cursuscatalogus-ID van de Discovery Service."
+
+#: extensions/offer/models.py:458
+msgid "UUID for an EnterpriseCustomerCatalog from the Enterprise Service."
+msgstr "UUID voor een EnterpriseCustomerCatalog van de Enterprise Service."
+
+#: extensions/offer/models.py:590
+msgid "EnterpriseCustomer Name"
+msgstr "EnterpriseKlantnaam"
+
+#: extensions/offer/models.py:595
+msgid "EnterpriseCustomerCatalog UUID"
+msgstr "EnterpriseCustomerCatalog-UUID"
+
+#: extensions/offer/models.py:600 extensions/voucher/utils.py:53
+#: extensions/voucher/utils.py:190 extensions/voucher/utils.py:270
+#: extensions/voucher/utils.py:326 extensions/voucher/utils.py:335
+#: extensions/voucher/utils.py:341 programs/forms.py:22
+#: programs/templates/programs/programoffer_list.html:30
+msgid "Program UUID"
+msgstr "Programma UUID"
+
+#: extensions/offer/models.py:613
+msgid "Email to user pending."
+msgstr "E-mail naar gebruiker in behandeling."
+
+#: extensions/offer/models.py:614
+msgid "Code successfully assigned to user."
+msgstr "Code succesvol toegewezen aan gebruiker."
+
+#: extensions/offer/models.py:615
+msgid "Code has been redeemed by user."
+msgstr "Code is ingewisseld door gebruiker."
+
+#: extensions/offer/models.py:616
+msgid "Email to user bounced."
+msgstr "E-mail naar gebruiker is teruggestuurd."
+
+#: extensions/offer/models.py:617
+msgid "Code has been revoked for this user."
+msgstr "De code is ingetrokken voor deze gebruiker."
+
+#: extensions/offer/models.py:663
+msgid "Make a particular template version active."
+msgstr "Maak een bepaalde sjabloonversie actief."
+
+#: extensions/offer/models.py:883
+msgid "Email has been sent."
+msgstr "De email is verzonden."
+
+#: extensions/offer/models.py:884
+msgid "This user should receive email"
+msgstr "Deze gebruiker zou e-mail moeten ontvangen"
+
+#: extensions/offer/utils.py:97
+#, python-brace-format
+msgid "{benefit_value}%"
+msgstr "{benefit_value} %"
+
+#: extensions/offer/utils.py:100
+#, python-brace-format
+msgid "${benefit_value}"
+msgstr "$ {benefit_value}"
+
+#. Translators: "Waffle" is the name of a third-party library. It should not
+#. be translated
+#: extensions/order/admin.py:35
+#, python-brace-format
+msgid ""
+"Order administration has been disabled due to the load on the database. This"
+" functionality can be restored by activating the {switch_name} Waffle "
+"switch. Be careful when re-activating this switch!"
+msgstr ""
+"Orderadministratie is uitgeschakeld vanwege de belasting van de database. "
+"Deze functionaliteit kan worden hersteld door de {switch_name} "
+"Wafelschakelaar te activeren. Wees voorzichtig bij het opnieuw activeren van"
+" deze schakelaar!"
+
+#: extensions/order/benefits.py:22
+#, python-format
+msgid "%d%% discount for manual course enrollment order"
+msgstr "%d %% korting voor handmatige cursusinschrijvingsvolgorde"
+
+#: extensions/order/models.py:39 extensions/payment/models.py:26
+msgid "Payment Processor"
+msgstr "Betalingsverwerker"
+
+#: extensions/order/models.py:51
+msgid ""
+"It expect that the order numbers stuck in fulfillment error state will be"
+"             provided in a txt file format one per line."
+msgstr ""
+"Er wordt verwacht dat de bestelnummers die vastzitten in de status van de "
+"uitvoeringsfout, één per regel in een txt-bestandsindeling zullen worden "
+"verstrekt."
+
+#: extensions/partner/admin.py:28
+msgid "Click 'Save and Continue Editing' to add stock records"
+msgstr ""
+"Klik op &#39;Opslaan en doorgaan met bewerken&#39; om voorraadrecords toe te"
+" voegen"
+
+#: extensions/partner/models.py:22
+#: templates/oscar/dashboard/catalogue/product_update.html:193
+#: templates/oscar/dashboard/orders/line_detail.html:71
+msgid "Partner"
+msgstr "Partner"
+
+#: extensions/partner/models.py:23 settings/_oscar.py:276
+msgid "Partners"
+msgstr "Partners"
+
+#: extensions/payment/constants.py:8
+msgid "American Express"
+msgstr "American Express"
+
+#: extensions/payment/constants.py:14
+msgid "Diners"
+msgstr "Diners"
+
+#: extensions/payment/constants.py:18
+msgid "Discover"
+msgstr "Ontdekken"
+
+#: extensions/payment/constants.py:24
+msgid "JCB"
+msgstr "JCB"
+
+#: extensions/payment/constants.py:28
+msgid "MasterCard"
+msgstr "MasterCard"
+
+#: extensions/payment/constants.py:34
+msgid "UnionPay"
+msgstr "UnionPay"
+
+#: extensions/payment/constants.py:38
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: extensions/payment/constants.py:42
+msgid "Visa"
+msgstr "Visa"
+
+#: extensions/payment/exceptions.py:8
+msgid "We don't support the payment option you selected."
+msgstr "Wij ondersteunen de door u geselecteerde betalingsoptie niet."
+
+#: extensions/payment/forms.py:31
+msgid "Choose country"
+msgstr "Kies land"
+
+#. Translators: This is a string added next to the name of the required
+#. fields on the payment form. For example, the first name field is
+#. required, so this would read "First name (required)".
+#: extensions/payment/forms.py:105
+#, python-brace-format
+msgid "{label} (required)"
+msgstr "{label} (vereist)"
+
+#: extensions/payment/forms.py:111
+msgid "Organization (required)"
+msgstr "Organisatie (verplicht)"
+
+#: extensions/payment/forms.py:124
+msgid ""
+"I am purchasing on behalf of my employer or other professional organization"
+msgstr "Ik koop namens mijn werkgever of een andere professionele organisatie"
+
+#: extensions/payment/forms.py:141 extensions/payment/forms.py:218
+#: extensions/payment/views/__init__.py:87
+msgid ""
+"There was a problem retrieving your basket. Refresh the page to try again."
+msgstr ""
+"Er is een probleem opgetreden bij het ophalen van uw winkelmandje. Vernieuw "
+"de pagina om het opnieuw te proberen."
+
+#: extensions/payment/forms.py:144
+msgid "First Name (required)"
+msgstr "Voornaam (verplicht)"
+
+#: extensions/payment/forms.py:145
+msgid "Last Name (required)"
+msgstr "Achternaam (verplicht)"
+
+#: extensions/payment/forms.py:146
+msgid "Address (required)"
+msgstr "Adres (verplicht)"
+
+#: extensions/payment/forms.py:147
+msgid "Suite/Apartment Number"
+msgstr "Suite-/appartementnummer"
+
+#: extensions/payment/forms.py:148
+msgid "City (required)"
+msgstr "Stad (verplicht)"
+
+#: extensions/payment/forms.py:151
+msgid "State/Province"
+msgstr "Staat/Provincie"
+
+#: extensions/payment/forms.py:152
+msgid "Zip/Postal Code"
+msgstr "Postcode"
+
+#: extensions/payment/forms.py:153
+msgid "Country (required)"
+msgstr "Land (verplicht)"
+
+#: extensions/payment/forms.py:180 extensions/payment/forms.py:182
+#: extensions/payment/forms.py:193
+msgid "This field is required."
+msgstr "Dit veld is verplicht."
+
+#: extensions/payment/forms.py:199
+msgid ""
+"Postal codes for the U.S. and Canada are limited to nine (9) characters."
+msgstr "Postcodes voor de VS en Canada zijn beperkt tot negen (9) tekens."
+
+#: extensions/payment/models.py:27
+msgid "Transaction ID"
+msgstr "Transactie ID"
+
+#: extensions/payment/models.py:36
+msgid "Payment Processor Response"
+msgstr "Reactie van betalingsverwerker"
+
+#: extensions/payment/models.py:37
+msgid "Payment Processor Responses"
+msgstr "Reacties van betalingsverwerker"
+
+#: extensions/payment/models.py:54
+msgid ""
+"Number of times to retry failing Paypal client actions (e.g., payment "
+"creation, payment execution)"
+msgstr ""
+"Aantal keren dat mislukte Paypal-klantacties opnieuw moeten worden "
+"geprobeerd (bijvoorbeeld het maken van betalingen, het uitvoeren van "
+"betalingen)"
+
+#: extensions/payment/models.py:112
+msgid "More than 10 digits before the decimal not allowed for fixed value."
+msgstr ""
+"Meer dan 10 cijfers vóór de komma zijn niet toegestaan voor een vaste "
+"waarde."
+
+#: extensions/payment/models.py:118
+msgid "More than 2 digits after the decimal not allowed for fixed value."
+msgstr ""
+"Meer dan 2 cijfers achter de komma zijn niet toegestaan voor een vaste "
+"waarde."
+
+#: extensions/payment/models.py:126
+msgid "Percentage greater than 100 not allowed."
+msgstr "Percentage groter dan 100 niet toegestaan."
+
+#. Translators: This is a string placed in the middle of a truncated string
+#. to indicate that truncation has occurred. For example, if a title may only
+#. be at most 11 characters long, "A Very Long Title" (17 characters) would be
+#. truncated to "A Ve...itle".
+#: extensions/payment/utils.py:77
+msgid "..."
+msgstr "..."
+
+#: extensions/payment/views/cybersource.py:368
+msgid "transaction declined"
+msgstr "Transactie afgewezen"
+
+#. Translators: "Waffle" is the name of a third-party library. It should not
+#. be translated
+#: extensions/refund/admin.py:36
+#, python-brace-format
+msgid ""
+"Refund administration has been disabled due to the load on the database. "
+"This functionality can be restored by activating the {switch_name} Waffle "
+"switch. Be careful when re-activating this switch!"
+msgstr ""
+"Het restitutiebeheer is uitgeschakeld vanwege de belasting van de database. "
+"Deze functionaliteit kan worden hersteld door de {switch_name} "
+"Wafelschakelaar te activeren. Wees voorzichtig bij het opnieuw activeren van"
+" deze schakelaar!"
+
+#: extensions/refund/models.py:67
+msgid "Order"
+msgstr "Volgorde"
+
+#: extensions/refund/models.py:68
+#: templates/oscar/dashboard/orders/order_detail.html:707
+msgid "User"
+msgstr "Gebruiker"
+
+#: extensions/refund/models.py:69
+msgid "Total Credit (excl. tax)"
+msgstr "Totaal tegoed (excl. belasting)"
+
+#: extensions/refund/models.py:70
+#: templates/oscar/dashboard/catalogue/product_update.html:200
+msgid "Currency"
+msgstr "Munteenheid"
+
+#: extensions/refund/models.py:308
+msgid "Refund"
+msgstr "Terugbetaling"
+
+#: extensions/refund/models.py:311
+msgid "Order Line"
+msgstr "Bestelregel"
+
+#: extensions/refund/models.py:313
+msgid "Line Credit (excl. tax)"
+msgstr "Lijnkrediet (excl. BTW)"
+
+#: extensions/refund/models.py:314 templates/edx/checkout/receipt.html:103
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:30
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:51
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:43
+#: templates/oscar/dashboard/orders/line_detail.html:47
+#: templates/oscar/dashboard/orders/line_detail.html:105
+#: templates/oscar/dashboard/orders/line_detail.html:130
+#: templates/oscar/dashboard/orders/line_detail.html:161
+#: templates/oscar/dashboard/orders/order_detail.html:131
+#: templates/oscar/dashboard/refunds/refund_detail.html:106
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+#: extensions/voucher/models.py:40
+msgid "Can be used once by one customer"
+msgstr "Eénmalig te gebruiken door één klant"
+
+#: extensions/voucher/models.py:41
+msgid "Can be used multiple times by multiple customers"
+msgstr "Kan meerdere keren gebruikt worden door meerdere klanten"
+
+#: extensions/voucher/models.py:42
+msgid "Can only be used once per customer"
+msgstr "Kan slechts één keer per klant worden gebruikt"
+
+#: extensions/voucher/models.py:43
+msgid "Can be used multiple times by one customer"
+msgstr "Kan meerdere keren gebruikt worden door één klant"
+
+#: extensions/voucher/models.py:45
+msgid "Usage"
+msgstr "Gebruik"
+
+#: extensions/voucher/models.py:48
+msgid "Is Public Code Batch"
+msgstr "Is openbare codebatch"
+
+#: extensions/voucher/models.py:49
+msgid "Should this code batch be public or private for assignment."
+msgstr "Moet deze codebatch openbaar of privé zijn voor toewijzing."
+
+#: extensions/voucher/models.py:63
+msgid "This voucher is assigned to another user."
+msgstr "Deze voucher is toegewezen aan een andere gebruiker."
+
+#: extensions/voucher/utils.py:53 extensions/voucher/utils.py:192
+#: extensions/voucher/utils.py:271 extensions/voucher/utils.py:329
+#: extensions/voucher/utils.py:332 extensions/voucher/utils.py:337
+msgid "Catalog Query"
+msgstr "Catalogusquery"
+
+#: extensions/voucher/utils.py:55 extensions/voucher/utils.py:285
+#: extensions/voucher/utils.py:340
+msgid "Redeemed For Course IDs"
+msgstr "Ingewisseld voor cursus-ID&#39;s"
+
+#: extensions/voucher/utils.py:57 extensions/voucher/utils.py:284
+#: extensions/voucher/utils.py:331 extensions/voucher/utils.py:339
+msgid "Redeemed For Course ID"
+msgstr "Ingewisseld voor cursus-ID"
+
+#: extensions/voucher/utils.py:76 extensions/voucher/utils.py:318
+msgid "Redeemed"
+msgstr "Ingewisseld"
+
+#: extensions/voucher/utils.py:76
+#: templates/oscar/dashboard/offers/offer_detail.html:132
+#: templates/oscar/dashboard/users/detail.html:52
+msgid "Active"
+msgstr "Actief"
+
+#: extensions/voucher/utils.py:78
+#: templates/oscar/dashboard/offers/offer_detail.html:134
+msgid "Inactive"
+msgstr "Inactief"
+
+#: extensions/voucher/utils.py:95 extensions/voucher/utils.py:161
+#: templates/edx/checkout/receipt.html:135
+#: templates/oscar/dashboard/orders/order_detail.html:180
+#: templates/oscar/dashboard/orders/order_detail.html:198
+#: templates/oscar/dashboard/orders/order_detail.html:236
+msgid "Discount"
+msgstr "Korting"
+
+#: extensions/voucher/utils.py:95 extensions/voucher/utils.py:161
+msgid "Enrollment"
+msgstr "Inschrijving"
+
+#: extensions/voucher/utils.py:96 extensions/voucher/utils.py:165
+#, python-brace-format
+msgid "{percentage} %"
+msgstr "{percentage} %"
+
+#: extensions/voucher/utils.py:171 extensions/voucher/utils.py:219
+#: extensions/voucher/utils.py:263
+#: templates/oscar/dashboard/offers/offer_detail.html:117
+msgid "Code"
+msgstr "Code"
+
+#: extensions/voucher/utils.py:171
+msgid "This row applies to all vouchers"
+msgstr "Deze rij geldt voor alle vouchers"
+
+#: extensions/voucher/utils.py:172 extensions/voucher/utils.py:275
+#: templates/oscar/dashboard/catalogue/product_update.html:126
+msgid "Category"
+msgstr "Categorie"
+
+#: extensions/voucher/utils.py:173 extensions/voucher/utils.py:288
+msgid "Coupon Expiry Date"
+msgstr "Vervaldatum van coupon"
+
+#: extensions/voucher/utils.py:174 extensions/voucher/utils.py:264
+msgid "Coupon Name"
+msgstr "Couponnaam"
+
+#: extensions/voucher/utils.py:175 extensions/voucher/utils.py:287
+msgid "Coupon Start Date"
+msgstr "Startdatum van de coupon"
+
+#: extensions/voucher/utils.py:176 extensions/voucher/utils.py:267
+msgid "Coupon Type"
+msgstr "Coupontype"
+
+#: extensions/voucher/utils.py:177 extensions/voucher/utils.py:286
+msgid "Create Date"
+msgstr "Datum aanmaken"
+
+#: extensions/voucher/utils.py:178 extensions/voucher/utils.py:279
+msgid "Discount Percentage"
+msgstr "Kortingspercentage"
+
+#: extensions/voucher/utils.py:179 extensions/voucher/utils.py:280
+msgid "Discount Amount"
+msgstr "Korting hoeveelheid"
+
+#: extensions/voucher/utils.py:180 extensions/voucher/utils.py:289
+msgid "Email Domains"
+msgstr "E-maildomeinen"
+
+#: extensions/voucher/utils.py:181 extensions/voucher/utils.py:278
+msgid "Invoiced Amount"
+msgstr "Factuurbedrag"
+
+#: extensions/voucher/utils.py:182 extensions/voucher/utils.py:276
+msgid "Note"
+msgstr "Opmerking"
+
+#: extensions/voucher/utils.py:183 extensions/voucher/utils.py:277
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:50
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:61
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:63
+msgid "Price"
+msgstr "Prijs"
+
+#: extensions/voucher/utils.py:187 extensions/voucher/utils.py:269
+#: extensions/voucher/utils.py:327 extensions/voucher/utils.py:333
+#: templates/oscar/dashboard/partials/enrollment_table.html:8
+msgid "Course ID"
+msgstr "Cursus id"
+
+#: extensions/voucher/utils.py:188 extensions/voucher/utils.py:273
+#: extensions/voucher/utils.py:328 extensions/voucher/utils.py:334
+msgid "Organization"
+msgstr "Organisatie"
+
+#: extensions/voucher/utils.py:193 extensions/voucher/utils.py:272
+#: extensions/voucher/utils.py:330 extensions/voucher/utils.py:338
+msgid "Course Seat Types"
+msgstr "Soorten cursusplaatsen"
+
+#: extensions/voucher/utils.py:220 extensions/voucher/utils.py:265
+#: extensions/voucher/utils.py:321
+msgid "Maximum Coupon Usage"
+msgstr "Maximaal coupongebruik"
+
+#: extensions/voucher/utils.py:221 extensions/voucher/utils.py:266
+#: extensions/voucher/utils.py:322
+msgid "Redemption Count"
+msgstr "Aantal aflossingen"
+
+#: extensions/voucher/utils.py:223 extensions/voucher/utils.py:268
+msgid "URL"
+msgstr "URL"
+
+#: extensions/voucher/utils.py:274 extensions/voucher/utils.py:297
+msgid "Client"
+msgstr "Cliënt"
+
+#: extensions/voucher/utils.py:282 extensions/voucher/utils.py:302
+#: extensions/voucher/utils.py:319
+#: templates/oscar/dashboard/users/detail.html:138
+msgid "Order Number"
+msgstr "Bestellingsnummer"
+
+#: extensions/voucher/utils.py:283 extensions/voucher/utils.py:302
+#: extensions/voucher/utils.py:320
+msgid "Redeemed By Username"
+msgstr "Ingewisseld op gebruikersnaam"
+
+#: extensions/voucher/utils.py:786
+#, python-brace-format
+msgid "Range for coupon [{coupon_id}]"
+msgstr "Bereik voor coupon [ {coupon_id} ]"
+
+#: extensions/voucher/views.py:31
+#, python-brace-format
+msgid "Coupon Report for {coupon_name}"
+msgstr "Couponrapport voor {coupon_name}"
+
+#: extensions/voucher/views.py:40
+msgid ""
+"Failed to find a matching stock record for coupon, report download canceled."
+msgstr ""
+"Kan geen overeenkomend voorraadrecord voor coupon vinden, rapportdownload "
+"geannuleerd."
+
+#: invoice/models.py:13
+msgid "Not Paid"
+msgstr "Niet betaald"
+
+#: invoice/models.py:14
+msgid "Paid"
+msgstr "Betaald"
+
+#: invoice/models.py:18
+msgid "Prepaid"
+msgstr "Vooraf betaald"
+
+#: invoice/models.py:19
+msgid "Postpaid"
+msgstr "Gefrankeerd"
+
+#: invoice/models.py:20
+msgid "Bulk purchase"
+msgstr "Bulkaankoop"
+
+#: invoice/models.py:21
+msgid "Not applicable"
+msgstr "Niet toepasbaar"
+
+#: invoice/models.py:26
+msgid "Fixed"
+msgstr "Vast"
+
+#: management/templates/management/index.html:7
+msgid "Management View"
+msgstr "Beheerweergave"
+
+#: management/templates/management/index.html:26
+msgid "Refund Transactions"
+msgstr "Terugbetalingstransacties"
+
+#: management/views.py:53
+#, python-brace-format
+msgid "{action} is not a valid action."
+msgstr "{action} is geen geldige actie."
+
+#: programs/benefits.py:27
+#, python-brace-format
+msgid "{value}% program discount"
+msgstr "{value} % programmakorting"
+
+#: programs/benefits.py:44
+#, python-brace-format
+msgid "{value} fixed-price program discount"
+msgstr "{value} programmakorting met een vaste prijs"
+
+#: programs/forms.py:70
+msgid "An offer already exists for this program."
+msgstr "Er bestaat al een aanbieding voor dit programma."
+
+#: programs/forms.py:90
+#, python-brace-format
+msgid "{current_date} Discount for the {program_title} {program_type} Program"
+msgstr ""
+"{current_date} Korting voor het {program_title} {program_type} programma"
+
+#: programs/templates/programs/programoffer_form.html:9
+#, python-format
+msgid "Edit Program Offer: %(program_title)s"
+msgstr "Programma-aanbod bewerken: %(program_title)s"
+
+#: programs/templates/programs/programoffer_form.html:14
+#: programs/templates/programs/programoffer_form.html:47
+#: programs/templates/programs/programoffer_form.html:60
+#: programs/templates/programs/programoffer_list.html:20
+msgid "Create Program Offer"
+msgstr "Programma-aanbod maken"
+
+#: programs/templates/programs/programoffer_form.html:30
+#: programs/templates/programs/programoffer_list.html:6
+#: programs/templates/programs/programoffer_list.html:17
+#: templates/edx/partials/_administration_menu.html:11
+msgid "Program Offers"
+msgstr "Programma-aanbiedingen"
+
+#: programs/templates/programs/programoffer_form.html:45
+msgid "Edit Program Offer"
+msgstr "Programma-aanbieding bewerken"
+
+#: programs/templates/programs/programoffer_form.html:76
+#: programs/templates/programs/programoffer_list.html:60
+#, python-format
+msgid ""
+"\n"
+"                %(platform_name)s Program Offer Administration Tool\n"
+"              "
+msgstr ""
+"\n"
+"%(platform_name)s Beheerprogramma voor programma-aanbiedingen\n"
+"              "
+
+#: programs/templates/programs/programoffer_list.html:26
+msgid "Current program offers"
+msgstr "Actuele programma-aanbiedingen"
+
+#: programs/templates/programs/programoffer_list.html:29
+msgid "Program Title"
+msgstr "Programmatitel"
+
+#: programs/views.py:38
+msgid "Program offer updated!"
+msgstr "Programma-aanbod bijgewerkt!"
+
+#: programs/views.py:61
+msgid "Program offer created!"
+msgstr "Programma-aanbod gemaakt!"
+
+#: referrals/models.py:26
+msgid "Affiliate ID"
+msgstr "Partner-ID"
+
+#: referrals/models.py:27
+msgid "UTM Source"
+msgstr "UTM-bron"
+
+#: referrals/models.py:28
+msgid "UTM Medium"
+msgstr "UTM-medium"
+
+#: referrals/models.py:29
+msgid "UTM Campaign"
+msgstr "UTM-campagne"
+
+#: referrals/models.py:30
+msgid "UTM Term"
+msgstr "UTM-termijn"
+
+#: referrals/models.py:31
+msgid "UTM Content"
+msgstr "UTM-inhoud"
+
+#: referrals/models.py:32
+msgid "UTM Created At"
+msgstr "UTM gemaakt op"
+
+#: settings/_oscar.py:233
+#: templates/oscar/dashboard/catalogue/category_form.html:15
+#: templates/oscar/dashboard/catalogue/product_update.html:18
+#: templates/oscar/dashboard/index.html:22
+#: templates/oscar/dashboard/offers/offer_detail.html:14
+#: templates/oscar/dashboard/orders/line_detail.html:14
+#: templates/oscar/dashboard/orders/order_detail.html:14
+#: templates/oscar/dashboard/orders/order_list.html:16
+#: templates/oscar/dashboard/refunds/refund_detail.html:31
+#: templates/oscar/dashboard/refunds/refund_list.html:30
+#: templates/oscar/dashboard/users/detail.html:20
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: settings/_oscar.py:238
+msgid "Catalogue"
+msgstr "Catalogus"
+
+#: settings/_oscar.py:242
+#: templates/oscar/dashboard/catalogue/product_update.html:12
+#: templates/oscar/dashboard/catalogue/product_update.html:21
+msgid "Products"
+msgstr "Producten"
+
+#: settings/_oscar.py:246
+msgid "Product Types"
+msgstr "Producttypen"
+
+#: settings/_oscar.py:250
+#: templates/oscar/dashboard/catalogue/category_form.html:8
+#: templates/oscar/dashboard/catalogue/category_form.html:18
+#: templates/oscar/dashboard/catalogue/product_update.html:75
+msgid "Categories"
+msgstr "Categorieën"
+
+#: settings/_oscar.py:254
+msgid "Ranges"
+msgstr "Bereiken"
+
+#: settings/_oscar.py:258
+msgid "Low stock alerts"
+msgstr "Waarschuwingen voor lage voorraad"
+
+#: settings/_oscar.py:264
+msgid "Fulfillment"
+msgstr "Vervulling"
+
+#: settings/_oscar.py:268 templates/oscar/dashboard/index.html:33
+#: templates/oscar/dashboard/orders/line_detail.html:15
+#: templates/oscar/dashboard/orders/order_detail.html:15
+#: templates/oscar/dashboard/orders/order_list.html:10
+#: templates/oscar/dashboard/orders/order_list.html:17
+#: templates/oscar/dashboard/orders/order_list.html:24
+#: templates/oscar/dashboard/users/detail.html:120
+#: templates/oscar/dashboard/users/detail.html:134
+msgid "Orders"
+msgstr "Bestellingen"
+
+#: settings/_oscar.py:272
+msgid "Statistics"
+msgstr "Statistieken"
+
+#: settings/_oscar.py:280
+#: templates/oscar/dashboard/orders/order_detail.html:91
+#: templates/oscar/dashboard/partials/refund_table.html:5
+#: templates/oscar/dashboard/refunds/refund_detail.html:32
+#: templates/oscar/dashboard/refunds/refund_list.html:11
+#: templates/oscar/dashboard/refunds/refund_list.html:31
+#: templates/oscar/dashboard/refunds/refund_list.html:38
+#: templates/oscar/dashboard/users/detail.html:121
+msgid "Refunds"
+msgstr "Terugbetalingen"
+
+#: settings/_oscar.py:286 settings/_oscar.py:290
+#: templates/oscar/dashboard/users/detail.html:23
+msgid "Customers"
+msgstr "Klanten"
+
+#: settings/_oscar.py:294
+msgid "Stock alert requests"
+msgstr "Aanvragen voor voorraadwaarschuwingen"
+
+#: settings/_oscar.py:300 settings/_oscar.py:304
+#: templates/oscar/dashboard/offers/offer_detail.html:15
+msgid "Offers"
+msgstr "Aanbiedingen"
+
+#: settings/_oscar.py:308
+msgid "Vouchers"
+msgstr "Vouchers"
+
+#: settings/_oscar.py:314
+msgid "Reports"
+msgstr "Rapporten"
+
+#: settings/base.py:93
+msgid "English"
+msgstr "Engels"
+
+#: settings/base.py:94
+msgid "Spanish"
+msgstr "Spaans"
+
+#: settings/base.py:95
+msgid "Spanish (Latin American)"
+msgstr "Spaans (Latijns-Amerikaans)"
+
+#: templates/base.html:10
+msgid "Build"
+msgstr "Bouwen"
+
+#: templates/base.html:71
+msgid "Version:"
+msgstr "Versie:"
+
+#: templates/coupons/_offer_error.html:4 templates/coupons/offer.html:5
+#: templates/edx/email_confirmation_required.html:4
+msgid "Redeem"
+msgstr "Inwisselen"
+
+#: templates/coupons/coupon_app.html:5
+msgid "Coupon Codes"
+msgstr "Couponcodes"
+
+#: templates/coupons/offer.html:18
+msgid ""
+"Earn a verified certificate in one of our popular courses to advance your "
+"career, showcase your accomplishments or enhance your college application."
+msgstr ""
+"Verdien een geverifieerd certificaat in een van onze populaire cursussen om "
+"uw carrière vooruit te helpen, uw prestaties onder de aandacht te brengen of"
+" uw universiteitsaanvraag te verbeteren."
+
+#: templates/coupons/offer.html:22
+msgid "Why buy a verified certificate?"
+msgstr "Waarom een geverifieerd certificaat kopen?"
+
+#: templates/coupons/offer.html:27
+msgid ""
+"A verified certificate (digital) confirming that a user has completed the "
+"course on a specified date. The certificate includes edX's logo and the "
+"university's logo, as well as signatures from faculty members involved with "
+"the course. There is also a URL that can be used to verify the authenticity "
+"of the certificate."
+msgstr ""
+"Een geverifieerd certificaat (digitaal) waarin wordt bevestigd dat een "
+"gebruiker de cursus op een bepaalde datum heeft voltooid. Het certificaat "
+"bevat het logo van edX en de universiteit, evenals handtekeningen van "
+"faculteitsleden die bij de cursus betrokken zijn. Er is ook een URL die kan "
+"worden gebruikt om de authenticiteit van het certificaat te verifiëren."
+
+#: templates/coupons/offer.html:30
+msgid ""
+"A verified certificate demonstrates to future employers that you've mastered"
+" the course material."
+msgstr ""
+"Een geverifieerd certificaat toont aan toekomstige werkgevers aan dat u de "
+"cursusstof beheerst."
+
+#: templates/coupons/offer.html:32
+msgid ""
+"The certificate is officially signed and stamped by the institution that "
+"offers the course."
+msgstr ""
+"Het certificaat is officieel ondertekend en afgestempeld door de instelling "
+"die de cursus aanbiedt."
+
+#: templates/coupons/offer.html:34
+msgid ""
+"You're twelve times more likely to complete the course if you're working "
+"toward a verified certificate."
+msgstr ""
+"De kans dat u de cursus afrondt is twaalf keer groter als u toewerkt naar "
+"een geverifieerd certificaat."
+
+#: templates/courses/course_app.html:5
+#: templates/edx/partials/_administration_menu.html:5
+msgid "Courses"
+msgstr "Cursussen"
+
+#: templates/courses/course_app.html:27
+#, python-format
+msgid ""
+"\n"
+"                                %(platform_name)s Course Administration Tool\n"
+"                            "
+msgstr ""
+"\n"
+"%(platform_name)s Cursusbeheertool\n"
+"                            "
+
+#: templates/courses/menu_options.html:8
+msgid "Student Dashboard"
+msgstr "Studentendashboard"
+
+#: templates/courses/menu_options.html:11
+msgid "Course Admin Tool"
+msgstr "Cursusbeheertool"
+
+#: templates/courses/menu_options.html:14
+msgid "E-Commerce Dashboard"
+msgstr "Dashboard voor e-commerce"
+
+#: templates/edx/base_menu.html:7
+msgid "Sign Out"
+msgstr "Afmelden"
+
+#: templates/edx/checkout/receipt.html:13
+#, python-format
+msgid "Receipt for %(order_number)s"
+msgstr "Ontvangstbewijs voor %(order_number)s"
+
+#: templates/edx/checkout/receipt.html:43
+msgid "Thank you for your order!"
+msgstr "Bedankt voor je bestelling!"
+
+#: templates/edx/checkout/receipt.html:53
+#, python-brace-format
+msgid ""
+"Your order is complete. You will receive a confirmation message and your "
+"enrollment code(s) at {link_start}{email}{link_end}. If you need a receipt, "
+"you can print this page."
+msgstr ""
+"Uw bestelling is voltooid. Je ontvangt een bevestigingsbericht en je "
+"inschrijfcode(s) op {link_start} {email} {link_end} . Als u een "
+"ontvangstbewijs nodig heeft, kunt u deze pagina afdrukken."
+
+#: templates/edx/checkout/receipt.html:60
+#, python-brace-format
+msgid ""
+"Your order is complete. If you need a receipt, you can print this page. "
+"{next_start} Next Steps:{next_end} 1. Check your inbox for an order "
+"confirmation email from Get Smarter.{next_line} 2: Follow the instructions "
+"in the email to complete your registration."
+msgstr ""
+"Uw bestelling is voltooid. Als u een ontvangstbewijs nodig heeft, kunt u "
+"deze pagina afdrukken. {next_start} Volgende stappen: {next_end} 1. "
+"Controleer uw inbox voor een e-mail met orderbevestiging van Get Smarter. "
+"{next_line} 2: Volg de instructies in de e-mail om uw registratie te "
+"voltooien."
+
+#: templates/edx/checkout/receipt.html:68
+msgid ""
+"Your order is complete. If you need a receipt, you can print this page."
+msgstr ""
+"Uw bestelling is voltooid. Als u een ontvangstbewijs nodig heeft, kunt u "
+"deze pagina afdrukken."
+
+#: templates/edx/checkout/receipt.html:87
+msgid "Order Number:"
+msgstr "Bestellingsnummer:"
+
+#: templates/edx/checkout/receipt.html:90
+msgid "Payment Method:"
+msgstr "Betalingsmiddel:"
+
+#: templates/edx/checkout/receipt.html:93
+msgid "Order Date:"
+msgstr "Besteldatum:"
+
+#: templates/edx/checkout/receipt.html:99
+msgid "Order Information"
+msgstr "order informatie"
+
+#: templates/edx/checkout/receipt.html:104
+#: templates/oscar/dashboard/offers/offer_detail.html:67
+#: templates/oscar/dashboard/offers/summary.html:12
+msgid "Description"
+msgstr "Beschrijving"
+
+#: templates/edx/checkout/receipt.html:105
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:39
+msgid "Item Price"
+msgstr "Stuksprijs"
+
+#: templates/edx/checkout/receipt.html:109
+#: templates/oscar/dashboard/refunds/refund_detail.html:182
+msgid "Quantity:"
+msgstr "Hoeveelheid:"
+
+#: templates/edx/checkout/receipt.html:111
+msgid "Description:"
+msgstr "Beschrijving:"
+
+#: templates/edx/checkout/receipt.html:120
+msgid "Item Price:"
+msgstr "Stuksprijs:"
+
+#: templates/edx/checkout/receipt.html:126
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:52
+msgid "Subtotal"
+msgstr "Subtotaal"
+
+#: templates/edx/checkout/receipt.html:142
+#, python-format
+msgid "%(voucher_discount_amount)s off"
+msgstr "%(voucher_discount_amount)s uit"
+
+#: templates/edx/checkout/receipt.html:152
+#, python-format
+msgid "Discount of type %(type)s provided by %(enterprise_name)s"
+msgstr "Korting van het type %(type)s geleverd door %(enterprise_name)s"
+
+#: templates/edx/checkout/receipt.html:157
+msgid "Discount for your first upgrade"
+msgstr "Korting voor uw eerste upgrade"
+
+#: templates/edx/checkout/receipt.html:160
+#, python-format
+msgid "Discount of type %(type)s is provided."
+msgstr "Er wordt een korting van het type %(type)s verstrekt."
+
+#: templates/edx/checkout/receipt.html:174
+#, python-format
+msgid "Courtesy of %(enterprise_name)s."
+msgstr "Met dank aan %(enterprise_name)s ."
+
+#: templates/edx/checkout/receipt.html:187
+msgid "Total"
+msgstr "Totaal"
+
+#: templates/edx/checkout/receipt.html:194
+msgid "Get Your Course Credit"
+msgstr "Ontvang uw cursustegoed"
+
+#: templates/edx/checkout/receipt.html:196
+#, python-brace-format
+msgid ""
+"To receive academic credit for this course, you must apply for credit at the"
+" organization that offers the credit. You can find a link to the "
+"organization’s website on your "
+"{link_start}{lms_dashboard_url}{link_middle}dashboard{link_end}, next to the"
+" course name."
+msgstr ""
+"Om studiepunten voor deze cursus te ontvangen, moet u krediet aanvragen bij "
+"de organisatie die het krediet aanbiedt. Een link naar de website van de "
+"organisatie vindt u op uw {link_start} {lms_dashboard_url} {link_middle} "
+"dashboard {link_end} , naast de cursusnaam."
+
+#: templates/edx/checkout/receipt.html:210
+msgid "Go to dashboard"
+msgstr "Ga naar het dashboard"
+
+#: templates/edx/checkout/receipt.html:213
+msgid "Find more courses"
+msgstr "Vind meer cursussen"
+
+#: templates/edx/checkout/receipt_not_found.html:7
+msgid "Order Not Found"
+msgstr "Bestelling niet gevonden"
+
+#: templates/edx/checkout/receipt_not_found.html:19
+#, python-format
+msgid " %(error_summary)s "
+msgstr " %(error_summary)s "
+
+#: templates/edx/checkout/receipt_not_found.html:23
+msgid ""
+"The specified order could not be located. Please ensure that the URL is "
+"correct, and try again."
+msgstr ""
+"De opgegeven bestelling kan niet worden gevonden. Zorg ervoor dat de URL "
+"correct is en probeer het opnieuw."
+
+#: templates/edx/checkout/receipt_not_found.html:31
+#, python-brace-format
+msgid ""
+"\n"
+"                You may also view your previous orders on the {link_start}{order_history_url}{link_middle}{link_end}Account Settings{link_end}\n"
+"                page.\n"
+"              "
+msgstr ""
+"\n"
+"U kunt uw eerdere bestellingen ook bekijken op de {link_start} {order_history_url} {link_middle} {link_end} Accountinstellingen {link_end}\n"
+" bladzijde.\n"
+"              "
+
+#: templates/edx/credit/_provider_detail.html:8
+msgid "Select"
+msgstr "Selecteer"
+
+#: templates/edx/credit/_provider_detail.html:16
+msgid "Credits: "
+msgstr "Credits: "
+
+#: templates/edx/credit/_provider_detail.html:17
+msgid "Price: "
+msgstr "Prijs: "
+
+#: templates/edx/credit/_provider_detail.html:27
+#, python-format
+msgid ""
+"\n"
+"                        Learn more about %(display_name)s credit?\n"
+"                    "
+msgstr ""
+"\n"
+"Meer weten over %(display_name)s tegoed?\n"
+"                    "
+
+#: templates/edx/credit/_provider_detail.html:47
+#, python-format
+msgid ""
+"\n"
+"                        Credit available until %(date)s\n"
+"                    "
+msgstr ""
+"\n"
+"Tegoed beschikbaar tot %(date)s\n"
+"                    "
+
+#: templates/edx/credit/checkout.html:9
+#, python-format
+msgid "Purchase Credit for %(course_name)s"
+msgstr "Aankooptegoed voor %(course_name)s"
+
+#: templates/edx/credit/checkout.html:27
+#, python-format
+msgid ""
+"\n"
+"                                    Purchase Credit for %(course_name)s\n"
+"                                "
+msgstr ""
+"\n"
+"Aankooptegoed voor %(course_name)s\n"
+"                                "
+
+#: templates/edx/credit/checkout.html:34
+#, python-format
+msgid ""
+"\n"
+"                            Congratulations! You are eligible to purchase academic course credit for this course.\n"
+"                            You must purchase your credit before %(date)s.\n"
+"                            Select one of the following institutions to purchase your credit.\n"
+"                        "
+msgstr ""
+"\n"
+"Gefeliciteerd! U komt in aanmerking voor de aankoop van academisch cursuskrediet voor deze cursus.\n"
+" U moet uw tegoed vóór %(date)s aanschaffen.\n"
+" Selecteer een van de volgende instellingen om uw tegoed aan te schaffen.\n"
+"                        "
+
+#: templates/edx/credit/checkout.html:51
+msgid "Price:"
+msgstr "Prijs:"
+
+#: templates/edx/credit/checkout.html:55
+msgid "Discount:"
+msgstr "Korting:"
+
+#: templates/edx/credit/checkout.html:60
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:127
+msgid "Total:"
+msgstr "Totaal:"
+
+#: templates/edx/credit/checkout.html:89
+msgid "You deserve it."
+msgstr "Je verdient het."
+
+#: templates/edx/credit/checkout.html:92
+msgid ""
+"The hard work is over - you passed the course! Now get the credit you "
+"deserve to start or complete a degree."
+msgstr ""
+"Het harde werk is voorbij: je bent geslaagd voor de cursus! Verkrijg nu de "
+"punten die u verdient om een studie te starten of af te ronden."
+
+#: templates/edx/credit/checkout.html:98
+msgid "It's affordable."
+msgstr "Het is betaalbaar."
+
+#: templates/edx/credit/checkout.html:101
+msgid ""
+"The credit offered through edX generally costs less than the same credit at "
+"most institutions."
+msgstr ""
+"Het krediet dat via edX wordt aangeboden, kost bij de meeste instellingen "
+"over het algemeen minder dan hetzelfde krediet."
+
+#: templates/edx/credit/checkout.html:107
+msgid "It opens doors."
+msgstr "Het opent deuren."
+
+#: templates/edx/credit/checkout.html:110
+msgid ""
+"Many of today's most in-demand jobs require a college degree. Start your "
+"path to success!"
+msgstr ""
+"Voor veel van de meest gevraagde banen van vandaag is een universitair "
+"diploma vereist. Begin uw pad naar succes!"
+
+#: templates/edx/credit/checkout.html:118
+msgid "Questions?"
+msgstr "Vragen?"
+
+#: templates/edx/credit/checkout.html:121
+#, python-brace-format
+msgid ""
+"\n"
+"                    Please read {link_start}our FAQs to view common questions about our certificates.{link_end}\n"
+"                "
+msgstr ""
+"\n"
+"Lees {link_start} onze veelgestelde vragen om veelgestelde vragen over onze certificaten te bekijken. {link_end}\n"
+"                "
+
+#: templates/edx/email_confirmation_required.html:16
+msgid "You are enrolling in: "
+msgstr "Je schrijft je in voor: "
+
+#: templates/edx/email_confirmation_required.html:26
+#, python-format
+msgid ""
+"An email has been sent to %(user_email)s with a link for you to activate "
+"your account."
+msgstr ""
+"Er is een e-mail verzonden naar %(user_email)s met een link waarmee u uw "
+"account kunt activeren."
+
+#: templates/edx/email_confirmation_required.html:29
+msgid "Why activate?"
+msgstr "Waarom activeren?"
+
+#: templates/edx/email_confirmation_required.html:31
+msgid ""
+"We ask you to activate your account to ensure it is really you creating the "
+"account and to prevent fraud."
+msgstr ""
+"Wij vragen u uw account te activeren om er zeker van te zijn dat u het "
+"daadwerkelijk bent die het account heeft aangemaakt en om fraude te "
+"voorkomen."
+
+#: templates/edx/error.html:17
+msgid "If you need assistance, contact edX support."
+msgstr "Als u hulp nodig heeft, neem dan contact op met edX-ondersteuning."
+
+#: templates/edx/partials/_administration_menu.html:6
+msgid "Coupons"
+msgstr "Coupons"
+
+#: templates/edx/partials/_administration_menu.html:8
+msgid "Enterprise Coupons"
+msgstr "Enterprise-coupons"
+
+#: templates/edx/partials/_base_navbar.html:10
+msgid "Toggle navigation"
+msgstr "Schakel navigatie in"
+
+#: templates/edx/partials/_base_navbar.html:25
+msgid "Dashboard for:"
+msgstr "Dashboard voor:"
+
+#: templates/edx/partials/_base_navbar.html:32
+msgid "Toggle Dropdown"
+msgstr "Schakel vervolgkeuzelijst in"
+
+#: templates/edx/partials/_base_navbar.html:40
+#: templates/edx/partials/_base_navbar.html:41
+msgid "Login"
+msgstr "Log in"
+
+#: templates/edx/partials/_staff_navbar.html:9
+msgid "E-Commerce Course Administration"
+msgstr "Cursusbeheer voor e-commerce"
+
+#: templates/edx/partials/_staff_navbar.html:14
+msgid "E-Commerce Coupon Administration"
+msgstr "E-commerce couponbeheer"
+
+#: templates/edx/partials/_staff_navbar.html:19
+msgid "E-Commerce Program Offers Administration"
+msgstr "Beheer van e-commerceprogrammaaanbiedingen"
+
+#: templates/oscar/basket/basket.html:48
+msgid "Your basket is empty"
+msgstr "Jouw mandje is leeg"
+
+#: templates/oscar/basket/basket.html:49
+#, python-brace-format
+msgid ""
+"\n"
+"                                If you attempted to make a purchase, you have not been charged. Return to your {link_start}{link_middle}{homepage_url}dashboard{link_end} to try\n"
+"                                again, or {link_start}{homepage_url}{link_middle}contact {platform_name} Support{link_end}.\n"
+"                            "
+msgstr ""
+"\n"
+"Als u een aankoop probeerde te doen, zijn er geen kosten in rekening gebracht. Keer terug naar uw {link_start} {link_middle} {homepage_url} dashboard {link_end} om het te proberen\n"
+" nogmaals, of {link_start} {homepage_url} {link_middle} neem contact op met {platform_name} Ondersteuning {link_end} .\n"
+"                            "
+
+#: templates/oscar/basket/messages/new_total.html:7
+msgid "Your basket is now empty"
+msgstr "Uw winkelmandje is nu leeg"
+
+#: templates/oscar/basket/messages/new_total.html:10
+#: templates/oscar/basket/messages/new_total.html:16
+#, python-brace-format
+msgid ""
+"\n"
+"                {strong_start}We’ve updated your quantity.{strong_end}\n"
+"                {paragraph_start}Your cart includes {num_items} enrollment codes at a total cost of {total}, that you will receive via email.{paragraph_end}\n"
+"            "
+msgstr ""
+"\n"
+"{strong_start} We hebben uw aantal bijgewerkt. {strong_end}\n"
+" {paragraph_start} Uw winkelwagen bevat {num_items} -inschrijvingscodes voor een totaalbedrag van {total} , die u via e-mail ontvangt. {paragraph_end}\n"
+"            "
+
+#: templates/oscar/basket/messages/new_total.html:27
+msgid "View basket"
+msgstr "Bekijk mandje"
+
+#: templates/oscar/basket/messages/new_total.html:28
+msgid "Checkout now"
+msgstr "Nu afrekenen"
+
+#: templates/oscar/basket/partials/add_voucher_form.html:11
+msgid "Applying..."
+msgstr "Toepassen..."
+
+#: templates/oscar/basket/partials/add_voucher_form.html:16
+msgid "Apply"
+msgstr "Toepassen"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:16
+msgid "in your cart"
+msgstr "in uw winkelwagen"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:17
+msgid "Your purchase contains the following"
+msgstr "Uw aankoop bevat het volgende"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:36
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:57
+msgid "Updating..."
+msgstr "Updaten..."
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:36
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:57
+#: templates/oscar/dashboard/orders/order_detail.html:541
+msgid "Update"
+msgstr "Update"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:47
+msgid "summary"
+msgstr "samenvatting"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:68
+msgid "Discounts applied"
+msgstr "Kortingen toegepast"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:80
+#, python-format
+msgid ""
+"\n"
+"                                    %(benefit)s discount provided by %(enterprise_customer_name)s.\n"
+"                                "
+msgstr ""
+"\n"
+"%(benefit)s korting geleverd door %(enterprise_customer_name)s .\n"
+"                                "
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:87
+#, python-format
+msgid ""
+"\n"
+"                                    %(benefit)s%% discount for your first upgrade applied.\n"
+"                            "
+msgstr ""
+"\n"
+"%(benefit)s %% korting voor uw eerste toegepaste upgrade.\n"
+"                            "
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:104
+#, python-format
+msgid ""
+"\n"
+"                                        Coupon %(voucher_code)s applied for %(total_benefit)s off\n"
+"                                    "
+msgstr ""
+"\n"
+"Coupon %(voucher_code)s aangevraagd voor %(total_benefit)s korting\n"
+"                                    "
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:110
+msgid "Remove coupon"
+msgstr "Kortingsbon verwijderen"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:119
+msgid "Add coupon code"
+msgstr "Voeg couponcode toe"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:119
+msgid "(optional)"
+msgstr "(optioneel)"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:128
+msgid "TOTAL"
+msgstr "TOTAAL"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:135
+msgid "order details"
+msgstr "Bestel Details"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:153
+msgid "select payment method"
+msgstr "Selecteer betaalmethode"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:155
+msgid "Pay with a Credit Card"
+msgstr "Betaal met een creditcard"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:166
+msgid "Pay with PayPal"
+msgstr "Betaal met PayPal"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:175
+msgid "Pay with Apple Pay"
+msgstr "Betaal met Apple Pay"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:190
+msgid "card holder information"
+msgstr "kaarthouder informatie"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:201
+msgid "billing information"
+msgstr "facturatie gegevens"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:203
+msgid "Credit cards"
+msgstr "Kredietkaarten"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:210
+msgid "Card Number (required)"
+msgstr "Kaartnummer (verplicht)"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:210
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:220
+msgid "Secure"
+msgstr "Zeker"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:213
+msgid "Credit card icon"
+msgstr "Creditcard icoon"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:219
+msgid "Security Code (required)"
+msgstr "Beveiligingscode (vereist)"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:223
+msgid "Help with CVV"
+msgstr "Hulp bij CVV"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:226
+msgid ""
+"The three last digits in the signature area on the back of your card. For "
+"American Express, it is the four digits on the front of the card."
+msgstr ""
+"De drie laatste cijfers in het handtekeninggedeelte op de achterkant van uw "
+"kaart. Bij American Express zijn dit de vier cijfers op de voorkant van de "
+"kaart."
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:233
+msgid "Expiration (required)"
+msgstr "Vervaldatum (vereist)"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:237
+msgid "Month"
+msgstr "Maand"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:247
+msgid "Year"
+msgstr "Jaar"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:264
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:274
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:152
+msgid "Place Order"
+msgstr "Plaats bestelling"
+
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:23
+msgid "Earn a valuable certificate to showcase the skills you learn in"
+msgstr ""
+"Verdien een waardevol certificaat om de vaardigheden die u leert te laten "
+"zien"
+
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:70
+#, python-format
+msgid ""
+"\n"
+"                                            %(benefit_value)s off\n"
+"                                        "
+msgstr ""
+"\n"
+"%(benefit_value)s uit\n"
+"                                        "
+
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:99
+#, python-format
+msgid ""
+"\n"
+"                                            Coupon code %(voucher_code)s applied\n"
+"                                        "
+msgstr ""
+"\n"
+"Couponcode %(voucher_code)s toegepast\n"
+"                                        "
+
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:116
+msgid "Apply a coupon code"
+msgstr "Pas een couponcode toe"
+
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:164
+#, python-format
+msgid "Checkout with %(title)s"
+msgstr "Afrekenen met %(title)s"
+
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:166
+msgid "Checkout"
+msgstr "Uitchecken"
+
+#. Translators: <strong></strong> tags will bold the text within. Keep the
+#. tags and translate the text within.
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:179
+#, python-brace-format
+msgid ""
+"{strong_start}Note:{strong_end} To complete your enrollment, select Checkout"
+" or Checkout with PayPal."
+msgstr ""
+"{strong_start} Opmerking: {strong_end} Om uw inschrijving te voltooien, "
+"selecteert u Afrekenen of Afrekenen met PayPal."
+
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:185
+msgid "Have questions?"
+msgstr "Vragen hebben?"
+
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:186
+msgid "Please read our FAQs to view common questions about our certificates."
+msgstr ""
+"Lees onze veelgestelde vragen om veelgestelde vragen over onze certificaten "
+"te bekijken."
+
+#: templates/oscar/basket/partials/seat_type.html:6
+#, python-format
+msgid ""
+"\n"
+"        %(seat_type)s Certificate\n"
+"    "
+msgstr ""
+"\n"
+"%(seat_type)s Certificaat\n"
+"    "
+
+#: templates/oscar/checkout/cancel_checkout.html:7
+#: templates/oscar/checkout/cancel_checkout.html:16
+msgid "Checkout Cancelled"
+msgstr "Afrekenen geannuleerd"
+
+#: templates/oscar/checkout/cancel_checkout.html:18
+#, python-brace-format
+msgid ""
+"\n"
+"        Your transaction has been cancelled. If you feel an error has occurred, contact {start_link}\n"
+"        {payment_support_email}{end_link}.\n"
+"        "
+msgstr ""
+"\n"
+"Uw transactie is geannuleerd. Als u denkt dat er een fout is opgetreden, neem dan contact op met {start_link}\n"
+" {payment_support_email} {end_link} .\n"
+"        "
+
+#: templates/oscar/checkout/error.html:7
+#: templates/oscar/checkout/error.html:18
+msgid "Checkout Error"
+msgstr "Afrekenfout"
+
+#: templates/oscar/checkout/error.html:19
+msgid "An error has occurred with your payment."
+msgstr "Er is een fout opgetreden bij uw betaling."
+
+#: templates/oscar/checkout/error.html:19
+msgid "You have not been charged."
+msgstr "Er zijn geen kosten in rekening gebracht."
+
+#: templates/oscar/checkout/error.html:21
+#, python-brace-format
+msgid ""
+"\n"
+"                    Please try to submit your payment again. If this problem persists, please refer to our {start_link}\n"
+"                    Payments FAQ {end_link} for troubleshooting tips.\n"
+"                    "
+msgstr ""
+"\n"
+"Probeer uw betaling opnieuw uit te voeren. Als dit probleem zich blijft voordoen, raadpleeg dan onze {start_link}\n"
+" Veelgestelde vragen over betalingen {end_link} voor tips voor het oplossen van problemen.\n"
+"                    "
+
+#: templates/oscar/checkout/payment_error.html:7
+#: templates/oscar/checkout/payment_error.html:16
+msgid "Payment Failed"
+msgstr "Betaling mislukt"
+
+#: templates/oscar/checkout/payment_error.html:18
+#, python-brace-format
+msgid ""
+"An error occurred while processing your payment. {strong_start}You have not "
+"been charged.{strong_end}"
+msgstr ""
+"Er is een fout opgetreden tijdens het verwerken van uw betaling. "
+"{strong_start} Er zijn geen kosten in rekening gebracht. {strong_end}"
+
+#: templates/oscar/checkout/payment_error.html:25
+#, python-brace-format
+msgid ""
+"Please wait a few minutes and then try again. For help, check our "
+"{start_link}Help Center{end_link}."
+msgstr ""
+"Wacht een paar minuten en probeer het dan opnieuw. Voor hulp kunt u ons "
+"{start_link} Helpcentrum {end_link} raadplegen."
+
+#: templates/oscar/checkout/payment_error.html:32
+#, python-brace-format
+msgid "To try again, return to your {start_link}dashboard{end_link}."
+msgstr ""
+"Als u het opnieuw wilt proberen, gaat u terug naar uw {start_link} dashboard"
+" {end_link} ."
+
+#: templates/oscar/checkout/sdn_failure.html:9
+msgid ""
+"\n"
+"      SDN Check Failure\n"
+"    "
+msgstr ""
+"\n"
+"SDN-controle mislukt\n"
+"    "
+
+#: templates/oscar/checkout/sdn_failure.html:26
+msgid ""
+"Unfortunately, your account profile or payment information appears to match "
+"one or more records on a U.S. Treasury Department sanctions list. This means"
+" we cannot complete your transaction or provide you with services and must "
+"suspend your learner account."
+msgstr ""
+"Helaas lijken uw accountprofiel of betalingsgegevens overeen te komen met "
+"een of meer records op een sanctielijst van het Amerikaanse ministerie van "
+"Financiën. Dit betekent dat we uw transactie niet kunnen voltooien of u geen"
+" diensten kunnen verlenen en dat we uw leeraccount moeten opschorten."
+
+#: templates/oscar/checkout/sdn_failure.html:35
+#, python-brace-format
+msgid ""
+"If you have questions regarding clearing a match, please contact "
+"{ofac_email_link} ofac.reconsideration@treasury.gov{end_link} for "
+"information about options for clearing a match. Your account will be "
+"suspended until this matter is resolved satisfactorily."
+msgstr ""
+"Als u vragen heeft over het opruimen van een wedstrijd, neem dan contact op "
+"met {ofac_email_link} ofac.reconsideration@treasury.gov {end_link} voor "
+"informatie over opties voor het opruimen van een wedstrijd. Uw account wordt"
+" opgeschort totdat deze kwestie naar tevredenheid is opgelost."
+
+#: templates/oscar/communication/email_base.html:189
+#: templates/oscar/customer/email_base.html:189
+#, python-format
+msgid "Copyright © %(year)s %(platform_name)s. All rights reserved."
+msgstr ""
+"Auteursrecht © %(year)s %(platform_name)s . Alle rechten voorbehouden."
+
+#: templates/oscar/communication/emails/commtype_course_purchased_body.html:9
+#: templates/oscar/communication/emails/commtype_course_purchased_body.txt:4
+#, python-format
+msgid "Hi %(full_name)s,"
+msgstr "Hallo %(full_name)s ,"
+
+#: templates/oscar/communication/emails/commtype_course_purchased_body.html:11
+#: templates/oscar/communication/emails/commtype_course_purchased_body.txt:6
+#, python-format
+msgid ""
+"Thank you for purchasing %(course_title)s. A charge will appear on your "
+"credit or debit card statement with a company name of \"%(platform_name)s\"."
+msgstr ""
+"Bedankt voor uw aankoop van %(course_title)s . Er verschijnt een "
+"afschrijving op uw creditcard- of bankpasafschrift met de bedrijfsnaam &#39;"
+" %(platform_name)s &#39;."
+
+#: templates/oscar/communication/emails/commtype_course_purchased_body.html:13
+#: templates/oscar/communication/emails/commtype_course_purchased_body.txt:8
+#, python-format
+msgid ""
+"You can access your course and complete your verification (if required) on "
+"your %(platform_name)s dashboard. "
+msgstr ""
+"U kunt toegang krijgen tot uw cursus en uw verificatie voltooien (indien "
+"nodig) op uw %(platform_name)s -dashboard. "
+
+#: templates/oscar/communication/emails/commtype_course_purchased_body.html:14
+#: templates/oscar/communication/emails/commtype_course_purchased_body.txt:9
+#, python-format
+msgid ""
+"To explore other great courses, visit the %(platform_name)s website. More "
+"courses are added every day!"
+msgstr ""
+"Bezoek de %(platform_name)s -website om andere geweldige cursussen te "
+"ontdekken. Elke dag worden er meer cursussen toegevoegd!"
+
+#: templates/oscar/communication/emails/commtype_course_purchased_body.html:17
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.html:43
+msgid "View Payment Information"
+msgstr "Betalingsinformatie bekijken"
+
+#: templates/oscar/communication/emails/commtype_course_purchased_body.html:20
+#: templates/oscar/communication/emails/commtype_course_purchased_body.txt:14
+msgid "Thank you. We hope you enjoy the course!"
+msgstr "Bedankt. Wij hopen dat je geniet van de cursus!"
+
+#: templates/oscar/communication/emails/commtype_course_purchased_body.html:21
+#, python-format
+msgid "%(platform_name)s team "
+msgstr "%(platform_name)s -team "
+
+#: templates/oscar/communication/emails/commtype_course_purchased_body.html:31
+#, python-format
+msgid ""
+"You are receiving this email because you purchased a seat in the "
+"%(platform_name)s course %(course_title)s."
+msgstr ""
+"U ontvangt deze e-mail omdat u een plaats heeft gekocht in de cursus "
+"%(platform_name)s %(course_title)s ."
+
+#: templates/oscar/communication/emails/commtype_course_purchased_body.txt:2
+msgid "Receipt Confirmation for: "
+msgstr "Ontvangstbevestiging voor: "
+
+#: templates/oscar/communication/emails/commtype_course_purchased_body.txt:11
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:12
+msgid "To view your payment information, visit the following website."
+msgstr "Bezoek de volgende website om uw betalingsgegevens te bekijken."
+
+#: templates/oscar/communication/emails/commtype_course_purchased_body.txt:16
+#, python-format
+msgid "%(platform_name)s team"
+msgstr "%(platform_name)s -team"
+
+#: templates/oscar/communication/emails/commtype_course_purchased_body.txt:18
+msgid "The edX team"
+msgstr "Het edX-team"
+
+#: templates/oscar/communication/emails/commtype_course_purchased_subject.txt:2
+msgid "Order Placed"
+msgstr "Bestelling geplaatst"
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.html:13
+msgid "Payment Confirmation"
+msgstr "Betalingsbevestiging"
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.html:27
+msgid "Payment confirmation for:"
+msgstr "Betalingsbevestiging voor:"
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.html:55
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:4
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:25
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:5
+#, python-format
+msgid "Dear %(full_name)s,"
+msgstr "Beste %(full_name)s ,"
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.html:60
+#, python-format
+msgid ""
+"\n"
+"                            Thank you for purchasing %(credit_hours)s credit hours from %(credit_provider)s for %(course_title)s. A charge will appear on your credit or debit card statement with a company name of \"%(platform_name)s\".\n"
+"                        "
+msgstr ""
+"\n"
+"Bedankt voor uw aankoop van %(credit_hours)s kredieturen van %(credit_provider)s voor %(course_title)s . Er verschijnt een afschrijving op uw creditcard- of bankpasafschrift met de bedrijfsnaam &#39; %(platform_name)s &#39;.\n"
+"                        "
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.html:67
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:8
+#, python-format
+msgid ""
+"To receive your course credit, you must also request credit at the "
+"%(credit_provider)s website. For a link to request credit from "
+"%(credit_provider)s, or to see the status of your credit request, go to your"
+" %(platform_name)s dashboard."
+msgstr ""
+"Om je studiepunten te ontvangen, moet je ook studiepunten aanvragen op de "
+"website %(credit_provider)s . Voor een link om krediet aan te vragen bij "
+"%(credit_provider)s , of om de status van uw kredietaanvraag te bekijken, "
+"gaat u naar uw %(platform_name)s dashboard."
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.html:71
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:10
+#, python-format
+msgid ""
+"To explore other credit-eligible courses, visit the %(platform_name)s "
+"website. We add new courses frequently!"
+msgstr ""
+"Bezoek de %(platform_name)s -website om andere cursussen te verkennen die in"
+" aanmerking komen. We voegen regelmatig nieuwe cursussen toe!"
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.html:74
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:15
+msgid "Thank you. We hope you enjoyed your course!"
+msgstr "Bedankt. Wij hopen dat je genoten hebt van je cursus!"
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.html:75
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:16
+#, python-format
+msgid "The %(platform_name)s team"
+msgstr "Het %(platform_name)s -team"
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.html:88
+#, python-format
+msgid ""
+"\n"
+"                            You received this message because you purchased credit hours for %(course_title)s, an %(platform_name)s course.\n"
+"                        "
+msgstr ""
+"\n"
+"U ontvangt dit bericht omdat u credit-uren heeft aangeschaft voor %(course_title)s , een %(platform_name)s -cursus.\n"
+"                        "
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:2
+msgid "Payment confirmation for: "
+msgstr "Betalingsbevestiging voor: "
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:6
+#, python-format
+msgid ""
+"Thank you for purchasing %(credit_hours)s credit hours from "
+"%(credit_provider)s for %(course_title)s. A charge will appear on your "
+"credit or debit card statement with a company name of \"%(platform_name)s\"."
+msgstr ""
+"Bedankt voor uw aankoop van %(credit_hours)s kredieturen van "
+"%(credit_provider)s voor %(course_title)s . Er verschijnt een afschrijving "
+"op uw creditcard- of bankpasafschrift met de bedrijfsnaam &#39; "
+"%(platform_name)s &#39;."
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:18
+#, python-format
+msgid ""
+"You received this message because you purchased credit hours for "
+"%(course_title)s, an %(platform_name)s course."
+msgstr ""
+"U ontvangt dit bericht omdat u credit-uren heeft aangeschaft voor "
+"%(course_title)s , een %(platform_name)s -cursus."
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_subject.txt:2
+msgid "Order Receipt"
+msgstr "Bonnetje"
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:14
+msgid "For Business"
+msgstr "Voor zaken"
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:26
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:6
+#, python-format
+msgid ""
+"Thank you for purchasing access to %(course_name)s. Let's get your group "
+"ready to learn with edX:"
+msgstr ""
+"Bedankt voor het aanschaffen van toegang tot %(course_name)s . Laten we uw "
+"groep klaarmaken om te leren met edX:"
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:29
+#, python-brace-format
+msgid ""
+"\n"
+"                                Download and save the {link_start}{download_csv_link}{link_middle} enrollment code file.{link_end}\n"
+"                            "
+msgstr ""
+"\n"
+"Download het inschrijvingscodebestand {link_start} {download_csv_link} {link_middle} en sla het op. {link_end}\n"
+"                            "
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:34
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:9
+msgid "Distribute one code per learner before the expiration date."
+msgstr "Verdeel vóór de vervaldatum één code per leerling."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:35
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:10
+msgid "Pro tip: Track which code is associated with which person."
+msgstr "Pro-tip: houd bij welke code aan welke persoon is gekoppeld."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:36
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:11
+msgid "Learners sign-in/register with edX and enroll for the course."
+msgstr ""
+"Studenten melden zich aan/registreren bij edX en schrijven zich in voor de "
+"cursus."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:39
+#, python-brace-format
+msgid ""
+"\n"
+"                            To view your payment information, log in to see your Order History, under {link_start}{order_history_url}{link_middle}Account Settings{link_end}.\n"
+"                        "
+msgstr ""
+"\n"
+"Om uw betalingsgegevens te bekijken, logt u in om uw bestelgeschiedenis te bekijken, onder {link_start} {order_history_url} {link_middle} Accountinstellingen {link_end} .\n"
+"                        "
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:45
+#, python-brace-format
+msgid ""
+"\n"
+"                            For more information and assistance, check our {link_start}Help Center{link_end}\n"
+"                        "
+msgstr ""
+"\n"
+"Voor meer informatie en hulp kunt u ons {link_start} Helpcentrum {link_end} raadplegen\n"
+"                        "
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:50
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:16
+msgid "Thank You"
+msgstr "Bedankt"
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:61
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:18
+msgid "By purchasing, you and your organization agree to the following terms:"
+msgstr ""
+"Door aankoop gaan u en uw organisatie akkoord met de volgende voorwaarden:"
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:63
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:20
+msgid ""
+"Each code is valid for the one course covered and can be used only one time."
+msgstr ""
+"Elke code is geldig voor de betreffende cursus en kan slechts één keer "
+"worden gebruikt."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:64
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:21
+msgid "You are responsible for distributing codes to your learners."
+msgstr ""
+"U bent verantwoordelijk voor het verspreiden van codes onder uw leerlingen."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:65
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:22
+msgid ""
+"Each code will expire in one year from date of purchase or, if earlier, once"
+" the course is closed."
+msgstr ""
+"Elke code vervalt één jaar na de datum van aankoop of, indien eerder, zodra "
+"de cursus is gesloten."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:66
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:23
+msgid ""
+"If a course is not designated as self-paced, you should confirm that a "
+"course run is available before expiration."
+msgstr ""
+"Als een cursus niet is aangemerkt als cursus die u in uw eigen tempo kunt "
+"volgen, moet u vóór de vervaldatum bevestigen dat een cursus beschikbaar is."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:67
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:24
+msgid "You may not resell codes to third parties."
+msgstr "U mag codes niet doorverkopen aan derden."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:68
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:25
+msgid "All sales final. No refunds."
+msgstr "Alle verkopen definitief. Geen geld terug."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:2
+msgid "Order confirmation for: "
+msgstr "Orderbevestiging voor: "
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:8
+#, python-format
+msgid ""
+"Please visit %(download_csv_link)s to download and save the enrollment code "
+"file."
+msgstr ""
+"Ga naar %(download_csv_link)s om het inschrijvingscodebestand te downloaden "
+"en op te slaan."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:13
+#, python-format
+msgid ""
+"To view your payment information, log in to see your Order History, under "
+"Account Settings at %(order_history_url)s."
+msgstr ""
+"Om uw betalingsgegevens te bekijken, logt u in om uw bestelgeschiedenis te "
+"bekijken, onder Accountinstellingen op %(order_history_url)s ."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:14
+msgid "For more information and assistance, contact info@edx.org."
+msgstr "Neem voor meer informatie en hulp contact op met info@edx.org."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_subject.txt:2
+#, python-format
+msgid "%(partner_name)s: Order Confirmation: [%(order_number)s]"
+msgstr "%(partner_name)s : Orderbevestiging: [ %(order_number)s ]"
+
+#: templates/oscar/dashboard/catalogue/category_form.html:37
+#: templates/oscar/dashboard/catalogue/product_update.html:61
+msgid "Sections"
+msgstr "Secties"
+
+#: templates/oscar/dashboard/catalogue/category_form.html:43
+#: templates/oscar/dashboard/catalogue/category_form.html:62
+msgid "Category details"
+msgstr "Categoriedetails"
+
+#: templates/oscar/dashboard/catalogue/category_form.html:48
+#: templates/oscar/dashboard/catalogue/category_form.html:82
+msgid "Search engine optimisation"
+msgstr "Zoekmachine optimalisatie"
+
+#: templates/oscar/dashboard/catalogue/category_form.html:106
+#: templates/oscar/dashboard/catalogue/product_update.html:324
+msgid "or"
+msgstr "of"
+
+#: templates/oscar/dashboard/catalogue/category_form.html:107
+#: templates/oscar/dashboard/catalogue/category_form.html:110
+#: templates/oscar/dashboard/catalogue/product_update.html:326
+#: templates/oscar/dashboard/catalogue/product_update.html:330
+#: templates/oscar/dashboard/catalogue/product_update.html:333
+msgid "Saving..."
+msgstr "Besparing..."
+
+#: templates/oscar/dashboard/catalogue/category_form.html:108
+#: templates/oscar/dashboard/catalogue/product_update.html:331
+msgid "Save and continue editing"
+msgstr "Opslaan en doorgaan met bewerken"
+
+#: templates/oscar/dashboard/catalogue/category_form.html:111
+#: templates/oscar/dashboard/catalogue/product_update.html:334
+msgid "Save"
+msgstr "Redden"
+
+#: templates/oscar/dashboard/catalogue/category_row_actions.html:6
+#: templates/oscar/dashboard/catalogue/product_row_actions.html:6
+#: templates/oscar/dashboard/orders/order_detail.html:139
+#: templates/oscar/dashboard/refunds/refund_detail.html:75
+#: templates/oscar/dashboard/refunds/refund_list.html:63
+#: templates/oscar/dashboard/users/detail.html:99
+msgid "Actions"
+msgstr "Acties"
+
+#: templates/oscar/dashboard/catalogue/category_row_actions.html:10
+msgid "Edit category"
+msgstr "Categorie bewerken"
+
+#: templates/oscar/dashboard/catalogue/category_row_actions.html:13
+msgid "Add child category"
+msgstr "Onderliggende categorie toevoegen"
+
+#: templates/oscar/dashboard/catalogue/category_row_actions.html:17
+msgid "Edit children"
+msgstr "Kinderen bewerken"
+
+#: templates/oscar/dashboard/catalogue/category_row_actions.html:20
+#: templates/oscar/dashboard/catalogue/product_row_actions.html:14
+#: templates/oscar/dashboard/catalogue/product_update.html:270
+#: templates/oscar/dashboard/orders/order_detail.html:725
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: templates/oscar/dashboard/catalogue/messages/product_saved.html:11
+#, python-format
+msgid ""
+"\n"
+"                        Created product variant '%(name)s'.\n"
+"                    "
+msgstr ""
+"\n"
+"Productvariant &#39; %(name)s &#39; gemaakt.\n"
+"                    "
+
+#: templates/oscar/dashboard/catalogue/messages/product_saved.html:17
+#, python-format
+msgid ""
+"\n"
+"                        Created variant of '%(parent_name)s'.\n"
+"                    "
+msgstr ""
+"\n"
+"Variant gemaakt van &#39; %(parent_name)s &#39;.\n"
+"                    "
+
+#: templates/oscar/dashboard/catalogue/messages/product_saved.html:25
+#, python-format
+msgid ""
+"\n"
+"                        Updated product variant '%(name)s'.\n"
+"                    "
+msgstr ""
+"\n"
+"Bijgewerkte productvariant &#39; %(name)s &#39;.\n"
+"                    "
+
+#: templates/oscar/dashboard/catalogue/messages/product_saved.html:31
+#, python-format
+msgid ""
+"\n"
+"                        Updated a variant of '%(parent_name)s'.\n"
+"                    "
+msgstr ""
+"\n"
+"Een variant van &#39; %(parent_name)s &#39; bijgewerkt.\n"
+"                    "
+
+#: templates/oscar/dashboard/catalogue/messages/product_saved.html:42
+#, python-format
+msgid ""
+"\n"
+"                    Created product '%(name)s'.\n"
+"                "
+msgstr ""
+"\n"
+"Product gemaakt &#39; %(name)s &#39;.\n"
+"                "
+
+#: templates/oscar/dashboard/catalogue/messages/product_saved.html:48
+#, python-format
+msgid ""
+"\n"
+"                    Updated product '%(name)s'.\n"
+"                "
+msgstr ""
+"\n"
+"Bijgewerkt product &#39; %(name)s &#39;.\n"
+"                "
+
+#: templates/oscar/dashboard/catalogue/messages/product_saved.html:60
+msgid "Edit again"
+msgstr "Opnieuw bewerken"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:45
+#, python-brace-format
+msgid ""
+"\n"
+"                            You are currently editing a product variant of\n"
+"                            {start_anchor}{title}{end_anchor}.\n"
+"                        "
+msgstr ""
+"\n"
+"U bewerkt momenteel een productvariant van\n"
+" {start_anchor} {title} {end_anchor} .\n"
+"                        "
+
+#: templates/oscar/dashboard/catalogue/product_update.html:73
+#: templates/oscar/dashboard/catalogue/product_update.html:103
+#: templates/oscar/dashboard/orders/line_detail.html:31
+msgid "Product details"
+msgstr "Productdetails"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:78
+#: templates/oscar/dashboard/catalogue/product_update.html:146
+#: templates/oscar/dashboard/catalogue/product_update.html:256
+msgid "Attributes"
+msgstr "Kenmerken"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:81
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:84
+#: templates/oscar/dashboard/catalogue/product_update.html:188
+msgid "Stock and pricing"
+msgstr "Voorraad en prijzen"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:87
+#: templates/oscar/dashboard/catalogue/product_update.html:247
+msgid "Variants"
+msgstr "Varianten"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:90
+msgid "Upselling"
+msgstr "Upselling"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:148
+msgid "Product Type:"
+msgstr "Product type:"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:169
+msgid "Upload, change or remove images"
+msgstr "Upload, wijzig of verwijder afbeeldingen"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:194
+msgid "SKU"
+msgstr "SKU"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:196
+msgid "Num in stock"
+msgstr "Aantal op voorraad"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:197
+msgid "Num allocated"
+msgstr "Aantal toegewezen"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:198
+msgid "Low stock threshold"
+msgstr "Lage voorraaddrempel"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:201
+msgid "Cost price"
+msgstr "Kostprijs"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:202
+msgid "Price (excl tax)"
+msgstr "Prijs (excl. BTW)"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:203
+msgid "Retail price"
+msgstr "Verkoopprijs"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:204
+msgid "Delete?"
+msgstr "Verwijderen?"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:248
+msgid "Adding..."
+msgstr "Toevoegen..."
+
+#: templates/oscar/dashboard/catalogue/product_update.html:250
+msgid "Add variant"
+msgstr "Variant toevoegen"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:255
+msgid "Title"
+msgstr "Titel"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:257
+msgid "Stock records"
+msgstr "Voorraadregistraties"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:279
+msgid "This product does not have any variants."
+msgstr "Dit product heeft geen varianten."
+
+#: templates/oscar/dashboard/catalogue/product_update.html:281
+msgid "One can't add variants to this product at this point."
+msgstr ""
+"Er kunnen op dit moment geen varianten aan dit product worden toegevoegd."
+
+#: templates/oscar/dashboard/catalogue/product_update.html:283
+msgid "This is likely because this product still has stock records."
+msgstr ""
+"Dit komt waarschijnlijk omdat dit product nog steeds voorraadgegevens heeft."
+
+#: templates/oscar/dashboard/catalogue/product_update.html:299
+msgid "Recommended products"
+msgstr "Aangeraden producten"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:327
+msgid "Save and add another variant"
+msgstr "Bewaar en voeg nog een variant toe"
+
+#: templates/oscar/dashboard/index.html:27
+msgid "Store Statistics (Last 24 Hours)"
+msgstr "Winkelstatistieken (laatste 24 uur)"
+
+#: templates/oscar/dashboard/index.html:34
+msgid "New Customers"
+msgstr "nieuwe klanten"
+
+#: templates/oscar/dashboard/index.html:35
+#: templates/oscar/dashboard/index.html:41
+msgid "Revenue"
+msgstr "Winst"
+
+#: templates/oscar/dashboard/index.html:36
+msgid "Average order cost"
+msgstr "Gemiddelde bestelkosten"
+
+#: templates/oscar/dashboard/index.html:37
+msgid "Average (paid) order cost"
+msgstr "Gemiddelde (betaalde) bestelkosten"
+
+#: templates/oscar/dashboard/index.html:67
+msgid "Products and vouchers"
+msgstr "Producten en vouchers"
+
+#: templates/oscar/dashboard/index.html:69
+msgid "Total products"
+msgstr "Totaal producten"
+
+#: templates/oscar/dashboard/index.html:73
+msgid "Active Vouchers"
+msgstr "Actieve vouchers"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:6
+#, python-format
+msgid ""
+"\n"
+"        %(name)s | Offers\n"
+"    "
+msgstr ""
+"\n"
+"%(name)s | Aanbiedingen\n"
+"    "
+
+#: templates/oscar/dashboard/offers/offer_detail.html:26
+msgid "Reinstating..."
+msgstr "Herstellen..."
+
+#: templates/oscar/dashboard/offers/offer_detail.html:26
+msgid "Reinstate offer"
+msgstr "Aanbieding opnieuw instellen"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:28
+msgid "Suspending..."
+msgstr "Opschorten..."
+
+#: templates/oscar/dashboard/offers/offer_detail.html:28
+msgid "Suspend offer"
+msgstr "Aanbieding opschorten"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:31
+msgid "Delete offer"
+msgstr "Aanbieding verwijderen"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:44
+msgid "Offer currently available"
+msgstr "Aanbieding momenteel beschikbaar"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:46
+msgid "Offer not available due to restrictions!"
+msgstr "Aanbieding niet beschikbaar vanwege beperkingen!"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:49
+msgid "Total cost:"
+msgstr "Totale prijs:"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:50
+msgid "Number of orders:"
+msgstr "Aantal bestellingen:"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:51
+msgid "Number of uses:"
+msgstr "Aantal toepassingen:"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:56
+msgid "Date created:"
+msgstr "Datum gecreeërd:"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:57
+msgid "Offer details"
+msgstr "Aanbiedingsdetails"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:75
+#: templates/oscar/dashboard/offers/summary.html:20
+msgid "Incentive"
+msgstr "Beloning"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:80
+#: templates/oscar/dashboard/offers/summary.html:26
+msgid "Condition"
+msgstr "Voorwaarde"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:85
+#: templates/oscar/dashboard/offers/summary.html:31
+msgid "Restrictions"
+msgstr "Beperkingen"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:101
+msgid "Num of vouchers"
+msgstr "Aantal vouchers"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:110
+msgid "Attached vouchers"
+msgstr "Bijgevoegde vouchers"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:142
+msgid "No vouchers are attached to this offer."
+msgstr "Aan deze aanbieding zijn geen vouchers verbonden."
+
+#: templates/oscar/dashboard/offers/offer_detail.html:150
+msgid "Export to CSV"
+msgstr "Exporteren naar CSV"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:151
+msgid "Orders that used this offer"
+msgstr "Bestellingen die gebruik hebben gemaakt van deze aanbieding"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:155
+#: templates/oscar/dashboard/orders/order_list.html:94
+msgid "Order number"
+msgstr "Bestellingsnummer"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:156
+msgid "Order date"
+msgstr "Besteldatum"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:157
+#: templates/oscar/dashboard/orders/order_detail.html:277
+msgid "Order total"
+msgstr "Totale bestelling"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:158
+msgid "Cost"
+msgstr "Kosten"
+
+#: templates/oscar/dashboard/offers/summary.html:4
+msgid "Offer summary"
+msgstr "Samenvatting van het aanbod"
+
+#: templates/oscar/dashboard/orders/line_detail.html:6
+#, python-format
+msgid ""
+"\n"
+"        Order %(number)s - Line #%(id)s\n"
+"    "
+msgstr ""
+"\n"
+"Bestel %(number)s - Regel # %(id)s\n"
+"    "
+
+#: templates/oscar/dashboard/orders/line_detail.html:18
+#, python-format
+msgid "Line #%(id)s"
+msgstr "Regel # %(id)s"
+
+#: templates/oscar/dashboard/orders/line_detail.html:24
+#, python-format
+msgid "Order #%(number)s - Line #%(id)s"
+msgstr "Bestelnr. %(number)s - Regelnr. %(id)s"
+
+#: templates/oscar/dashboard/orders/line_detail.html:35
+msgctxt "Product title"
+msgid "Title"
+msgstr "Titel"
+
+#: templates/oscar/dashboard/orders/line_detail.html:41
+msgid "Product Type"
+msgstr "product type"
+
+#: templates/oscar/dashboard/orders/line_detail.html:44
+#: templates/oscar/dashboard/orders/order_detail.html:133
+#: templates/oscar/dashboard/refunds/refund_detail.html:108
+msgid "UPC"
+msgstr "UPC"
+
+#: templates/oscar/dashboard/orders/line_detail.html:51
+msgid "Product Options"
+msgstr "Productopties"
+
+#: templates/oscar/dashboard/orders/line_detail.html:64
+msgid "Partner details"
+msgstr "Partnergegevens"
+
+#: templates/oscar/dashboard/orders/line_detail.html:74
+msgid "Partner SKU"
+msgstr "Partner-SKU"
+
+#: templates/oscar/dashboard/orders/line_detail.html:80
+msgid "Shipping details"
+msgstr "Verzendgegevens"
+
+#: templates/oscar/dashboard/orders/line_detail.html:84
+msgid "Partner reference number"
+msgstr "Partnerreferentienummer"
+
+#: templates/oscar/dashboard/orders/line_detail.html:87
+msgid "Partner notes"
+msgstr "Partnernotities"
+
+#: templates/oscar/dashboard/orders/line_detail.html:90
+msgid "Estimate dispatch date"
+msgstr "Schatting van de verzenddatum"
+
+#: templates/oscar/dashboard/orders/line_detail.html:99
+msgid "Shipping status"
+msgstr "Verzendstatus"
+
+#: templates/oscar/dashboard/orders/line_detail.html:104
+msgid "State"
+msgstr "Staat"
+
+#: templates/oscar/dashboard/orders/line_detail.html:116
+#: templates/oscar/dashboard/orders/line_detail.html:147
+msgid "No shipping events have occurred."
+msgstr "Er hebben zich geen verzendgebeurtenissen voorgedaan."
+
+#: templates/oscar/dashboard/orders/line_detail.html:124
+msgid "Shipping events"
+msgstr "Verzending evenementen"
+
+#: templates/oscar/dashboard/orders/line_detail.html:129
+#: templates/oscar/dashboard/orders/line_detail.html:160
+#: templates/oscar/dashboard/orders/order_detail.html:432
+#: templates/oscar/dashboard/orders/order_detail.html:478
+#: templates/oscar/dashboard/refunds/refund_detail.html:166
+msgid "Event"
+msgstr "Evenement"
+
+#: templates/oscar/dashboard/orders/line_detail.html:131
+#: templates/oscar/dashboard/orders/order_detail.html:434
+#: templates/oscar/dashboard/orders/order_detail.html:481
+#: templates/oscar/dashboard/orders/order_detail.html:592
+#: templates/oscar/dashboard/orders/order_detail.html:624
+#: templates/oscar/dashboard/refunds/refund_detail.html:170
+msgid "Reference"
+msgstr "Referentie"
+
+#: templates/oscar/dashboard/orders/line_detail.html:132
+#: templates/oscar/dashboard/orders/line_detail.html:162
+#: templates/oscar/dashboard/orders/order_detail.html:399
+#: templates/oscar/dashboard/orders/order_detail.html:431
+#: templates/oscar/dashboard/orders/order_detail.html:477
+#: templates/oscar/dashboard/orders/order_detail.html:626
+#: templates/oscar/dashboard/orders/order_detail.html:706
+#: templates/oscar/dashboard/refunds/refund_detail.html:165
+msgid "Date"
+msgstr "Datum"
+
+#: templates/oscar/dashboard/orders/line_detail.html:155
+msgid "Payment events"
+msgstr "Betalingsgebeurtenissen"
+
+#: templates/oscar/dashboard/orders/line_detail.html:176
+msgid "No payment events have occurred."
+msgstr "Er hebben geen betalingsgebeurtenissen plaatsgevonden."
+
+#: templates/oscar/dashboard/orders/order_detail.html:8
+#, python-format
+msgid "Order %(number)s"
+msgstr "Bestel %(number)s"
+
+#: templates/oscar/dashboard/orders/order_detail.html:22
+#, python-format
+msgid "Order #%(number)s"
+msgstr "Bestelnummer %(number)s"
+
+#: templates/oscar/dashboard/orders/order_detail.html:28
+#: templates/oscar/dashboard/refunds/refund_detail.html:47
+msgid "Customer Information"
+msgstr "klant informatie"
+
+#: templates/oscar/dashboard/orders/order_detail.html:32
+#: templates/oscar/dashboard/orders/order_detail.html:43
+#: templates/oscar/dashboard/refunds/refund_detail.html:52
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: templates/oscar/dashboard/orders/order_detail.html:36
+msgid "Customer checked out as a guest."
+msgstr "Klant heeft zich als gast uitgecheckt."
+
+#: templates/oscar/dashboard/orders/order_detail.html:50
+#: templates/oscar/dashboard/refunds/refund_detail.html:61
+msgid "Customer has deleted their account."
+msgstr "Klant heeft zijn account verwijderd."
+
+#: templates/oscar/dashboard/orders/order_detail.html:57
+msgid "Order information"
+msgstr "Order informatie"
+
+#: templates/oscar/dashboard/orders/order_detail.html:59
+msgid "Order Total"
+msgstr "totale bestelling"
+
+#: templates/oscar/dashboard/orders/order_detail.html:60
+#: templates/oscar/dashboard/orders/order_list.html:101
+msgid "Date of purchase"
+msgstr "Aankoopdatum"
+
+#: templates/oscar/dashboard/orders/order_detail.html:61
+msgid "Time of purchase"
+msgstr "Tijdstip van aankoop"
+
+#: templates/oscar/dashboard/orders/order_detail.html:77
+msgid "Order Details"
+msgstr "Bestel Details"
+
+#: templates/oscar/dashboard/orders/order_detail.html:86
+msgid "Order contents"
+msgstr "Bestel inhoud"
+
+#: templates/oscar/dashboard/orders/order_detail.html:96
+#: templates/oscar/dashboard/orders/order_detail.html:514
+msgid "Shipping"
+msgstr "Verzenden"
+
+#: templates/oscar/dashboard/orders/order_detail.html:101
+msgid "Payment"
+msgstr "Betaling"
+
+#: templates/oscar/dashboard/orders/order_detail.html:106
+#: templates/oscar/dashboard/orders/order_detail.html:652
+msgid "Discounts"
+msgstr "Kortingen"
+
+#: templates/oscar/dashboard/orders/order_detail.html:111
+#: templates/oscar/dashboard/orders/order_detail.html:700
+msgid "Notes"
+msgstr "Opmerkingen"
+
+#: templates/oscar/dashboard/orders/order_detail.html:120
+msgid "Items ordered"
+msgstr "Bestelde artikelen"
+
+#: templates/oscar/dashboard/orders/order_detail.html:130
+msgid "Line ID"
+msgstr "Lijn-ID"
+
+#: templates/oscar/dashboard/orders/order_detail.html:132
+#: templates/oscar/dashboard/refunds/refund_detail.html:107
+msgid "Product"
+msgstr "Product"
+
+#: templates/oscar/dashboard/orders/order_detail.html:135
+#: templates/oscar/dashboard/refunds/refund_detail.html:110
+msgid "Supplier"
+msgstr "Leverancier"
+
+#: templates/oscar/dashboard/orders/order_detail.html:136
+#: templates/oscar/dashboard/refunds/refund_detail.html:111
+msgid "Supplier SKU"
+msgstr "SKU van leverancier"
+
+#: templates/oscar/dashboard/orders/order_detail.html:137
+msgid "Price excl tax (before discounts)"
+msgstr "Prijs excl. BTW (vóór kortingen)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:138
+msgid "Price inc tax (before discounts)"
+msgstr "Prijs incl. BTW (vóór kortingen)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:173
+#: templates/oscar/dashboard/orders/order_list.html:126
+#: templates/oscar/dashboard/partials/refund_table.html:26
+#: templates/oscar/dashboard/refunds/refund_list.html:91
+#: templates/oscar/dashboard/users/detail.html:155
+msgid "View"
+msgstr "Weergave"
+
+#: templates/oscar/dashboard/orders/order_detail.html:189
+msgid "Basket total (excl. discounts)"
+msgstr "Totaal winkelwagen (excl. kortingen)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:208
+msgid "Basket total (inc. discounts)"
+msgstr "Totaal winkelwagen (incl. kortingen)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:216
+msgid "Basket total"
+msgstr "Totaal mandje"
+
+#: templates/oscar/dashboard/orders/order_detail.html:227
+msgid "Shipping total (excl. discounts)"
+msgstr "Totaal verzendkosten (excl. kortingen)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:246
+msgid "Shipping total (inc. discounts)"
+msgstr "Totaal verzendkosten (incl. kortingen)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:254
+msgid "Shipping total"
+msgstr "Verzending totaal"
+
+#: templates/oscar/dashboard/orders/order_detail.html:266
+#, python-format
+msgid "Surcharge %(name)s"
+msgstr "Toeslag %(name)s"
+
+#: templates/oscar/dashboard/orders/order_detail.html:294
+msgid "With selected lines"
+msgstr "Met geselecteerde lijnen"
+
+#: templates/oscar/dashboard/orders/order_detail.html:299
+msgid "Change line status to"
+msgstr "Wijzig de lijnstatus in"
+
+#: templates/oscar/dashboard/orders/order_detail.html:303
+#: templates/oscar/dashboard/orders/order_detail.html:305
+#: templates/oscar/dashboard/orders/order_list.html:140
+msgid "choose new status"
+msgstr "kies een nieuwe status"
+
+#: templates/oscar/dashboard/orders/order_detail.html:316
+msgid "Create shipping event"
+msgstr "Verzendgebeurtenis aanmaken"
+
+#: templates/oscar/dashboard/orders/order_detail.html:320
+#: templates/oscar/dashboard/orders/order_detail.html:322
+#: templates/oscar/dashboard/orders/order_detail.html:341
+#: templates/oscar/dashboard/orders/order_detail.html:343
+msgid "choose event type"
+msgstr "kies het type evenement"
+
+#: templates/oscar/dashboard/orders/order_detail.html:329
+msgid "with reference"
+msgstr "met referentie"
+
+#: templates/oscar/dashboard/orders/order_detail.html:337
+msgid "Create payment event"
+msgstr "Betalingsgebeurtenis aanmaken"
+
+#: templates/oscar/dashboard/orders/order_detail.html:350
+msgid "with amount"
+msgstr "met bedrag"
+
+#: templates/oscar/dashboard/orders/order_detail.html:358
+msgid "Create  Refund"
+msgstr "Maak een terugbetaling aan"
+
+#: templates/oscar/dashboard/orders/order_detail.html:364
+msgid "Go!"
+msgstr "Gaan!"
+
+#: templates/oscar/dashboard/orders/order_detail.html:374
+#: templates/oscar/dashboard/orders/order_list.html:135
+msgid "Change order status"
+msgstr "Wijzig de bestelstatus"
+
+#: templates/oscar/dashboard/orders/order_detail.html:379
+#: templates/oscar/dashboard/orders/order_list.html:149
+msgid "Change status"
+msgstr "Verander status"
+
+#: templates/oscar/dashboard/orders/order_detail.html:382
+#: templates/oscar/dashboard/orders/order_list.html:153
+msgid "This order can't have its status changed."
+msgstr "De status van deze bestelling kan niet worden gewijzigd."
+
+#: templates/oscar/dashboard/orders/order_detail.html:390
+msgid "Status Changes"
+msgstr "Statuswijzigingen"
+
+#: templates/oscar/dashboard/orders/order_detail.html:397
+msgid "From"
+msgstr "Van"
+
+#: templates/oscar/dashboard/orders/order_detail.html:398
+msgid "To"
+msgstr "Naar"
+
+#: templates/oscar/dashboard/orders/order_detail.html:414
+msgid "No status changes."
+msgstr "Geen statuswijzigingen."
+
+#: templates/oscar/dashboard/orders/order_detail.html:424
+msgid "Shipping Events"
+msgstr "Verzendingsevenementen"
+
+#: templates/oscar/dashboard/orders/order_detail.html:433
+#: templates/oscar/dashboard/orders/order_detail.html:480
+#: templates/oscar/dashboard/refunds/refund_detail.html:168
+msgid "Lines"
+msgstr "Lijnen"
+
+#: templates/oscar/dashboard/orders/order_detail.html:446
+#, python-format
+msgid ""
+"\n"
+"                                                                %(title)s (quantity %(event_qty)s/%(total_qty)s)\n"
+"                                                            "
+msgstr ""
+"\n"
+"%(title)s (hoeveelheid %(event_qty)s / %(total_qty)s )\n"
+"                                                            "
+
+#: templates/oscar/dashboard/orders/order_detail.html:460
+msgid "No shipping events."
+msgstr "Geen verzendgebeurtenissen."
+
+#: templates/oscar/dashboard/orders/order_detail.html:470
+#: templates/oscar/dashboard/refunds/refund_detail.html:157
+msgid "Payment Events"
+msgstr "Betalingsgebeurtenissen"
+
+#: templates/oscar/dashboard/orders/order_detail.html:479
+#: templates/oscar/dashboard/orders/order_detail.html:623
+#: templates/oscar/dashboard/orders/order_detail.html:663
+#: templates/oscar/dashboard/refunds/refund_detail.html:167
+msgid "Amount"
+msgstr "Hoeveelheid"
+
+#: templates/oscar/dashboard/orders/order_detail.html:493
+#: templates/oscar/dashboard/refunds/refund_detail.html:182
+msgid "Product:"
+msgstr "Product:"
+
+#: templates/oscar/dashboard/orders/order_detail.html:493
+msgid "quantity"
+msgstr "hoeveelheid"
+
+#: templates/oscar/dashboard/orders/order_detail.html:503
+#: templates/oscar/dashboard/refunds/refund_detail.html:194
+msgid "No payment events."
+msgstr "Geen betalingsgebeurtenissen."
+
+#: templates/oscar/dashboard/orders/order_detail.html:519
+msgid "Method name"
+msgstr "Naam van methode"
+
+#: templates/oscar/dashboard/orders/order_detail.html:523
+msgid "Method code"
+msgstr "Methodecode"
+
+#: templates/oscar/dashboard/orders/order_detail.html:527
+msgid "Charge (incl tax)"
+msgstr "Kosten (incl. BTW)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:531
+msgid "Charge (excl tax)"
+msgstr "Kosten (excl. BTW)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:535
+msgid "Address"
+msgstr "Adres"
+
+#: templates/oscar/dashboard/orders/order_detail.html:546
+msgid "Phone"
+msgstr "Telefoon"
+
+#: templates/oscar/dashboard/orders/order_detail.html:550
+msgid "Instructions"
+msgstr "Instructies"
+
+#: templates/oscar/dashboard/orders/order_detail.html:571
+#: templates/oscar/dashboard/orders/order_list.html:100
+msgid "Billing address"
+msgstr "Facturatie adres"
+
+#: templates/oscar/dashboard/orders/order_detail.html:582
+msgid "Payment sources"
+msgstr "Betaalbronnen"
+
+#: templates/oscar/dashboard/orders/order_detail.html:588
+#: templates/oscar/dashboard/orders/order_detail.html:622
+msgid "Source"
+msgstr "Bron"
+
+#: templates/oscar/dashboard/orders/order_detail.html:589
+msgid "Allocation"
+msgstr "Toewijzing"
+
+#: templates/oscar/dashboard/orders/order_detail.html:590
+msgid "Amount debited"
+msgstr "Afgeschreven bedrag"
+
+#: templates/oscar/dashboard/orders/order_detail.html:591
+msgid "Amount refunded"
+msgstr "Bedrag terugbetaald"
+
+#: templates/oscar/dashboard/orders/order_detail.html:609
+msgid "No payment sources found for this order."
+msgstr "Er zijn geen betalingsbronnen gevonden voor deze bestelling."
+
+#: templates/oscar/dashboard/orders/order_detail.html:617
+msgid "Transactions"
+msgstr "Transacties"
+
+#: templates/oscar/dashboard/orders/order_detail.html:659
+msgid "Voucher"
+msgstr "Voucher"
+
+#: templates/oscar/dashboard/orders/order_detail.html:660
+msgid "Offer name"
+msgstr "Naam aanbieding"
+
+#: templates/oscar/dashboard/orders/order_detail.html:661
+msgid "Frequency"
+msgstr "Frequentie"
+
+#: templates/oscar/dashboard/orders/order_detail.html:662
+#: templates/oscar/dashboard/orders/order_detail.html:709
+msgid "Message"
+msgstr "Bericht"
+
+#: templates/oscar/dashboard/orders/order_detail.html:689
+msgid "No discounts were applied to this order."
+msgstr "Er zijn geen kortingen toegepast op deze bestelling."
+
+#: templates/oscar/dashboard/orders/order_detail.html:710
+msgid "Admin"
+msgstr "beheerder"
+
+#: templates/oscar/dashboard/orders/order_detail.html:733
+msgid "No notes available."
+msgstr "Geen notities beschikbaar."
+
+#: templates/oscar/dashboard/orders/order_detail.html:744
+msgid "Save note"
+msgstr "Bewaar notitie"
+
+#: templates/oscar/dashboard/orders/order_detail.html:745
+msgid "Notes are only editable for 5 minutes after being saved."
+msgstr ""
+"Notities kunnen slechts 5 minuten worden bewerkt nadat ze zijn opgeslagen."
+
+#: templates/oscar/dashboard/orders/order_list.html:30
+#: templates/oscar/dashboard/orders/order_list.html:51
+#: templates/oscar/dashboard/partials/search_form.html:4
+#: templates/oscar/dashboard/partials/search_form.html:25
+#: templates/oscar/dashboard/partials/search_form.html:45
+msgid "Search"
+msgstr "Zoekopdracht"
+
+#: templates/oscar/dashboard/orders/order_list.html:52
+#: templates/oscar/dashboard/partials/search_form.html:26
+#: templates/oscar/dashboard/partials/search_form.html:34
+msgid "Advanced Search"
+msgstr "geavanceerd zoeken"
+
+#: templates/oscar/dashboard/orders/order_list.html:78
+#: templates/oscar/dashboard/orders/order_list.html:164
+msgid "Order Search Results"
+msgstr "Zoekresultaten bestellen"
+
+#: templates/oscar/dashboard/orders/order_list.html:80
+#: templates/oscar/dashboard/orders/order_list.html:166
+msgid "All Orders"
+msgstr "Alle bestellingen"
+
+#: templates/oscar/dashboard/orders/order_list.html:85
+msgid "Download selected orders as a CSV"
+msgstr "Download geselecteerde bestellingen als CSV"
+
+#: templates/oscar/dashboard/orders/order_list.html:86
+msgid "Submitting..."
+msgstr "Verzenden..."
+
+#: templates/oscar/dashboard/orders/order_list.html:86
+msgid "Download"
+msgstr "Downloaden"
+
+#: templates/oscar/dashboard/orders/order_list.html:95
+msgid "Total inc tax"
+msgstr "Totaal incl. belasting"
+
+#: templates/oscar/dashboard/orders/order_list.html:96
+msgid "Number of items"
+msgstr "Aantal stuks"
+
+#: templates/oscar/dashboard/orders/order_list.html:98
+msgid "Customer"
+msgstr "Klant"
+
+#: templates/oscar/dashboard/orders/order_list.html:99
+msgid "Shipping address"
+msgstr "Afleveradres"
+
+#: templates/oscar/dashboard/orders/order_list.html:119
+#: templates/oscar/dashboard/refunds/refund_list.html:79
+#: templates/oscar/dashboard/refunds/refund_list.html:86
+msgid "Deleted"
+msgstr "Verwijderd"
+
+#: templates/oscar/dashboard/orders/order_list.html:148
+msgid "Changing..."
+msgstr "Veranderen..."
+
+#: templates/oscar/dashboard/orders/order_list.html:169
+msgid "No orders found."
+msgstr "Geen bestellingen gevonden."
+
+#: templates/oscar/dashboard/partials/enrollment_table.html:4
+#: templates/oscar/dashboard/users/detail.html:123
+msgid "Enrollments"
+msgstr "Inschrijvingen"
+
+#: templates/oscar/dashboard/partials/enrollment_table.html:9
+msgid "Mode"
+msgstr "Modus"
+
+#: templates/oscar/dashboard/partials/enrollment_table.html:10
+msgid "Active?"
+msgstr "Actief?"
+
+#: templates/oscar/dashboard/partials/enrollment_table.html:21
+msgid "No enrollments found."
+msgstr "Geen inschrijvingen gevonden."
+
+#: templates/oscar/dashboard/partials/refund_action_modal.html:8
+msgid "Confirm Refund Processing"
+msgstr "Bevestig de terugbetalingsverwerking"
+
+#: templates/oscar/dashboard/partials/refund_action_modal.html:11
+msgid ""
+"Are you sure you want to issue a full refund and revoke student's "
+"enrollment?"
+msgstr ""
+"Weet u zeker dat u het volledige bedrag wilt terugbetalen en de inschrijving"
+" van de student wilt intrekken?"
+
+#: templates/oscar/dashboard/partials/refund_action_modal.html:14
+msgid ""
+"Are you sure you want to issue a full refund without revoking student's "
+"enrollment?"
+msgstr ""
+"Weet u zeker dat u het volledige bedrag wilt terugbetalen zonder de "
+"inschrijving van de student in te trekken?"
+
+#: templates/oscar/dashboard/partials/refund_action_modal.html:17
+msgid "Are you sure you want to deny this refund request?"
+msgstr "Weet u zeker dat u dit terugbetalingsverzoek wilt weigeren?"
+
+#: templates/oscar/dashboard/partials/refund_action_modal.html:21
+msgid "Confirm"
+msgstr "Bevestigen"
+
+#: templates/oscar/dashboard/partials/refund_buttons.html:5
+msgid "Approve Credit and Revoke"
+msgstr "Krediet goedkeuren en intrekken"
+
+#: templates/oscar/dashboard/partials/refund_buttons.html:8
+msgid "Approve Credit Only"
+msgstr "Alleen krediet goedkeuren"
+
+#: templates/oscar/dashboard/partials/refund_buttons.html:14
+msgid "Deny"
+msgstr "Ontkennen"
+
+#: templates/oscar/dashboard/partials/refund_table.html:10
+#: templates/oscar/dashboard/refunds/refund_list.html:58
+msgid "Number of Items"
+msgstr "Aantal stuks"
+
+#: templates/oscar/dashboard/partials/refund_table.html:11
+#: templates/oscar/dashboard/refunds/refund_detail.html:71
+#: templates/oscar/dashboard/refunds/refund_detail.html:146
+#: templates/oscar/dashboard/refunds/refund_list.html:57
+msgid "Total Credit"
+msgstr "Totaal krediet"
+
+#: templates/oscar/dashboard/partials/refund_table.html:12
+#: templates/oscar/dashboard/refunds/refund_detail.html:72
+#: templates/oscar/dashboard/refunds/refund_list.html:62
+msgid "Created"
+msgstr "Gemaakt"
+
+#: templates/oscar/dashboard/partials/refund_table.html:31
+#: templates/oscar/dashboard/refunds/refund_list.html:105
+msgid "No refunds found."
+msgstr "Geen terugbetalingen gevonden."
+
+#: templates/oscar/dashboard/partials/search_form.html:44
+msgid "Close"
+msgstr "Dichtbij"
+
+#: templates/oscar/dashboard/partials/search_form.html:45
+msgid "Searching..."
+msgstr "Zoeken..."
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:11
+#: templates/oscar/dashboard/refunds/refund_detail.html:40
+#, python-format
+msgid "Refund #%(id)s"
+msgstr "Terugbetaling # %(id)s"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:51
+#: templates/oscar/dashboard/users/detail.html:44
+msgid "Full name"
+msgstr "Voor-en achternaam"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:69
+msgid "Refund Overview"
+msgstr "Terugbetalingsoverzicht"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:74
+msgid "Associated Order"
+msgstr "Bijbehorende bestelling"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:95
+msgid "Refund Items"
+msgstr "Artikelen terugbetalen"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:104
+msgid "Refund Line ID"
+msgstr "Restitutielijn-ID"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:105
+msgid "Associated Order Line"
+msgstr "Bijbehorende orderregel"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:112
+msgid "Credit (excl. tax)"
+msgstr "Krediet (excl. BTW)"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:169
+msgid "Processor"
+msgstr "Verwerker"
+
+#: templates/oscar/dashboard/users/detail.html:36
+msgid "General"
+msgstr "Algemeen"
+
+#: templates/oscar/dashboard/users/detail.html:54
+msgid "Yes,No"
+msgstr "Ja nee"
+
+#: templates/oscar/dashboard/users/detail.html:58
+msgid "Superuser"
+msgstr "Super gebruiker"
+
+#: templates/oscar/dashboard/users/detail.html:59
+#: templates/oscar/dashboard/users/detail.html:63
+msgid "True,False"
+msgstr "Waar onwaar"
+
+#: templates/oscar/dashboard/users/detail.html:62
+msgid "Staff"
+msgstr "Personeel"
+
+#: templates/oscar/dashboard/users/detail.html:66
+msgid "Last login"
+msgstr "Laatste aanmelding"
+
+#: templates/oscar/dashboard/users/detail.html:70
+msgid "Date joined"
+msgstr "Datum aangesloten"
+
+#: templates/oscar/dashboard/users/detail.html:76
+msgid "Products viewed"
+msgstr "Producten bekeken"
+
+#: templates/oscar/dashboard/users/detail.html:80
+msgid "Number of orders"
+msgstr "Aantal bestellingen"
+
+#: templates/oscar/dashboard/users/detail.html:84
+msgid "Number of ordered items"
+msgstr "Aantal bestelde artikelen"
+
+#: templates/oscar/dashboard/users/detail.html:88
+msgid "Total spent"
+msgstr "Totaal uitgegeven"
+
+#: templates/oscar/dashboard/users/detail.html:94
+msgid "Reviews written"
+msgstr "Recensies geschreven"
+
+#: templates/oscar/dashboard/users/detail.html:107
+msgid "Send password reset email"
+msgstr "Stuur een e-mail voor het opnieuw instellen van het wachtwoord"
+
+#: templates/oscar/dashboard/users/detail.html:125
+#: templates/oscar/dashboard/users/detail.html:186
+msgid "Addresses"
+msgstr "Adressen"
+
+#: templates/oscar/dashboard/users/detail.html:126
+#: templates/oscar/dashboard/users/detail.html:214
+msgid "Reviews"
+msgstr "Recensies"
+
+#: templates/oscar/dashboard/users/detail.html:139
+msgid "Num items"
+msgstr "Aantal items"
+
+#: templates/oscar/dashboard/users/detail.html:140
+msgid "Total value"
+msgstr "Totale waarde"
+
+#: templates/oscar/dashboard/users/detail.html:141
+msgid "Date placed"
+msgstr "Datum geplaatst"
+
+#: templates/oscar/dashboard/users/detail.html:160
+msgid "This customer has not placed any orders yet."
+msgstr "Deze klant heeft nog geen bestellingen geplaatst."
+
+#: templates/oscar/dashboard/users/detail.html:205
+msgid "This customer has not saved any addresses."
+msgstr "Deze klant heeft geen adressen opgeslagen."
+
+#: templates/oscar/dashboard/users/detail.html:217
+msgid "Product ID"
+msgstr "Product-ID"
+
+#: templates/oscar/dashboard/users/detail.html:218
+msgid "Score"
+msgstr "Scoren"
+
+#: templates/oscar/dashboard/users/detail.html:219
+msgctxt "Product review title"
+msgid "Title"
+msgstr "Titel"
+
+#: templates/oscar/dashboard/users/detail.html:220
+msgid "Body"
+msgstr "Lichaam"
+
+#: templates/oscar/dashboard/users/detail.html:221
+msgid "Date created"
+msgstr "Datum gecreeërd"
+
+#: templates/oscar/dashboard/users/detail.html:234
+msgid "This customer has not written any reviews yet."
+msgstr "Deze klant heeft nog geen beoordelingen geschreven."
+
+#: urls.py:45
+msgid "E-Commerce Service Administration"
+msgstr "Beheer van e-commerceservices"
