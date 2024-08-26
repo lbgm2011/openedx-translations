@@ -3030,7 +3030,7 @@ msgstr "U moet ten minste één prompt opgeven."
 #: xblock/utils/validation.py:209
 #, python-brace-format
 msgid "Options in '{criterion}' have duplicate name(s): {duplicates}"
-msgstr "Opties in &#39;{criterium}&#39; hebben dubbele naam(en): {duplicates}"
+msgstr "Opties in &#39;{criterion}&#39; hebben dubbele naam(en): {duplicates}"
 
 #: xblock/utils/validation.py:217
 msgid "Criteria with no options must require written feedback."
