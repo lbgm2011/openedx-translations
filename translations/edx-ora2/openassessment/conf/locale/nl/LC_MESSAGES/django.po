@@ -7,6 +7,7 @@
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
 # Vera Lelie, 2024
+# Laoska Benyasca, 2024
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-23 00:28+0000\n"
 "PO-Revision-Date: 2023-05-10 00:48+0000\n"
-"Last-Translator: Vera Lelie, 2024\n"
+"Last-Translator: Laoska Benyasca, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/open-edx/teams/6205/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,18 +48,20 @@ msgid ""
 "\"{option_name}\""
 msgstr ""
 "Voorbeeld {example_number} heeft een ongeldige optie voor "
-"\"{criterion_name}\": \"{option_name}\""
+"&quot;{criterion_name}&quot;: &quot;{option_name}&quot;"
 
 #: assessment/api/student_training.py:227
 #, python-brace-format
 msgid "Example {example_number} has an extra option for \"{criterion_name}\""
 msgstr ""
-"Voorbeeld {example_number} heeft een extra optie voor \"{criterion_name}\""
+"Voorbeeld {example_number} heeft een extra optie voor "
+"&quot;{criterion_name}&quot;"
 
 #: assessment/api/student_training.py:240
 #, python-brace-format
 msgid "Example {example_number} is missing an option for \"{criterion_name}\""
-msgstr "Voorbeeld {example_number} mist een optie voor \"{criterion_name}\""
+msgstr ""
+"Voorbeeld {example_number} mist een optie voor &quot;{criterion_name}&quot;"
 
 #: assessment/score_type_constants.py:21 xblock/grade_mixin.py:547
 msgid "Peer"
