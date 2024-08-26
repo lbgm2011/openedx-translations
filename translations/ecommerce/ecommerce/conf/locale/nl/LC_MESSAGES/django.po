@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
+# Vera Lelie, 2024
 # 
 msgid ""
 msgstr ""
@@ -12,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2024\n"
+"Last-Translator: Vera Lelie, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/open-edx/teams/6205/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -733,7 +734,7 @@ msgstr "Enterprise-aanbiedingen"
 #: templates/oscar/dashboard/offers/summary.html:30
 #: templates/oscar/dashboard/orders/order_detail.html:720
 msgid "Edit"
-msgstr "Bewerking"
+msgstr "Bewerken"
 
 #: enterprise/templates/enterprise/enterpriseoffer_form.html:36
 #: programs/templates/programs/programoffer_form.html:36
@@ -3294,7 +3295,7 @@ msgstr "Opslaan en doorgaan met bewerken"
 #: templates/oscar/dashboard/catalogue/category_form.html:111
 #: templates/oscar/dashboard/catalogue/product_update.html:334
 msgid "Save"
-msgstr "Redden"
+msgstr "Opslaan"
 
 #: templates/oscar/dashboard/catalogue/category_row_actions.html:6
 #: templates/oscar/dashboard/catalogue/product_row_actions.html:6
@@ -3332,7 +3333,7 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"Productvariant &#39; %(name)s &#39; gemaakt.\n"
+"Productvariant '%(name)s' gemaakt.\n"
 "                    "
 
 #: templates/oscar/dashboard/catalogue/messages/product_saved.html:17
@@ -3343,7 +3344,7 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"Variant gemaakt van &#39; %(parent_name)s &#39;.\n"
+"Variant gemaakt van '%(parent_name)s'\n"
 "                    "
 
 #: templates/oscar/dashboard/catalogue/messages/product_saved.html:25
@@ -3354,7 +3355,7 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"Bijgewerkte productvariant &#39; %(name)s &#39;.\n"
+"Bijgewerkte productvariant ' %(name)s '.\n"
 "                    "
 
 #: templates/oscar/dashboard/catalogue/messages/product_saved.html:31
@@ -3365,7 +3366,7 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"Een variant van &#39; %(parent_name)s &#39; bijgewerkt.\n"
+"Een variant van ' %(parent_name)s' bijgewerkt.\n"
 "                    "
 
 #: templates/oscar/dashboard/catalogue/messages/product_saved.html:42
@@ -3376,7 +3377,7 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"Product gemaakt &#39; %(name)s &#39;.\n"
+"Product gemaakt '%(name)s '.\n"
 "                "
 
 #: templates/oscar/dashboard/catalogue/messages/product_saved.html:48
@@ -4156,7 +4157,7 @@ msgstr ""
 #: templates/oscar/dashboard/partials/search_form.html:25
 #: templates/oscar/dashboard/partials/search_form.html:45
 msgid "Search"
-msgstr "Zoekopdracht"
+msgstr "Zoeken"
 
 #: templates/oscar/dashboard/orders/order_list.html:52
 #: templates/oscar/dashboard/partials/search_form.html:26
@@ -4298,7 +4299,7 @@ msgstr "Geen terugbetalingen gevonden."
 
 #: templates/oscar/dashboard/partials/search_form.html:44
 msgid "Close"
-msgstr "Dichtbij"
+msgstr "Sluiten"
 
 #: templates/oscar/dashboard/partials/search_form.html:45
 msgid "Searching..."

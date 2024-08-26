@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
+# Vera Lelie, 2024
 # 
 msgid ""
 msgstr ""
@@ -12,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2023-06-24 01:02+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2024\n"
+"Last-Translator: Vera Lelie, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/open-edx/teams/6205/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -97,10 +98,10 @@ msgid ""
 "staff provided you with a pre-configured LTI reusable Tool ID, "
 "select'Reusable Configuration' and enter it in the text field below."
 msgstr ""
-"Selecteer &#39;Configuratie op blok&#39; om een nieuwe LTI Tool te "
-"configureren. Als het ondersteuningspersoneel u een vooraf geconfigureerde "
-"herbruikbare LTI-tool-ID heeft gegeven, selecteert u &#39;Herbruikbare "
-"configuratie&#39; en voert u deze in het onderstaande tekstveld in."
+"Selecteer 'Configuratie op blok'om een nieuwe LTI Tool te configureren. Als "
+"het ondersteuningspersoneel u een vooraf geconfigureerde herbruikbare LTI-"
+"tool-ID heeft gegeven, selecteert u 'Herbruikbare configuratie' en voert u "
+"deze in het onderstaande tekstveld in."
 
 #: lti_xblock.py:293
 msgid "LTI Version"
@@ -155,7 +156,7 @@ msgstr ""
 
 #: lti_xblock.py:334
 msgid "Registered Redirect URIs"
-msgstr "Geregistreerde omleidings-URI&#39;s"
+msgstr "Geregistreerde omleidings-URI's"
 
 #: lti_xblock.py:336
 msgid ""
@@ -165,12 +166,12 @@ msgid ""
 "redirect uri's, enter them here. If you use this field you must enter all "
 "valid redirect uri's the tool may request."
 msgstr ""
-"Geldige URL&#39;s waar de Tool ons om kan vragen om het ID-token naar om te "
-"leiden. De omleidings-URL&#39;s zijn vaak hetzelfde als de start-"
-"URL/deeplink-URL, dus als dit veld leeg is, worden deze als standaard "
-"gebruikt. Als u verschillende omleidings-uri&#39;s wilt gebruiken, voert u "
-"deze hier in. Als u dit veld gebruikt, moet u alle geldige omleidings-"
-"uri&#39;s invoeren die de tool kan opvragen."
+"Geldige URL's waar de Tool ons om kan vragen om het ID-token naar om te "
+"leiden. De omleidings-URL's zijn vaak hetzelfde als de start-URL/deeplink-"
+"URL, dus als dit veld leeg is, worden deze als standaard gebruikt. Als u "
+"verschillende omleidings-uri's wilt gebruiken, voert u deze hier in. Als u "
+"dit veld gebruikt, moet u alle geldige omleidings-uri's invoeren die de tool"
+" kan opvragen."
 
 #: lti_xblock.py:346
 msgid "Tool Public Key Mode"
@@ -214,11 +215,10 @@ msgid ""
 "Advantage nor Basic Outcomes requests.</b>"
 msgstr ""
 "Voer de openbare sleutel van de LTI 1.3 Tool in.<br /> Dit is een string die"
-" begint met &#39;-----BEGIN PUBLIC KEY-----&#39; en is vereist zodat het LMS"
-" kan controleren of de ontvangen berichten en startverzoeken de handtekening"
-" van de tool hebben.<br /> <b>Dit is niet vereist wanneer u LTI "
-"1.3-lanceringen uitvoert zonder LTI Advantage- of Basic Outcomes-"
-"verzoeken.</b>"
+" begint met '-----BEGIN PUBLIC KEY-----' en is vereist zodat het LMS kan "
+"controleren of de ontvangen berichten en startverzoeken de handtekening van "
+"de tool hebben.<br /> <b>Dit is niet vereist wanneer u LTI 1.3-lanceringen "
+"uitvoert zonder LTI Advantage- of Basic Outcomes-verzoeken.</b>"
 
 #: lti_xblock.py:387
 msgid "Enable LTI NRPS"
@@ -258,7 +258,7 @@ msgid ""
 "specify one, use the same value as 'Tool Launch URL'."
 msgstr ""
 "Voer de start-URL voor LTI Advantage Deep Linking in. Als de tool er geen "
-"specificeert, gebruik dan dezelfde waarde als &#39;Tool Launch URL&#39;."
+"specificeert, gebruik dan dezelfde waarde als 'Tool Launch URL'."
 
 #: lti_xblock.py:423
 msgid "LTI Assignment and Grades Service"
@@ -284,10 +284,10 @@ msgid ""
 "tools to manage, create and link the grades."
 msgstr ""
 "Schakel de LTI-AGS-service in en selecteer de functionaliteit die is "
-"ingeschakeld voor LTI-tools. De &#39;declaratieve&#39; modus (standaard) "
-"biedt een tool met een LineItem die is gemaakt op basis van de XBlock-"
-"instellingen, terwijl de &#39;programmatische&#39; modus tools in staat "
-"stelt de cijfers te beheren, aan te maken en te koppelen."
+"ingeschakeld voor LTI-tools. De 'declaratieve' modus (standaard) biedt een "
+"tool met een LineItem die is gemaakt op basis van de XBlock-instellingen, "
+"terwijl de 'programmatische' modus tools in staat stelt de cijfers te "
+"beheren, aan te maken en te koppelen."
 
 #: lti_xblock.py:440
 msgid "LTI ID"
@@ -337,8 +337,8 @@ msgid ""
 msgstr ""
 "Voeg het sleutel/waarde-paar toe voor eventuele aangepaste parameters, zoals"
 " de pagina waarop uw e-boek moet worden geopend of de achtergrondkleur voor "
-"dit onderdeel. Ex. [&quot;pagina=1&quot;, &quot;kleur=wit&quot;]<br /> Zie "
-"de {docs_anchor_open} edX LTI-documentatie {anchor_close} voor meer details "
+"dit onderdeel. Ex. [\"pagina=1\", \"kleur=wit\"]<br /> Zie de "
+"{docs_anchor_open} edX LTI-documentatie {anchor_close} voor meer details "
 "over deze instelling."
 
 #: lti_xblock.py:481
@@ -527,8 +527,7 @@ msgstr "Aangepaste parameters moeten een lijst zijn"
 
 #: lti_xblock.py:688
 msgid "Custom Parameters should be strings in \"x=y\" format."
-msgstr ""
-"Aangepaste parameters moeten tekenreeksen zijn in de indeling &#39;x=y&#39;."
+msgstr "Aangepaste parameters moeten tekenreeksen zijn in de indeling \"x=y\"."
 
 #: lti_xblock.py:698
 msgid ""
@@ -536,7 +535,7 @@ msgid ""
 "\"x:y\")."
 msgstr ""
 "Herbruikbare configuratie-ID moet worden ingesteld bij gebruik van externe "
-"configuratie (bijvoorbeeld: &quot;x:y&quot;)."
+"configuratie (bijvoorbeeld: \"x:y\")."
 
 #: lti_xblock.py:721
 msgid ""
@@ -555,7 +554,7 @@ msgid ""
 "string."
 msgstr ""
 "Kan LTI-paspoort niet parseren: {lti_passport!r}. Moet de tekenreeks "
-"&quot;id:key:secret&quot; zijn."
+"\"id:key:secret\" zijn."
 
 #: lti_xblock.py:895 lti_xblock.py:909 lti_xblock.py:925
 msgid "Could not get user id for current request"
@@ -567,7 +566,7 @@ msgid ""
 "string."
 msgstr ""
 "Kan aangepaste parameter: {custom_parameter!r} niet parseren. Moet een "
-"tekenreeks &quot;x=y&quot; zijn."
+"tekenreeks \"x=y\" zijn."
 
 #: lti_xblock.py:1423
 msgid "[LTI]: Real user not found against anon_id: {}"
@@ -628,7 +627,7 @@ msgid ""
 "\"x:y\" format."
 msgstr ""
 "LTI-configuratie die gebruikmaakt van herbruikbare configuratie heeft een "
-"externe ID nodig in de indeling &quot;x:y&quot;."
+"externe ID nodig in de indeling \"x:y\"."
 
 #: models.py:267
 msgid ""

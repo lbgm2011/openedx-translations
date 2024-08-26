@@ -5,14 +5,15 @@
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
+# Vera Lelie, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-21 00:35+0000\n"
+"POT-Creation-Date: 2024-08-23 00:32+0000\n"
 "PO-Revision-Date: 2024-04-20 01:08+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2024\n"
+"Last-Translator: Vera Lelie, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/open-edx/teams/6205/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -71,12 +72,12 @@ msgstr ""
 #: views.py:83
 #, python-brace-format
 msgid "Invalid course id: '{course_id}'"
-msgstr "Ongeldige cursus-ID: &#39;{course_id}&#39;"
+msgstr "Ongeldige cursus-ID: '{course_id}'"
 
 #: views.py:95
 #, python-brace-format
 msgid "Course not found: '{course_id}'"
-msgstr "Cursus niet gevonden: &#39;{course_id}&#39;"
+msgstr "Cursus niet gevonden: '{course_id}'"
 
 #: xblock.py:47 xblock.py:48
 msgid "Display name"
@@ -110,6 +111,6 @@ msgid ""
 "               "
 msgstr ""
 "Lijst met SQL-filters die moeten worden toegepast op de\n"
-" dashboard. Bijv.: [&quot;org=&#39;edX&#39;&quot;, &quot;land in (&#39;us&#39;, &#39;co&#39;)&quot;]\n"
+" dashboard. Bijv.: [org=edX\", \"land in\" (us, 'co')]\n"
 " De hier gebruikte velden moeten beschikbaar zijn op elke dataset die door het dashboard wordt gebruikt.\n"
 "               "

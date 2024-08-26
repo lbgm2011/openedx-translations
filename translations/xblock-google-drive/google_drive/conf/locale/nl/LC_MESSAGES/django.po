@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
+# Vera Lelie, 2024
 # 
 msgid ""
 msgstr ""
@@ -12,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2023-06-01 01:00+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2024\n"
+"Last-Translator: Vera Lelie, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/open-edx/teams/6205/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,74 +21,108 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: image_explorer.py:60
+#: google_calendar.py:45 google_docs.py:59
+#: templates/html/google_calendar_edit.html:17
+#: templates/html/google_docs_edit.html:17
 msgid "Display Name"
 msgstr "Weergavenaam"
 
-#: image_explorer.py:61
+#: google_calendar.py:46 google_docs.py:60
+#: templates/html/google_calendar_edit.html:24
+#: templates/html/google_docs_edit.html:24
 msgid "This name appears in the horizontal navigation at the top of the page."
 msgstr "Deze naam verschijnt in de horizontale navigatie bovenaan de pagina."
 
-#: image_explorer.py:63
-msgid "Image Explorer"
-msgstr "Beeldverkenner"
+#: google_calendar.py:51 templates/html/google_calendar_edit.html:28
+msgid "Public Calendar ID"
+msgstr "Openbare agenda-ID"
 
-#: image_explorer.py:67
-msgid "Hot Spots Coordinates Centered"
-msgstr "Hotspots-coördinaten gecentreerd"
-
-#: image_explorer.py:73
-msgid "Store hotspots opened by student, for completion"
-msgstr "Door student geopende hotspots opslaan ter voltooiing"
-
-#: image_explorer.py:78
-msgid "XML contents to display for this module"
-msgstr "XML-inhoud die voor deze module moet worden weergegeven"
-
-#: image_explorer.py:231
-msgid "Missing event_type in JSON data"
-msgstr "Ontbrekende event_type in JSON-gegevens"
-
-#: templates/html/image_explorer_edit.html:8
-msgid "Title"
-msgstr "Titel"
-
-#: templates/html/image_explorer_edit.html:11
-msgid "The title of the Image Explorer that is displayed to the user"
-msgstr "De titel van de Image Explorer die aan de gebruiker wordt weergegeven"
-
-#: templates/html/image_explorer_edit.html:17
-msgid "Hotspot coordinates centered"
-msgstr "Hotspotcoördinaten gecentreerd"
-
-#: templates/html/image_explorer_edit.html:19
+#: google_calendar.py:53
 msgid ""
-"If set to true, hotspot coordinates interpreted to point to the center of "
-"the hotspot"
+"Google provides an ID for publicly available calendars. In the Google "
+"Calendar, open Settings and copy the ID from the Calendar Address section "
+"into this field."
 msgstr ""
-"Indien ingesteld op true, worden hotspotcoördinaten geïnterpreteerd als "
-"zodanig dat ze naar het midden van de hotspot wijzen"
+"Google biedt een ID voor openbaar beschikbare agenda's. Open Instellingen in"
+" Google Agenda en kopieer de ID uit het gedeelte Agenda-adres naar dit veld."
 
-#: templates/html/image_explorer_edit.html:19
+#: google_calendar.py:60 templates/html/google_calendar_edit.html:41
+msgid "Default View"
+msgstr "Standaard weergave"
+
+#: google_calendar.py:61 templates/html/google_calendar_edit.html:50
 msgid ""
-"If set to false, assumed to point to the top left corner of the hotspot "
-"image"
+"The calendar view that students see by default. A student can change this "
+"view."
 msgstr ""
-"Indien ingesteld op false, wordt aangenomen dat dit naar de linkerbovenhoek "
-"van de hotspotafbeelding wijst"
+"De agendaweergave die studenten standaard zien. Een student kan deze mening "
+"veranderen."
 
-#: templates/html/image_explorer_edit.html:24
-msgid "Definition"
-msgstr "Definitie"
+#: google_docs.py:65 templates/html/google_docs_edit.html:28
+msgid "Embed Code"
+msgstr "Embed code"
 
-#: templates/html/image_explorer_edit.html:25
-msgid "The XML definition for the Image Explorer"
-msgstr "De XML-definitie voor de Image Explorer"
+#: google_docs.py:67 templates/html/google_docs_edit.html:31
+msgid ""
+"Google provides an embed code for Drive documents. In the Google Drive "
+"document, from the File menu, select Publish to the Web. Modify settings as "
+"needed, click Publish, and copy the embed code into this field."
+msgstr ""
+"Google biedt een insluitcode voor Drive-documenten. Selecteer in het Google "
+"Drive-document in het menu Bestand de optie Publiceren op internet. Pas de "
+"instellingen indien nodig aan, klik op Publiceren en kopieer de insluitcode "
+"naar dit veld."
 
-#: templates/html/image_explorer_edit.html:36
+#: google_docs.py:75
+msgid "Alternative Text"
+msgstr "alternatieve tekst"
+
+#: google_docs.py:76 templates/html/google_docs_edit.html:38
+msgid ""
+"Alternative text describes an image and appears if the image is unavailable."
+msgstr ""
+"Alternatieve tekst beschrijft een afbeelding en verschijnt als de afbeelding"
+" niet beschikbaar is."
+
+#: templates/html/google_calendar_edit.html:9
+msgid "Invalid Google Calendar"
+msgstr "Ongeldige Google Agenda"
+
+#: templates/html/google_calendar_edit.html:10
+#: templates/html/google_docs_edit.html:10
+msgid "Please correct the outlined fields."
+msgstr "Corrigeer de aangegeven velden."
+
+#: templates/html/google_calendar_edit.html:21
+#: templates/html/google_calendar_edit.html:32
+#: templates/html/google_docs_edit.html:21
+msgid "Clear Value"
+msgstr "Duidelijke waarde"
+
+#: templates/html/google_calendar_edit.html:35
+msgid ""
+"Google provides an ID for publicly available calendars. In the Google "
+"Calendar, open Settings and copy the ID from the Calendar Address section "
+"into this field. You can "
+msgstr ""
+"Google biedt een ID voor openbaar beschikbare agenda's. Open Instellingen in"
+" Google Agenda en kopieer de ID uit het gedeelte Agendaadres naar dit veld. "
+"Jij kan "
+
+#: templates/html/google_calendar_edit.html:60
+#: templates/html/google_docs_edit.html:47
 msgid "Save"
 msgstr "Redden"
 
-#: templates/html/image_explorer_edit.html:40
+#: templates/html/google_calendar_edit.html:64
+#: templates/html/google_docs_edit.html:51
 msgid "Cancel"
 msgstr "Annuleren"
+
+#: templates/html/google_docs_edit.html:9
+msgid "Invalid Google Document"
+msgstr "Ongeldig Google-document"
+
+#: templates/html/google_docs_edit.html:35
+msgid "Alternative text"
+msgstr "Alternatieve tekst"

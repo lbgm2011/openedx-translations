@@ -6,14 +6,15 @@
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
+# Vera Lelie, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-21 00:31+0000\n"
+"POT-Creation-Date: 2024-08-23 00:28+0000\n"
 "PO-Revision-Date: 2023-05-10 00:48+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2024\n"
+"Last-Translator: Vera Lelie, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/open-edx/teams/6205/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,30 +46,27 @@ msgid ""
 "Example {example_number} has an invalid option for \"{criterion_name}\": "
 "\"{option_name}\""
 msgstr ""
-"Voorbeeld {example_number} heeft een ongeldige optie voor &quot; "
-"{criterion_name} &quot;: &quot; {option_name} &quot;"
+"Voorbeeld {example_number} heeft een ongeldige optie voor "
+"\"{criterion_name}\": \"{option_name}\""
 
 #: assessment/api/student_training.py:227
 #, python-brace-format
 msgid "Example {example_number} has an extra option for \"{criterion_name}\""
 msgstr ""
-"Voorbeeld {example_number} heeft een extra optie voor &quot; "
-"{criterion_name} &quot;"
+"Voorbeeld {example_number} heeft een extra optie voor \"{criterion_name}\""
 
 #: assessment/api/student_training.py:240
 #, python-brace-format
 msgid "Example {example_number} is missing an option for \"{criterion_name}\""
-msgstr ""
-"Voorbeeld {example_number} mist een optie voor &quot; {criterion_name} "
-"&quot;"
+msgstr "Voorbeeld {example_number} mist een optie voor \"{criterion_name}\""
 
 #: assessment/score_type_constants.py:21 xblock/grade_mixin.py:547
 msgid "Peer"
-msgstr "Gelijke"
+msgstr "Collega"
 
 #: assessment/score_type_constants.py:22
 msgid "Self"
-msgstr "Zelf"
+msgstr "Mijzelf"
 
 #: assessment/score_type_constants.py:23
 msgid "Staff"
@@ -178,7 +176,7 @@ msgstr "Geen"
 
 #: templates/legacy/edit/oa_edit.html:28
 msgid "Save"
-msgstr "Redden"
+msgstr "Opslaan"
 
 #: templates/legacy/edit/oa_edit.html:32
 msgid "Cancel"
@@ -2087,7 +2085,7 @@ msgstr "Bekijk ORA in Studio"
 #: templates/legacy/staff_area/oa_staff_area.html:69
 #: templates/legacy/staff_area/oa_staff_area.html:151
 msgid "Close"
-msgstr "Dichtbij"
+msgstr "Sluiten"
 
 #: templates/legacy/staff_area/oa_staff_area.html:37
 msgid "Manage Teams"

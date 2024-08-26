@@ -72,7 +72,7 @@
     "string": "Alles uitvouwen"
   },
   "pgn.DataTable.FilterStatus.clearFiltersText": {
-    "developer_comment": "Een tekst die verschijnt op de knop &#39;Filters wissen&#39;",
+    "developer_comment": "Een tekst die verschijnt op de knop \"Filters wissen\"",
     "string": "Wis filters"
   },
   "pgn.DataTable.RowStatus.statusText": {
@@ -129,6 +129,6 @@
   },
   "pgn.Toast.closeLabel": {
     "developer_comment": "Sluit het label voor de Toast-component",
-    "string": "Dichtbij"
+    "string": "Sluiten"
   }
 }

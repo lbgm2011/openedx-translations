@@ -12,6 +12,7 @@
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
+# Vera Lelie, 2024
 # 
 #, fuzzy
 msgid ""
@@ -20,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-29 00:34+0000\n"
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2024\n"
+"Last-Translator: Vera Lelie, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/open-edx/teams/6205/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,7 +62,7 @@ msgstr "OpenAssessment-opslagfout"
 #: cms/static/js/views/utils/xblock_utils.js:302
 #: lms/static/js/ccx/schedule.js:256 lms/static/js/views/fields.js:72
 msgid "Saving"
-msgstr "Besparing"
+msgstr "Bezig met opslaan..."
 
 #: cms/static/js/base.js:101
 msgid "This link will open in a new browser window/tab"
@@ -565,11 +566,11 @@ msgstr "Uw bestand kon niet worden geüpload"
 #: common/static/common/templates/discussion/templates.underscore:870
 #: common/static/common/templates/image-modal.underscore:19
 msgid "Close"
-msgstr "Dichtbij"
+msgstr "Sluiten"
 
 #: cms/static/js/views/active_video_upload_list.js:28
 msgid "Upload Videos"
-msgstr "Video&#39;s uploaden"
+msgstr "Upload video"
 
 #: cms/static/js/views/active_video_upload_list.js:30
 msgid "Drag and drop or {spanStart}browse your computer{spanEnd}."
@@ -728,7 +729,7 @@ msgstr "Kopiëren"
 
 #: cms/static/js/views/course_outline.js:328
 msgid "Copy of '{componentDisplayName}'"
-msgstr "Kopie van &#39;{componentDisplayName}&#39;"
+msgstr "Kopie van  '{componentDisplayName}'"
 
 #: cms/static/js/views/course_outline.js:364
 #: cms/static/js/views/pages/container.js:285
@@ -769,7 +770,7 @@ msgstr ""
 #: cms/static/js/views/pages/container.js:328
 #: cms/static/js/views/utils/xblock_utils.js:118
 msgid "New file(s) added to Files & Uploads."
-msgstr "Nieuwe bestanden toegevoegd aan Bestanden en uploads."
+msgstr "Nieuwe bestanden toegevoegd aan Bestanden en Uploads."
 
 #: cms/static/js/views/course_outline.js:408
 #: cms/static/js/views/pages/container.js:330
@@ -862,7 +863,7 @@ msgstr "{selectedProvider} -inloggegevens opgeslagen"
 
 #: cms/static/js/views/edit_chapter.js:62
 msgid "Upload a new PDF to “<%- name %>”"
-msgstr "Upload een nieuwe PDF naar “&lt;%- naam %&gt;”"
+msgstr "Upload een nieuwe PDF naar “<%- naam %>”"
 
 #: cms/static/js/views/edit_chapter.js:64
 msgid "Please select a PDF file to upload."
@@ -1156,7 +1157,7 @@ msgstr "Upload bestand"
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:15
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:35
 msgid "Save"
-msgstr "Redden"
+msgstr "Opslaan"
 
 #: cms/static/js/views/modals/course_outline_modals.js:124
 msgid "{display_name} Settings"
@@ -1395,7 +1396,7 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} ascending"
 msgstr ""
-"Toont {currentItemRange} uit {totalItemsCount} , gefilterd op {assetType} , "
+"Toont {currentItemRange} uit {totalItemsCount}, gefilterd op {assetType}, "
 "gesorteerd op {sortName} oplopend"
 
 #. Translators: sample result:
@@ -1406,7 +1407,7 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, filtered by "
 "{assetType}, sorted by {sortName} descending"
 msgstr ""
-"Toont {currentItemRange} uit {totalItemsCount} , gefilterd op {assetType} , "
+"Toont {currentItemRange} uit {totalItemsCount}, gefilterd op {assetType}, "
 "gesorteerd op {sortName} aflopend"
 
 #. Translators: sample result:
@@ -1416,7 +1417,7 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "ascending"
 msgstr ""
-"Toont {currentItemRange} uit {totalItemsCount} , gesorteerd op {sortName} "
+"Toont {currentItemRange} uit {totalItemsCount}, gesorteerd op {sortName} "
 "oplopend"
 
 #. Translators: sample result:
@@ -1426,7 +1427,7 @@ msgid ""
 "Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
 "descending"
 msgstr ""
-"Toont {currentItemRange} uit {totalItemsCount} , gesorteerd op {sortName} "
+"Toont {currentItemRange} uit {totalItemsCount}, gesorteerd op {sortName} "
 "aflopend"
 
 #. Translators: turns into "25 total" to be used in other sentences, e.g.
@@ -1529,7 +1530,7 @@ msgstr "Upload uw videominiatuurafbeelding."
 
 #: cms/static/js/views/show_textbook.js:33
 msgid "Delete “<%- name %>”?"
-msgstr "“&lt;%- naam %&gt;” verwijderen?"
+msgstr "“<%- naam %>” verwijderen?"
 
 #: cms/static/js/views/show_textbook.js:36
 msgid ""
@@ -1567,7 +1568,7 @@ msgid ""
 "fields cannot be more than <%- limit %> characters."
 msgstr ""
 "De gecombineerde lengte van de velden voor organisatie, cursusnummer en "
-"cursusuitvoering mag niet langer zijn dan &lt;%-limit %&gt; tekens."
+"cursusuitvoering mag niet langer zijn dan <%- limit %>; tekens."
 
 #: cms/static/js/views/utils/create_library_utils.js:9
 msgid ""
@@ -1575,11 +1576,11 @@ msgid ""
 "more than <%- limit %> characters."
 msgstr ""
 "De gecombineerde lengte van de organisatie- en bibliotheekcodevelden mag "
-"niet langer zijn dan &lt;%-limit %&gt; tekens."
+"niet langer zijn dan <%-limit %>; tekens."
 
 #: cms/static/js/views/utils/move_xblock_utils.js:33
 msgid "Success! \"{displayName}\" has been moved."
-msgstr "Succes! &quot; {displayName} &quot; is verplaatst."
+msgstr "Succes! \"{displayName}\"; is verplaatst."
 
 #: cms/static/js/views/utils/move_xblock_utils.js:58
 msgid ""
@@ -1685,24 +1686,24 @@ msgstr "Selecteer een bestand in .srt-formaat."
 
 #: cms/static/js/views/video/transcripts/file_uploader.js:195
 msgid "Error: Uploading failed."
-msgstr "Fout: uploaden mislukt."
+msgstr "Error: uploaden mislukt."
 
 #: cms/static/js/views/video/transcripts/message_manager.js:141
 msgid "Error: Import failed."
-msgstr "Fout: importeren mislukt."
+msgstr "Error: importeren mislukt."
 
 #: cms/static/js/views/video/transcripts/message_manager.js:155
 msgid "Error: Replacing failed."
-msgstr "Fout: vervangen mislukt."
+msgstr "Error: vervangen mislukt."
 
 #: cms/static/js/views/video/transcripts/message_manager.js:171
 #: cms/static/js/views/video/transcripts/message_manager.js:185
 msgid "Error: Choosing failed."
-msgstr "Fout: Kiezen is mislukt."
+msgstr "Error: Kiezen is mislukt."
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js:87
 msgid "Error: Connection with server failed."
-msgstr "Fout: Verbinding met server mislukt."
+msgstr "Error: Verbinding met server mislukt."
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js:359
 msgid "Link types should be unique."
@@ -1827,7 +1828,7 @@ msgstr "{seconds} {unit}"
 #. `13 minutes and 45 seconds`
 #: cms/static/js/views/video_thumbnail.js:207
 msgid " and "
-msgstr " En "
+msgstr " en "
 
 #: cms/static/js/views/video_thumbnail.js:234
 msgid "Video image upload started"
@@ -1869,11 +1870,11 @@ msgstr "Het bestand kon niet worden geüpload."
 
 #: cms/static/js/views/video_transcripts.js:130
 msgid "Hide transcripts ({transcriptCount})"
-msgstr "Transcripties verbergen ( {transcriptCount} )"
+msgstr "Transcripties verbergen ({transcriptCount})"
 
 #: cms/static/js/views/video_transcripts.js:149
 msgid "Show transcripts ({transcriptCount})"
-msgstr "Transcripties weergeven ( {transcriptCount} )"
+msgstr "Transcripties weergeven ({transcriptCount})"
 
 #: cms/static/js/views/video_transcripts.js:167
 msgid ""
@@ -1881,7 +1882,7 @@ msgid ""
 "{supportedFileFormat}."
 msgstr ""
 "Dit bestandstype wordt niet ondersteund. Het ondersteunde bestandstype is "
-"{supportedFileFormat} ."
+"{supportedFileFormat}."
 
 #: cms/static/js/views/video_transcripts.js:228
 #: cms/templates/js/video-transcripts.underscore:27
@@ -1934,7 +1935,7 @@ msgstr "Waarschuwing"
 #: lms/static/js/verify_student/views/step_view.js:50
 #: lms/static/js/views/fields.js:43
 msgid "Error"
-msgstr "Fout"
+msgstr "Error"
 
 #: cms/static/js/xblock_asides/structured_tags.js:23
 msgid "Updating Tags"
@@ -2022,7 +2023,7 @@ msgstr[1] "er zijn momenteel {numVotes} stemmen"
 msgid "{numVotes} Vote"
 msgid_plural "{numVotes} Votes"
 msgstr[0] "{numVotes} Stem"
-msgstr[1] "{numVotes} Stemmen"
+msgstr[1] "{numVotes} stemmen"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:359
 msgid ""
@@ -2394,7 +2395,7 @@ msgstr "Financiele assistentie"
 
 #: lms/djangoapps/support/static/support/js/views/enrollment.js:17
 msgid "Upset Learner"
-msgstr "Boos leerling"
+msgstr "Boze leerling"
 
 #: lms/djangoapps/support/static/support/js/views/enrollment.js:18
 msgid "Teaching Assistant"
@@ -2423,8 +2424,8 @@ msgid ""
 "Files that you upload must be PDFs or image files in .gif, .jpg, .jpeg, or "
 ".png format."
 msgstr ""
-"Bestanden die u uploadt, moeten pdf&#39;s of afbeeldingsbestanden in de "
-"indeling .gif, .jpg, .jpeg of .png zijn."
+"Bestanden die u uploadt, moeten PDF's of afbeeldingsbestanden in de indeling"
+" .gif, .jpg, .jpeg of .png zijn."
 
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx:110
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:50
@@ -2729,7 +2730,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:59
 msgid "Team \"{team}\" successfully deleted."
-msgstr "Team &quot; {team} &quot; is succesvol verwijderd."
+msgstr "Team \"{team}\" is succesvol verwijderd."
 
 #: lms/djangoapps/teams/static/teams/js/views/manage.js:17
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:165
@@ -2803,7 +2804,7 @@ msgstr[1] " Leden"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams.js:16
 msgid "All teams"
-msgstr "Alle ploegen"
+msgstr "Alle teams"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams.js:19
 msgid "Teams Pagination"
@@ -2820,7 +2821,7 @@ msgstr "Mijn teams"
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:158
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore:11
 msgid "Browse"
-msgstr "Blader"
+msgstr "Zoeken"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:206
 msgid "Your request could not be completed. Reload the page and try again."
@@ -2881,7 +2882,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:390
 msgid "Showing results for \"{searchString}\""
-msgstr "Resultaten weergeven voor &quot; {searchString} &quot;"
+msgstr "Resultaten weergeven voor \"{searchString}\""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:408
 msgid "Search teams"
@@ -2916,21 +2917,21 @@ msgstr "Alle onderwerpen"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:686
 msgid "The page \"{route}\" could not be found."
-msgstr "De pagina &quot; {route} &quot; kon niet worden gevonden."
+msgstr "De pagina \"{route}\" kon niet worden gevonden."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:695
 msgid "The topic \"{topic}\" could not be found."
-msgstr "Het onderwerp &quot; {topic} &quot; kon niet worden gevonden."
+msgstr "Het onderwerp \"{topic}\" kon niet worden gevonden."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:704
 msgid "The team \"{team}\" could not be found."
-msgstr "Het team &quot; {team} &quot; kon niet worden gevonden."
+msgstr "Het team \"{team}\" kon niet worden gevonden."
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js:28
 msgid "{team_count} Team"
 msgid_plural "{team_count} Teams"
 msgstr[0] "{team_count} Team"
-msgstr[1] "{team_count} Teams"
+msgstr[1] "{team_count} teams"
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js:50
 msgid "Topic"
@@ -2969,7 +2970,7 @@ msgstr "Voeg hyperlink in"
 
 #: lms/static/js/Markdown.Editor.js:28
 msgid "e.g. 'http://google.com'"
-msgstr "bijvoorbeeld &#39;http://google.com&#39;"
+msgstr "bijvoorbeeld 'http://google.com'"
 
 #: lms/static/js/Markdown.Editor.js:29
 msgid "Link Description"
@@ -2977,7 +2978,7 @@ msgstr "Link beschrijving"
 
 #: lms/static/js/Markdown.Editor.js:30
 msgid "e.g. 'google'"
-msgstr "bijvoorbeeld &#39;google&#39;"
+msgstr "bijvoorbeeld 'google'"
 
 #: lms/static/js/Markdown.Editor.js:31
 msgid "Please provide a description of the link destination."
@@ -2992,9 +2993,8 @@ msgid ""
 "Type in a URL or use the \"Choose File\" button to upload a file from your "
 "machine. (e.g. 'http://example.com/img/clouds.jpg')"
 msgstr ""
-"Typ een URL of gebruik de knop &quot;Bestand kiezen&quot; om een bestand "
-"vanaf uw machine te uploaden. (bijvoorbeeld "
-"&#39;http://example.com/img/clouds.jpg&#39;)"
+"Typ een URL of gebruik de knop \"Bestand kiezen\" om een bestand vanaf uw "
+"machine te uploaden. (bijvoorbeeld 'http://example.com/img/clouds.jpg')"
 
 #: lms/static/js/Markdown.Editor.js:37
 msgid "Image Description"
@@ -3013,8 +3013,8 @@ msgid ""
 "e.g. 'Sky with clouds'. The description is helpful for users who cannot see "
 "the image."
 msgstr ""
-"bijvoorbeeld &#39;Lucht met wolken&#39;. De beschrijving is nuttig voor "
-"gebruikers die de afbeelding niet kunnen zien."
+"bijvoorbeeld \"Lucht met wolken\". De beschrijving is nuttig voor gebruikers"
+" die de afbeelding niet kunnen zien."
 
 #: lms/static/js/Markdown.Editor.js:43
 msgid "How to create useful text alternatives."
@@ -3198,7 +3198,7 @@ msgid ""
 msgstr ""
 "Het veld gebruikersnaam/e-mailadres van de student is verplicht en mag niet "
 "leeg zijn. Vul uw gebruikersnaam/e-mailadres in en druk vervolgens op de "
-"knop &quot;Toevoegen aan uitzonderingslijst&quot;."
+"knop \"Toevoegen aan uitzonderingslijst\"."
 
 #: lms/static/js/certificates/models/certificate_invalidation.js:28
 msgid ""
@@ -3207,7 +3207,7 @@ msgid ""
 msgstr ""
 "Het veld gebruikersnaam/e-mailadres van de student is verplicht en mag niet "
 "leeg zijn. Vul uw gebruikersnaam/e-mailadres in en druk vervolgens op de "
-"knop &quot;Certificaat ongeldig maken&quot;."
+"knop \"Certificaat ongeldig maken\"."
 
 #: lms/static/js/certificates/views/certificate_allowlist.js:59
 msgid "Student Removed from certificate allowlist successfully."
@@ -3231,15 +3231,15 @@ msgstr "Serverfout. Vernieuw de pagina en probeer het opnieuw."
 
 #: lms/static/js/certificates/views/certificate_allowlist_editor.js:64
 msgid "<%- user %> already in exception list."
-msgstr "&lt;%-gebruiker %&gt; staat al in de uitzonderingslijst."
+msgstr "<%%-ggebruiker %> staat al in de uitzonderingslijst."
 
 #: lms/static/js/certificates/views/certificate_allowlist_editor.js:69
 msgid ""
 "<%- user %> has been successfully added to the exception list. Click "
 "Generate Exception Certificate below to send the certificate."
 msgstr ""
-"&lt;%-gebruiker %&gt; is succesvol toegevoegd aan de uitzonderingslijst. "
-"Klik hieronder op Uitzonderingscertificaat genereren om het certificaat te "
+"<%-gebruiker %> is succesvol toegevoegd aan de uitzonderingslijst. Klik "
+"hieronder op Uitzonderingscertificaat genereren om het certificaat te "
 "verzenden."
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:106
@@ -3345,8 +3345,7 @@ msgstr ""
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:59
 msgid "Certificate has been successfully invalidated for <%= user %>."
-msgstr ""
-"Certificaat is succesvol ongeldig gemaakt voor &lt;%= gebruiker %&gt;."
+msgstr "Certificaat is succesvol ongeldig gemaakt voor <%= gebruiker %>."
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:88
 msgid ""
@@ -3514,7 +3513,7 @@ msgstr[1] "%s -cursussen bekijken"
 #: lms/static/js/discovery/views/search_form.js:57
 #, javascript-format
 msgid "We couldn't find any results for \"%s\"."
-msgstr "We konden geen resultaten vinden voor &quot; %s &quot;."
+msgstr "We konden geen resultaten vinden voor \"%s\"."
 
 #: lms/static/js/discovery/views/search_form.js:66
 #: openedx/features/course_search/static/course_search/templates/search_error.underscore:1
@@ -3643,8 +3642,8 @@ msgstr "Recente activiteit"
 #: lms/static/js/edxnotes/views/tabs/search_results.js:36
 msgid "No results found for \"{query_string}\". Please try searching again."
 msgstr ""
-"Er zijn geen resultaten gevonden voor &quot; {query_string} &quot;. Probeer "
-"opnieuw te zoeken."
+"Er zijn geen resultaten gevonden voor \"{query_string}\". Probeer opnieuw te"
+" zoeken."
 
 #: lms/static/js/edxnotes/views/tabs/search_results.js:50
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:2
@@ -3670,7 +3669,7 @@ msgstr "[geen tags]"
 #: lms/static/js/edxnotes/views/tabs/tags.js:130
 #: cms/templates/js/tag-list.underscore:6
 msgid "Tags"
-msgstr "Labels"
+msgstr "Tags"
 
 #: lms/static/js/financial-assistance/views/financial_assistance_form_view.js:38
 msgid "Unable to submit application"
@@ -3822,8 +3821,7 @@ msgstr "Bestand uploaden en leerlingen toewijzen"
 msgid ""
 "Your file '{file}' has been uploaded. Allow a few minutes for processing."
 msgstr ""
-"Uw bestand &#39;{file}&#39; is geüpload. Wacht een paar minuten voor "
-"verwerking."
+"Uw bestand \"{file}\" is geüpload. Wacht een paar minuten voor verwerking."
 
 #: lms/static/js/groups/views/course_cohort_settings_notification.js:31
 msgid "Cohorts Enabled"
@@ -3869,7 +3867,7 @@ msgstr "Fout bij het ophalen van de lijst met uitgegeven certificaten."
 
 #: lms/static/js/instructor_dashboard/data_download.js:123
 msgid "Error generating anonymous IDs. Please try again."
-msgstr "Fout bij genereren van anonieme ID&#39;s. Probeer het opnieuw."
+msgstr "Fout bij genereren van anonieme ID's. Probeer het opnieuw."
 
 #: lms/static/js/instructor_dashboard/data_download.js:149
 #: lms/static/js/instructor_dashboard/data_download_2.js:49
@@ -3933,7 +3931,7 @@ msgid ""
 " to try again."
 msgstr ""
 "Er is een probleem opgetreden bij het maken van het rapport. Selecteer "
-"&#39;Creëer samenvatting&#39; om het opnieuw te proberen."
+"'Creëer samenvatting' om het opnieuw te proberen."
 
 #: lms/static/js/instructor_dashboard/ecommerce.js:91
 msgid "Enter the enrollment code."
@@ -4000,17 +3998,17 @@ msgstr "Fout bij het wijzigen van de rechten van de gebruiker."
 msgid ""
 "Could not find a user with username or email address '<%- identifier %>'."
 msgstr ""
-"Kon geen gebruiker vinden met gebruikersnaam of e-mailadres "
-"&#39;&lt;%-identifier %&gt;&#39;."
+"Kon geen gebruiker vinden met gebruikersnaam of e-mailadres '<%-identifier "
+"%>'."
 
 #: lms/static/js/instructor_dashboard/membership.js:277
 msgid ""
 "Error: User '<%- username %>' has not yet activated their account. Users "
 "must create and activate their accounts before they can be assigned a role."
 msgstr ""
-"Fout: Gebruiker &#39;&lt;%- gebruikersnaam %&gt;&#39; heeft zijn account nog"
-" niet geactiveerd. Gebruikers moeten hun accounts aanmaken en activeren "
-"voordat ze een rol kunnen krijgen."
+"Fout: Gebruiker '<%- gebruikersnaam %>'; heeft zijn account nog niet "
+"geactiveerd. Gebruikers moeten hun accounts aanmaken en activeren voordat ze"
+" een rol kunnen krijgen."
 
 #: lms/static/js/instructor_dashboard/membership.js:283
 msgid "Error: You cannot remove yourself from the Instructor group!"
@@ -4081,8 +4079,7 @@ msgstr "Deze gebruikers zijn niet verwijderd als bètatesters:"
 
 #: lms/static/js/instructor_dashboard/membership.js:583
 msgid "Could not find users associated with the following identifiers:"
-msgstr ""
-"Kan geen gebruikers vinden die zijn gekoppeld aan de volgende ID&#39;s:"
+msgstr "Kan geen gebruikers vinden die zijn gekoppeld aan de volgende ID's:"
 
 #: lms/static/js/instructor_dashboard/membership.js:592
 msgid ""
@@ -4269,8 +4266,8 @@ msgid ""
 "Error getting enrollment status for '<%- student_id %>'. Make sure that the "
 "student identifier is spelled correctly."
 msgstr ""
-"Fout bij het ophalen van de inschrijvingsstatus voor &#39;&lt;%-student_id "
-"%&gt;&#39;. Zorg ervoor dat de studentidentificatie correct is gespeld."
+"Fout bij het ophalen van de inschrijvingsstatus voor '<%%-student_id %>'. "
+"Zorg ervoor dat de studentidentificatie correct is gespeld."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:91
 msgid "Retrieving enrollment status..."
@@ -4281,9 +4278,8 @@ msgid ""
 "Error getting student progress url for '<%- student_id %>'. Make sure that "
 "the student identifier is spelled correctly."
 msgstr ""
-"Fout bij ophalen van de URL voor leerlingvoortgang voor "
-"&#39;&lt;%-student_id %&gt;&#39;. Zorg ervoor dat de studentidentificatie "
-"correct is gespeld."
+"Fout bij ophalen van de URL voor leerlingvoortgang voor '<%-student_id %>'. "
+"Zorg ervoor dat de studentidentificatie correct is gespeld."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:149
 #: lms/static/js/instructor_dashboard/student_admin.js:191
@@ -4301,8 +4297,8 @@ msgid ""
 "Success! Problem attempts reset for problem '<%- problem_id %>' and student "
 "'<%- student_id %>'."
 msgstr ""
-"Succes! Probleempogingen worden gereset voor probleem &#39;&lt;%- problem_id"
-" %&gt;&#39; en leerling &#39;&lt;%- student_id %&gt;&#39;."
+"Succes! Probleempogingen worden gereset voor probleem '<%- problem_id %>'; "
+"en leerling '<%- student_id %>'."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:157
 msgid ""
@@ -4310,17 +4306,16 @@ msgid ""
 " '<%- student_id %>'. Make sure that the problem and student identifiers are"
 " complete and correct."
 msgstr ""
-"Fout bij het opnieuw instellen van probleempogingen voor probleem "
-"&#39;&lt;%- problem_id %&gt;&#39; en leerling &#39;&lt;%- student_id "
-"%&gt;&#39;. Zorg ervoor dat de probleem- en studentidentificatiegegevens "
-"compleet en correct zijn."
+"Fout bij het opnieuw instellen van probleempogingen voor probleem'<%- "
+"problem_id %>' en leerling '<%- student_id %>'. Zorg ervoor dat de probleem-"
+" en studentidentificatiegegevens compleet en correct zijn."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:194
 msgid ""
 "Delete student '<%- student_id %>'s state on problem '<%- problem_id %>'?"
 msgstr ""
-"Status van student &#39;&lt;%- student_id %&gt;&#39; verwijderen voor "
-"probleem &#39;&lt;%- problem_id %&gt;&#39;?"
+"Status van student '<%- student_id %>' verwijderen voor probleem '<%- "
+"problem_id %>'?"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:205
 msgid ""
@@ -4328,9 +4323,9 @@ msgid ""
 " %>'. Make sure that the problem and student identifiers are complete and "
 "correct."
 msgstr ""
-"Fout bij het verwijderen van de status van student &#39;&lt;%- student_id "
-"%&gt;&#39; voor probleem &#39;&lt;%- problem_id %&gt;&#39;. Zorg ervoor dat "
-"de probleem- en studentidentificatiegegevens compleet en correct zijn."
+"Fout bij het verwijderen van de status van student '<%- student_id %>' voor "
+"probleem '<%- problem_id %>'. Zorg ervoor dat de probleem- en "
+"studentidentificatiegegevens compleet en correct zijn."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:216
 msgid "Module state successfully deleted."
@@ -4342,16 +4337,14 @@ msgid ""
 "student_id %>'. Make sure that the problem and student identifiers are "
 "complete and correct."
 msgstr ""
-"Fout bij het ophalen van de taakgeschiedenis voor probleem &#39;&lt;%- "
-"problem_id %&gt;&#39; en leerling &#39;&lt;%- student_id %&gt;&#39;. Zorg "
-"ervoor dat de probleem- en studentidentificatiegegevens compleet en correct "
-"zijn."
+"Fout bij het ophalen van de taakgeschiedenis voor probleem '<%- problem_id "
+"%>' en leerling '<%- student_id %>'. Zorg ervoor dat de probleem- en "
+"studentidentificatiegegevens compleet en correct zijn."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:287
 msgid "Entrance exam attempts is being reset for student '{student_id}'."
 msgstr ""
-"Pogingen tot toelatingsexamen worden gereset voor student "
-"&#39;{student_id}&#39;."
+"Pogingen tot toelatingsexamen worden gereset voor student '{student_id}'."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:295
 msgid ""
@@ -4359,7 +4352,7 @@ msgid ""
 " student identifier is correct."
 msgstr ""
 "Fout bij het resetten van toelatingsexamenpogingen voor student "
-"&#39;{student_id}&#39;. Zorg ervoor dat de studentidentificatie correct is."
+"'{student_id}'. Zorg ervoor dat de studentidentificatie correct is."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:313
 #: lms/static/js/instructor_dashboard/student_admin.js:380
@@ -4371,8 +4364,8 @@ msgid ""
 "Do you want to allow this student ('{student_id}') to skip the entrance "
 "exam?"
 msgstr ""
-"Wil je deze student (&#39;{student_id}&#39;) toestaan het toelatingsexamen "
-"over te slaan?"
+"Wil je deze student ('{student_id}') toestaan het toelatingsexamen over te "
+"slaan?"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:333
 msgid ""
@@ -4384,16 +4377,15 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/student_admin.js:359
 msgid "Entrance exam state is being deleted for student '{student_id}'."
-msgstr ""
-"Toelatingsexamenstatus wordt verwijderd voor student &#39;{student_id}&#39;."
+msgstr "Toelatingsexamenstatus wordt verwijderd voor student '{student_id}'."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:367
 msgid ""
 "Error deleting entrance exam state for student '{student_id}'. Make sure "
 "student identifier is correct."
 msgstr ""
-"Fout bij verwijderen van toelatingsexamenstatus voor student "
-"&#39;{student_id}&#39;. Zorg ervoor dat de studentidentificatie correct is."
+"Fout bij verwijderen van toelatingsexamenstatus voor student '{student_id}'."
+" Zorg ervoor dat de studentidentificatie correct is."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:396
 msgid ""
@@ -4401,23 +4393,21 @@ msgid ""
 "sure student identifier is correct."
 msgstr ""
 "Fout bij het ophalen van de taakgeschiedenis van het toelatingsexamen voor "
-"student &#39;{student_id}&#39;. Zorg ervoor dat de studentidentificatie "
-"correct is."
+"student '{student_id}'. Zorg ervoor dat de studentidentificatie correct is."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:413
 msgid "Reset attempts for all students on problem '<%- problem_id %>'?"
 msgstr ""
-"Pogingen voor alle leerlingen op probleem &#39;&lt;%- problem_id %&gt;&#39; "
-"resetten?"
+"Pogingen voor alle leerlingen op probleem '<%- problem_id %>' resetten?"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:422
 msgid ""
 "Successfully started task to reset attempts for problem '<%- problem_id %>'."
 " Click the 'Show Task Status' button to see the status of the task."
 msgstr ""
-"Taak voor het resetten van pogingen voor probleem &#39;&lt;%- problem_id "
-"%&gt;&#39; is succesvol gestart. Klik op de knop &#39;Taakstatus "
-"weergeven&#39; om de status van de taak te bekijken."
+"Taak voor het resetten van pogingen voor probleem '<%- problem_id %>' is "
+"succesvol gestart. Klik op de knop 'Taakstatus weergeven' om de status van "
+"de taak te bekijken."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:426
 msgid ""
@@ -4426,7 +4416,7 @@ msgid ""
 "correct."
 msgstr ""
 "Fout bij het starten van een taak om pogingen voor alle leerlingen met "
-"probleem &#39;&lt;%-probleem_id %&gt;&#39; te resetten. Zorg ervoor dat de "
+"probleem '<%%-probleem_id %>' te resetten. Zorg ervoor dat de "
 "probleemidentificatie volledig en correct is."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:475
@@ -4441,9 +4431,9 @@ msgid ""
 "'<%- student_id %>'. Click the 'Show Task Status' button to see the status "
 "of the task."
 msgstr ""
-"Herscore van de probleemtaak gestart voor probleem &#39;&lt;%- problem_id "
-"%&gt;&#39; en leerling &#39;&lt;%- student_id %&gt;&#39;. Klik op de knop "
-"&#39;Taakstatus weergeven&#39; om de status van de taak te bekijken."
+"Herscore van de probleemtaak gestart voor probleem '<%- problem_id %>' en "
+"leerling '<%- student_id %>'. Klik op de knop 'Taakstatus weergeven' om de "
+"status van de taak te bekijken."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:508
 msgid ""
@@ -4451,10 +4441,9 @@ msgid ""
 "'<%- student_id %>'. Make sure that the the problem and student identifiers "
 "are complete and correct."
 msgstr ""
-"Fout bij het starten van een taak om probleem &#39;&lt;%- problem_id "
-"%&gt;&#39; opnieuw te beoordelen voor leerling &#39;&lt;%- student_id "
-"%&gt;&#39;. Zorg ervoor dat de probleem- en leerling-ID&#39;s compleet en "
-"correct zijn."
+"Fout bij het starten van een taak om probleem '<%- problem_id %>' opnieuw te"
+" beoordelen voor leerling '<%- student_id %>'. Zorg ervoor dat de probleem- "
+"en leerling-ID's compleet en correct zijn."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:549
 msgid "Please enter a score."
@@ -4466,9 +4455,9 @@ msgid ""
 "student '<%- student_id %>'. Click the 'Show Task Status' button to see the "
 "status of the task."
 msgstr ""
-"Taak gestart om de score voor probleem &#39;&lt;%- problem_id %&gt;&#39; en "
-"student &#39;&lt;%- student_id %&gt;&#39; te overschrijven. Klik op de knop "
-"&#39;Taakstatus weergeven&#39; om de status van de taak te bekijken."
+"Taak gestart om de score voor probleem '<%- problem_id %>' en student '<%- "
+"student_id %>' te overschrijven. Klik op de knop 'Taakstatus weergeven' om "
+"de status van de taak te bekijken."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:562
 msgid ""
@@ -6310,7 +6299,7 @@ msgstr "HTML bewerken"
 #: cms/templates/js/xblock-string-field-editor.underscore:3
 #: common/static/common/templates/discussion/templates.underscore:834
 msgid "Edit"
-msgstr "Bewerking"
+msgstr "Bewerken"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -7060,7 +7049,7 @@ msgstr "Titel"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:1165
 msgid "Tools"
-msgstr "Hulpmiddelen"
+msgstr "Tools"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -7616,7 +7605,7 @@ msgstr "Upload uw eerste item"
 
 #: cms/templates/js/asset-upload-modal.underscore:2
 msgid "close"
-msgstr "dichtbij"
+msgstr "sluiten"
 
 #: cms/templates/js/asset.underscore:4
 msgid "No description available"
@@ -8233,7 +8222,7 @@ msgstr "Transcriptaanbieder"
 
 #: cms/templates/js/course-video-transcript-provider-selected.underscore:5
 msgid "Change"
-msgstr "Wijziging"
+msgstr "Wijzigen"
 
 #: cms/templates/js/course-video-transcript-provider-selected.underscore:6
 msgid "Press change to change selected transcript provider."
@@ -9388,7 +9377,7 @@ msgstr ""
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:8
 msgid "Add URLs for additional versions"
-msgstr "Voeg URL&#39;s toe voor aanvullende versies"
+msgstr "Voeg URL's toe voor aanvullende versies"
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:11
 msgid ""
@@ -9400,7 +9389,7 @@ msgstr ""
 "Om er zeker van te zijn dat alle leerlingen toegang hebben tot de video, "
 "raden we aan om zowel een .mp4- als een .webm-versie van uw video aan te "
 "bieden. Klik hieronder om een URL voor een andere versie toe te voegen. Deze"
-" URL&#39;s kunnen geen YouTube-URL&#39;s zijn. De eerst genoemde video die "
+" URL's kunnen geen YouTube-URL's zijn. De eerst genoemde video die "
 "compatibel is met de computer van de leerling wordt afgespeeld."
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:25
@@ -9604,7 +9593,7 @@ msgstr "Duidelijke zoek"
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:3
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:11
 msgid "Search"
-msgstr "Zoekopdracht"
+msgstr "Zoeken"
 
 #: common/static/common/templates/discussion/templates.underscore:15
 msgid "Add a Response"
@@ -10577,12 +10566,12 @@ msgid ""
 "include an optional note describing the reason for the exception in the "
 "second comma separated field."
 msgstr ""
-"Upload een bestand met door komma&#39;s gescheiden waarden (.csv) dat de "
+"Upload een bestand met door komma's gescheiden waarden (.csv) dat de "
 "gebruikersnamen of e-mailadressen bevat van leerlingen aan wie "
 "uitzonderingen zijn toegestaan. Neem de gebruikersnaam of het e-mailadres op"
-" in het eerste door komma&#39;s gescheiden veld. U kunt een optionele "
-"opmerking opnemen waarin de reden voor de uitzondering wordt beschreven in "
-"het tweede, door komma&#39;s gescheiden veld."
+" in het eerste door komma's gescheiden veld. U kunt een optionele opmerking "
+"opnemen waarin de reden voor de uitzondering wordt beschreven in het tweede,"
+" door komma's gescheiden veld."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore:8
 msgid "Upload a CSV file"
@@ -10646,7 +10635,7 @@ msgid ""
 "for the learners you want to add. *"
 msgstr ""
 "Voer e-mailadressen en/of gebruikersnamen in, gescheiden door nieuwe regels "
-"of komma&#39;s, voor de leerlingen die u wilt toevoegen. *"
+"of komma's, voor de leerlingen die u wilt toevoegen. *"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:26
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:25

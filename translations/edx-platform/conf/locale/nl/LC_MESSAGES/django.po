@@ -24,6 +24,7 @@
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
+# Vera Lelie, 2024
 # 
 #, fuzzy
 msgid ""
@@ -32,7 +33,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-29 00:34+0000\n"
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2024\n"
+"Last-Translator: Vera Lelie, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/open-edx/teams/6205/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2649,7 +2650,7 @@ msgstr "Account ontgrendelen"
 #: lms/templates/modal/_modal-settings-language.html:15
 #: lms/templates/signup_modal.html:20
 msgid "Close"
-msgstr "Dichtbij"
+msgstr "Sluiten"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:13
 #, python-format
@@ -7246,7 +7247,7 @@ msgstr "U verwijdert een artikel. Bevestig alstublieft."
 #: cms/templates/studio_xblock_wrapper.html:123
 #: lms/templates/wiki/includes/article_menu.html:22
 msgid "Edit"
-msgstr "Bewerking"
+msgstr "Bewerken"
 
 #: lms/templates/wiki/edit.html:28 lms/templates/wiki/edit.html:61
 #: wiki/templates/wiki/edit.html:35 wiki/templates/wiki/edit.html:57
@@ -7275,7 +7276,7 @@ msgstr "Wiki-voorbeeld"
 #: lms/templates/dashboard/_dashboard_entitlement_unenrollment_modal.html:22
 #: lms/templates/modal/_modal-settings-language.html:24
 msgid "window open"
-msgstr "raam open"
+msgstr "open tab"
 
 #: lms/templates/wiki/edit.html:66 wiki/templates/wiki/edit.html:53
 msgid "Back to editor"
@@ -7315,7 +7316,7 @@ msgstr "Automatisch loggen:"
 #: lms/templates/wiki/history.html:160 wiki/templates/wiki/history.html:113
 #: cms/templates/videos_index_pagination.html:23
 msgid "Change"
-msgstr "Wijziging"
+msgstr "Wijzigen"
 
 #: lms/templates/wiki/history.html:183 lms/templates/wiki/history.html:188
 #: wiki/templates/wiki/history.html:131
@@ -7546,7 +7547,7 @@ msgstr ""
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:47
 #: themes/stanford-style/lms/templates/index.html:26
 msgid "Search"
-msgstr "Zoekopdracht"
+msgstr "Zoeken"
 
 #: lms/templates/wiki/plugins/attachments/index.html:65
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:9
@@ -15909,7 +15910,7 @@ msgstr "Controle lijsten"
 #: cms/templates/export_git.html:16 cms/templates/import.html:32
 #: cms/templates/widgets/header.html:226 cms/templates/widgets/header.html:297
 msgid "Tools"
-msgstr "Hulpmiddelen"
+msgstr "Tools"
 
 #: cms/templates/component.html:17
 #: cms/templates/studio_xblock_wrapper.html:162
@@ -16457,14 +16458,14 @@ msgstr "Meer informatie over instellingen voor de zichtbaarheid van inhoud"
 #: cms/templates/edit-tabs.html:48 cms/templates/textbooks.html:57
 #: cms/templates/widgets/header.html:123
 msgid "Pages & Resources"
-msgstr "Pagina&#39;s en bronnen"
+msgstr "Pagina's & Bronnen"
 
 #. Translators: Custom Pages refer to the tabs that appear in the top
 #. navigation of each course.
 #: cms/templates/edit-tabs.html:62 cms/templates/export.html:201
 #: cms/templates/widgets/header.html:118
 msgid "Pages"
-msgstr "Pagina&#39;s"
+msgstr "Pagina's"
 
 #: cms/templates/edit-tabs.html:70
 msgid "New Page"
@@ -16476,7 +16477,7 @@ msgid ""
 "view the page even if they are not registered for or logged in to your "
 "course."
 msgstr ""
-"Let op: Pagina&#39;s zijn openbaar zichtbaar. Als gebruikers de URL van een "
+"Let op: Pagina's zijn openbaar zichtbaar. Als gebruikers de URL van een "
 "pagina kennen, kunnen ze de pagina bekijken, zelfs als ze niet zijn "
 "geregistreerd of ingelogd bij uw cursus."
 
@@ -16494,7 +16495,7 @@ msgstr "Deze pagina kan niet opnieuw worden gerangschikt"
 
 #: cms/templates/edit-tabs.html:164
 msgid "You can add additional custom pages to your course."
-msgstr "Je kunt extra aangepaste pagina&#39;s aan je cursus toevoegen."
+msgstr "Je kunt extra aangepaste pagina's aan je cursus toevoegen."
 
 #: cms/templates/edit-tabs.html:164
 msgid "Add a New Page"
@@ -16502,7 +16503,7 @@ msgstr "Voeg een nieuwe pagina toe"
 
 #: cms/templates/edit-tabs.html:173
 msgid "What are pages?"
-msgstr "Wat zijn pagina&#39;s?"
+msgstr "Wat zijn pagina's?"
 
 #: cms/templates/edit-tabs.html:174
 msgid ""
@@ -16510,9 +16511,9 @@ msgid ""
 "(Home, Course, Discussion, Wiki, and Progress) are followed by textbooks and"
 " custom pages that you create."
 msgstr ""
-"Pagina&#39;s worden horizontaal bovenaan uw cursus weergegeven. "
-"Standaardpagina&#39;s (Startpagina, Cursus, Discussie, Wiki en Voortgang) "
-"worden gevolgd door studieboeken en aangepaste pagina&#39;s die u maakt."
+"Pagina's worden horizontaal bovenaan uw cursus weergegeven. "
+"Standaardpagina's (Startpagina, Cursus, Discussie, Wiki en Voortgang) worden"
+" gevolgd door studieboeken en aangepaste pagina's die u maakt."
 
 #: cms/templates/edit-tabs.html:178
 msgid ""
@@ -16520,21 +16521,21 @@ msgid ""
 "course content. For example, you can create pages for the grading policy, "
 "course slides, and a course calendar. "
 msgstr ""
-"U kunt aangepaste pagina&#39;s maken en bewerken om studenten aanvullende "
-"cursusinhoud te bieden. Je kunt bijvoorbeeld pagina&#39;s maken voor het "
-"beoordelingsbeleid, cursusdia&#39;s en een cursuskalender. "
+"U kunt aangepaste pagina's maken en bewerken om studenten aanvullende "
+"cursusinhoud te bieden. Je kunt bijvoorbeeld pagina's maken voor het "
+"beoordelingsbeleid, cursusdia's en een cursuskalender. "
 
 #: cms/templates/edit-tabs.html:181
 msgid "How do pages look to students in my course?"
-msgstr "Hoe zien pagina&#39;s er uit voor studenten in mijn cursus?"
+msgstr "Hoe zien pagina's er uit voor studenten in mijn cursus?"
 
 #: cms/templates/edit-tabs.html:182
 msgid ""
 "Students see the default and custom pages at the top of your course and use "
 "these links to navigate."
 msgstr ""
-"Studenten zien de standaard- en aangepaste pagina&#39;s bovenaan de cursus "
-"en gebruiken deze links om te navigeren."
+"Studenten zien de standaard- en aangepaste pagina's bovenaan de cursus en "
+"gebruiken deze links om te navigeren."
 
 #: cms/templates/edit-tabs.html:182 cms/templates/edit-tabs.html:193
 msgid "See an example"
@@ -16542,7 +16543,7 @@ msgstr "Zie een voorbeeld"
 
 #: cms/templates/edit-tabs.html:188
 msgid "What are custom pages?"
-msgstr "Wat zijn aangepaste pagina&#39;s?"
+msgstr "Wat zijn aangepaste pagina's?"
 
 #: cms/templates/edit-tabs.html:189
 msgid ""
@@ -16550,29 +16551,29 @@ msgid ""
 "course content. For example, you can create pages for the grading policy, "
 "course syllabus, and a course calendar. "
 msgstr ""
-"U kunt aangepaste pagina&#39;s maken en bewerken om studenten aanvullende "
-"cursusinhoud te bieden. Je kunt bijvoorbeeld pagina&#39;s maken voor het "
+"U kunt aangepaste pagina's maken en bewerken om studenten aanvullende "
+"cursusinhoud te bieden. Je kunt bijvoorbeeld pagina's maken voor het "
 "beoordelingsbeleid, de cursussyllabus en een cursuskalender. "
 
 #: cms/templates/edit-tabs.html:192
 msgid "How do custom pages look to students in my course?"
-msgstr "Hoe zien aangepaste pagina&#39;s eruit voor studenten in mijn cursus?"
+msgstr "Hoe zien aangepaste pagina's eruit voor studenten in mijn cursus?"
 
 #: cms/templates/edit-tabs.html:193
 msgid ""
 "Custom pages are listed horizontally at the top of your course after default"
 " pages."
 msgstr ""
-"Aangepaste pagina&#39;s worden horizontaal bovenaan uw cursus weergegeven, "
-"na de standaardpagina&#39;s."
+"Aangepaste pagina's worden horizontaal bovenaan uw cursus weergegeven, na de"
+" standaardpagina's."
 
 #: cms/templates/edit-tabs.html:202
 msgid "Pages in Your Course"
-msgstr "Pagina&#39;s in uw cursus"
+msgstr "Pagina's in uw cursus"
 
 #: cms/templates/edit-tabs.html:204
 msgid "Preview of Pages in your course"
-msgstr "Voorbeeld van pagina&#39;s in uw cursus"
+msgstr "Voorbeeld van pagina's in uw cursus"
 
 #: cms/templates/edit-tabs.html:205
 msgid ""
@@ -16580,9 +16581,9 @@ msgid ""
 "Course, Discussion, Wiki, and Progress) are followed by textbooks and custom"
 " pages."
 msgstr ""
-"Pagina&#39;s verschijnen in de bovenste navigatiebalk van je cursus. De "
-"standaardpagina&#39;s (Home, Cursus, Discussie, Wiki en Voortgang) worden "
-"gevolgd door studieboeken en aangepaste pagina&#39;s."
+"Pagina's verschijnen in de bovenste navigatiebalk van je cursus. De "
+"standaardpagina's (Home, Cursus, Discussie, Wiki en Voortgang) worden "
+"gevolgd door studieboeken en aangepaste pagina's."
 
 #: cms/templates/edit-tabs.html:210 cms/templates/howitworks.html:185
 #: cms/templates/howitworks.html:198 cms/templates/howitworks.html:211
@@ -16676,7 +16677,7 @@ msgid ""
 msgstr ""
 "{em_start} Let op: {em_end} Wanneer u een cursus exporteert, worden gegevens"
 " zoals MATLAB API-sleutels, LTI-paspoorten, annotatiegeheime tokenreeksen en"
-" annotatieopslag-URL&#39;s opgenomen in de geëxporteerde gegevens. Als u uw "
+" annotatieopslag-URL's opgenomen in de geëxporteerde gegevens. Als u uw "
 "geëxporteerde bestanden deelt, deelt u mogelijk ook gevoelige of "
 "licentiespecifieke informatie."
 
@@ -16990,8 +16991,8 @@ msgid ""
 "On unit pages in the course outline, you can restrict access to components "
 "to learners based on their enrollment track."
 msgstr ""
-"Op eenheidspagina&#39;s in het cursusoverzicht kunt u de toegang tot "
-"componenten beperken tot studenten op basis van hun inschrijvingstraject."
+"Op eenheidspagina's in het cursusoverzicht kunt u de toegang tot componenten"
+" beperken tot studenten op basis van hun inschrijvingstraject."
 
 #: cms/templates/group_configurations.html:89
 msgid ""
@@ -17298,8 +17299,8 @@ msgid ""
 "Quickly create videos, text snippets, inline discussions, and a variety of "
 "problem types."
 msgstr ""
-"Maak snel video&#39;s, tekstfragmenten, inline discussies en een "
-"verscheidenheid aan probleemtypen."
+"Maak snel video's, tekstfragmenten, inline discussies en een verscheidenheid"
+" aan probleemtypen."
 
 #: cms/templates/howitworks.html:203
 msgid "Publishing on Date"
@@ -17807,11 +17808,11 @@ msgstr "Gearchiveerde cursussen"
 #: cms/templates/index.html:352 cms/templates/index.html:356
 #: cms/templates/index.html:358
 msgid "Libraries"
-msgstr "Bibliotheken"
+msgstr "Bibliotheek"
 
 #: cms/templates/index.html:364
 msgid "Taxonomies"
-msgstr "Taxonomieën"
+msgstr "Tags"
 
 #: cms/templates/index.html:387
 msgid "Are you staff on an existing {studio_name} course?"
@@ -18267,7 +18268,7 @@ msgstr "Schema- en detailsinstellingen"
 #: cms/templates/settings.html:56 cms/templates/widgets/header.html:164
 #: cms/templates/widgets/header.html:169
 msgid "Schedule & Details"
-msgstr "Schema en details"
+msgstr "Schema & Details"
 
 #: cms/templates/settings.html:67
 msgid "Basic Information"
@@ -18549,7 +18550,7 @@ msgstr "Deadline voor upgrade"
 
 #: cms/templates/settings.html:379
 msgid "Course Details"
-msgstr "cursus details"
+msgstr "Cursus informatie "
 
 #: cms/templates/settings.html:380
 msgid "Provide useful information about your course"
@@ -18563,7 +18564,7 @@ msgid ""
 msgstr ""
 "Geef hier de cursustaal op. Dit wordt gebruikt om gebruikers te helpen "
 "cursussen te vinden die in een specifieke taal worden gegeven. Het wordt ook"
-" gebruikt om het veld &#39;Van:&#39; in bulk-e-mails te lokaliseren."
+" gebruikt om het veld 'Van' in bulk-e-mails te lokaliseren."
 
 #: cms/templates/settings.html:402
 msgid "Introducing Your Course"
@@ -18898,7 +18899,7 @@ msgstr ""
 "Andere informatie van deze pagina wordt weergegeven op de pagina Over van uw"
 " cursus. Deze informatie omvat het cursusoverzicht, de cursusafbeelding, de "
 "introductievideo en de geschatte tijdsvereisten. Studenten gebruiken de "
-"Info-pagina&#39;s om nieuwe cursussen te kiezen die ze willen volgen."
+"Info-pagina's om nieuwe cursussen te kiezen die ze willen volgen."
 
 #: cms/templates/settings_advanced.html:46
 msgid ""
@@ -18973,7 +18974,7 @@ msgid ""
 msgstr ""
 "{em_start} Opmerking: {em_end} Wanneer u tekenreeksen invoert als "
 "beleidswaarden, zorg er dan voor dat u dubbele aanhalingstekens (&quot;) "
-"rond de tekenreeks gebruikt. Gebruik geen enkele aanhalingstekens (&#39;)."
+"rond de tekenreeks gebruikt. Gebruik geen enkele aanhalingstekens (')."
 
 #: cms/templates/settings_graders.html:4
 msgid "Grading Settings"
@@ -19160,7 +19161,7 @@ msgstr "Veranderen.."
 
 #: cms/templates/videos_index_pagination.html:19
 msgid "Videos per page:"
-msgstr "Video&#39;s per pagina:"
+msgstr "Video's per pagina:"
 
 #: cms/templates/visibility_editor.html:20
 #: cms/templates/visibility_editor.html:70
@@ -19269,8 +19270,8 @@ msgid ""
 "User '{user}' with e-mail {email} has requested {studio_name} course creator"
 " privileges on edge."
 msgstr ""
-"Gebruiker &#39;{user}&#39; met e-mailadres {email} heeft {studio_name} "
-"-rechten voor het maken van cursussen op Edge aangevraagd."
+"Gebruiker '{user}'; met e-mailadres {email} heeft {studio_name} -rechten "
+"voor het maken van cursussen op Edge aangevraagd."
 
 #: cms/templates/emails/course_creator_admin_user_pending.txt:5
 msgid "To grant or deny this request, use the course creator admin table."
@@ -19315,17 +19316,17 @@ msgid ""
 "Your {task_name} task has completed with the status '{task_status}'. Use "
 "this URL to view task details or download any files created: {detail_url}"
 msgstr ""
-"Uw {task_name} -taak is voltooid met de status &#39;{task_status}&#39;. "
-"Gebruik deze URL om taakdetails te bekijken of gemaakte bestanden te "
-"downloaden: {detail_url}"
+"Uw {task_name} -taak is voltooid met de status 'task_status}'. Gebruik deze "
+"URL om taakdetails te bekijken of gemaakte bestanden te downloaden: "
+"{detail_url}"
 
 #: cms/templates/emails/user_task_complete_email.txt:8
 msgid ""
 "Your {task_name} task has completed with the status '{task_status}'. Sign in"
 " to view the details of your task or download any files created."
 msgstr ""
-"Uw {task_name} -taak is voltooid met de status &#39;{task_status}&#39;. Meld"
-" u aan om de details van uw taak te bekijken of om gemaakte bestanden te "
+"Uw {task_name} -taak is voltooid met de status '{task_status}'. Meld u aan "
+"om de details van uw taak te bekijken of om gemaakte bestanden te "
 "downloaden."
 
 #: cms/templates/emails/user_task_complete_email.txt:17
@@ -19367,7 +19368,7 @@ msgstr "Aankondiging bewerken"
 #: lms/templates/problem.html:37 lms/templates/problem.html:38
 #: lms/templates/word_cloud.html:40
 msgid "Save"
-msgstr "Redden"
+msgstr "Opslaan"
 
 #: cms/templates/maintenance/_announcement_index.html:42
 msgid "Create New"
@@ -19432,10 +19433,10 @@ msgid ""
 " make sure the URL you're using is formatted correctly. If you still have "
 "issues, send us an email message at {email_start}{email}{email_end}."
 msgstr ""
-"Er is iets fout gegaan. E-mailprogramma&#39;s splitsen URL&#39;s soms in "
-"twee regels, dus zorg ervoor dat de URL die u gebruikt de juiste notatie "
-"heeft. Als u nog steeds problemen ondervindt, kunt u ons een e-mail sturen "
-"op {email_start} {email} {email_end} ."
+"Er is iets fout gegaan. E-mailprogramma's splitsen URL's soms in twee "
+"regels, dus zorg ervoor dat de URL die u gebruikt de juiste notatie heeft. "
+"Als u nog steeds problemen ondervindt, kunt u ons een e-mail sturen op "
+"{email_start} {email} {email_end} ."
 
 #: cms/templates/registration/activation_invalid.html:25
 msgid "Return to the {link_start}home page{link_end}."
@@ -19486,7 +19487,7 @@ msgid ""
 "edX, Open edX, and the edX and Open edX logos are registered trademarks of "
 "{link_start}edX Inc.{link_end}"
 msgstr ""
-"edX, Open edX en de edX- en Open edX-logo&#39;s zijn geregistreerde "
+"edX, Open edX en de edX- en Open edX-logo's zijn geregistreerde "
 "handelsmerken van {link_start} edX Inc. {link_end}"
 
 #: cms/templates/widgets/header.html:72
@@ -19612,7 +19613,7 @@ msgstr "Hulp bij afwaardering"
 
 #: cms/templates/widgets/problem-edit.html:148
 msgid "Label"
-msgstr "Etiket"
+msgstr "Tag"
 
 #: cms/templates/widgets/sock.html:12
 msgid "Looking for help with {studio_name}?"
@@ -19800,8 +19801,8 @@ msgid ""
 "You must complete the prerequisites for '{prereq_section_name}' to access "
 "this content."
 msgstr ""
-"U moet aan de vereisten voor &#39;{prereq_section_name}&#39; voldoen om "
-"toegang te krijgen tot deze inhoud."
+"U moet aan de vereisten voor '{prereq_section_name}' voldoen om toegang te "
+"krijgen tot deze inhoud."
 
 #: lms/templates/_gated_content.html:22
 msgid "Go to Prerequisite Section"
@@ -20153,9 +20154,7 @@ msgstr "Bekijk de bron in een nieuw venster"
 #: lms/templates/lti.html:57
 msgid ""
 "Please provide launch_url. Click \"Edit\", and fill in the required fields."
-msgstr ""
-"Geef launch_url op. Klik op &quot;Bewerken&quot; en vul de verplichte velden"
-" in."
+msgstr "Geef launch_url op. Klik op \"Bewerken\" en vul de verplichte velden in."
 
 #: lms/templates/lti.html:62
 msgid "Feedback on your work from the grader:"
@@ -20216,7 +20215,7 @@ msgstr "(laad uw pagina opnieuw om te vernieuwen)"
 #: lms/templates/manage_user_standing.html:91
 #: lms/templates/manage_user_standing.html:103
 msgid "working"
-msgstr "werken"
+msgstr "bezig"
 
 #: lms/templates/courseware/courseware-error.html:24
 #: lms/templates/module-error.html:10
@@ -20505,7 +20504,7 @@ msgid ""
 "'{group_configuration_name}'."
 msgstr ""
 "Dit inhoudsexperiment maakt gebruik van groepsconfiguratie "
-"&#39;{group_configuration_name}&#39;."
+"'{group_configuration_name}'."
 
 #: lms/templates/split_test_author_view.html:30
 msgid "Active Groups"
@@ -20541,8 +20540,7 @@ msgstr "Label"
 
 #: lms/templates/staff_problem_info.html:46
 msgid "Optional tag (eg \"done\" or \"broken\"):"
-msgstr ""
-"Optionele tag (bijvoorbeeld &quot;klaar&quot; of &quot;gebroken&quot;):"
+msgstr "Optionele tag (bijvoorbeeld \"klaar\"of \"gebroken\"):"
 
 #: lms/templates/staff_problem_info.html:47
 msgid "tag"
@@ -20650,7 +20648,7 @@ msgstr "Trackinglogboek"
 
 #: lms/templates/tracking_log.html:6
 msgid "datetime"
-msgstr "datum Tijd"
+msgstr "Tijd"
 
 #: lms/templates/tracking_log.html:6
 msgid "ipaddr"
@@ -20883,7 +20881,7 @@ msgstr "API-clientgeheim"
 
 #: lms/templates/api_admin/status.html:42
 msgid "Redirect URLs"
-msgstr "Omleidings-URL&#39;s"
+msgstr "Omleidings-URL's"
 
 #: lms/templates/api_admin/status.html:45
 msgid ""
@@ -20917,7 +20915,7 @@ msgstr "API-servicevoorwaarden"
 
 #: lms/templates/api_admin/terms_of_service.html:12
 msgid "Terms of Service for {platform_name} APIs"
-msgstr "Servicevoorwaarden voor {platform_name} API&#39;s"
+msgstr "Servicevoorwaarden voor {platform_name} API's"
 
 #: lms/templates/api_admin/terms_of_service.html:13
 msgid "Effective Date: May 24th, 2018"
@@ -20951,33 +20949,32 @@ msgid ""
 "not use the APIs."
 msgstr ""
 "Welkom bij {platform_name} . Bedankt voor het gebruik van de Course "
-"Discovery API, Enterprise API en/of eventuele aanvullende API&#39;s die we "
-"van tijd tot tijd aanbieden (gezamenlijk de &quot;API&#39;s&quot;) van "
-"{platform_name} . Lees deze Servicevoorwaarden voordat u de API&#39;s opent "
-"of gebruikt. Deze Servicevoorwaarden, eventuele aanvullende voorwaarden in "
-"de bijbehorende API-documentatie en alle toepasselijke beleidsregels en "
-"richtlijnen die {platform_name} van tijd tot tijd beschikbaar stelt en/of "
-"updaten, zijn overeenkomsten (gezamenlijk de &quot;Voorwaarden&quot;) tussen"
-" u en {platform_name} . Deze Voorwaarden worden uitgegeven onder de "
-"Enterprise Product Agreement, Member Participation Agreement of andere "
-"directe overeenkomst die de aankoop van {platform_name} -producten regelt, "
-"indien van toepassing (de &quot;Overeenkomst&quot;), uitgevoerd door u of de"
-" partij namens wie u toegang krijgt tot of gebruik maakt van de API&#39;s. "
-"en {platform_name} . In het geval dat u een dergelijke Overeenkomst heeft "
-"die van toepassing is op uw gebruik van de API&#39;s, prevaleert de "
-"Overeenkomst in het geval van een conflict tussen deze Overeenkomst en deze "
-"Voorwaarden. Door de API&#39;s te openen of te gebruiken, aanvaardt u en "
-"gaat u ermee akkoord juridisch gebonden te zijn aan de Voorwaarden, ongeacht"
-" of u een geregistreerde gebruiker bent of niet. Als u de API&#39;s opent of"
-" gebruikt namens een bedrijf, organisatie of andere juridische entiteit, "
-"gaat u akkoord met deze Voorwaarden voor die entiteit en vertegenwoordigt en"
-" garandeert u aan {platform_name} dat u de volledige bevoegdheid heeft om "
-"deze Voorwaarden voor een dergelijke entiteit te accepteren en ermee akkoord"
-" te gaan. , in welk geval de termen &#39;u&#39;, &#39;uw&#39; of "
+"Discovery API, Enterprise API en/of eventuele aanvullende API's die we van "
+"tijd tot tijd aanbieden (gezamenlijk de \"API's\") van {platform_name} . "
+"Lees deze Servicevoorwaarden voordat u de API's opent of gebruikt. Deze "
+"Servicevoorwaarden, eventuele aanvullende voorwaarden in de bijbehorende "
+"API-documentatie en alle toepasselijke beleidsregels en richtlijnen die "
+"{platform_name} van tijd tot tijd beschikbaar stelt en/of updaten, zijn "
+"overeenkomsten (gezamenlijk de \"Voorwaarden\") tussen u en {platform_name} "
+". Deze Voorwaarden worden uitgegeven onder de Enterprise Product Agreement, "
+"Member Participation Agreement of andere directe overeenkomst die de aankoop"
+" van {platform_name} -producten regelt, indien van toepassing (de "
+"\"Overeenkomst\"), uitgevoerd door u of de partij namens wie u toegang "
+"krijgt tot of gebruik maakt van de API's. en {platform_name} . In het geval "
+"dat u een dergelijke Overeenkomst heeft die van toepassing is op uw gebruik "
+"van de API's, prevaleert de Overeenkomst in het geval van een conflict "
+"tussen deze Overeenkomst en deze Voorwaarden. Door de API's te openen of te "
+"gebruiken, aanvaardt u en gaat u ermee akkoord juridisch gebonden te zijn "
+"aan de Voorwaarden, ongeacht of u een geregistreerde gebruiker bent of niet."
+" Als u de API's opent of gebruikt namens een bedrijf, organisatie of andere "
+"juridische entiteit, gaat u akkoord met deze Voorwaarden voor die entiteit "
+"en vertegenwoordigt en garandeert u aan {platform_name} dat u de volledige "
+"bevoegdheid heeft om deze Voorwaarden voor een dergelijke entiteit te "
+"accepteren en ermee akkoord te gaan. , in welk geval de termen of "
 "gerelateerde termen hierin verwijzen naar de entiteit namens wie u toegang "
-"krijgt tot of gebruik maakt van de API&#39;s. Als u deze bevoegdheid niet "
-"heeft of als u de Voorwaarden niet begrijpt of er niet aan gebonden wilt "
-"zijn, mag u de API&#39;s niet gebruiken."
+"krijgt tot of gebruik maakt van de API's. Als u deze bevoegdheid niet heeft "
+"of als u de Voorwaarden niet begrijpt of er niet aan gebonden wilt zijn, mag"
+" u de API's niet gebruiken."
 
 #: lms/templates/api_admin/terms_of_service.html:17
 msgid "API Access"
@@ -20996,15 +20993,15 @@ msgid ""
 "provide you with instructions for obtaining your API shared secret and "
 "client ID."
 msgstr ""
-"Om toegang te krijgen tot de API&#39;s moet u een {platform_name} "
+"Om toegang te krijgen tot de API's moet u een {platform_name} "
 "-gebruikersaccount aanmaken voor uw applicatie (niet voor persoonlijk "
 "gebruik). Dit account geeft u toegang tot onze API-verzoekpagina op "
 "{request_url} . Op die pagina moet u het API-aanvraagformulier invullen, "
-"inclusief een beschrijving van uw voorgestelde gebruik van de API&#39;s. "
-"Alle account- en registratiegegevens die u aan {platform_name} verstrekt, "
-"moeten accuraat en actueel zijn, en u gaat ermee akkoord ons onmiddellijk op"
-" de hoogte te stellen van eventuele wijzigingen. {platform_name_capitalized}"
-" zal uw API-aanvraagformulier beoordelen en, na goedkeuring naar eigen "
+"inclusief een beschrijving van uw voorgestelde gebruik van de API's. Alle "
+"account- en registratiegegevens die u aan {platform_name} verstrekt, moeten "
+"accuraat en actueel zijn, en u gaat ermee akkoord ons onmiddellijk op de "
+"hoogte te stellen van eventuele wijzigingen. {platform_name_capitalized} zal"
+" uw API-aanvraagformulier beoordelen en, na goedkeuring naar eigen "
 "goeddunken van {platform_name} , u instructies geven voor het verkrijgen van"
 " uw gedeelde API-geheim en client-ID."
 
@@ -21028,20 +21025,19 @@ msgid ""
 "credentials anywhere other than on the {platform_name} website at "
 "{platform_url}."
 msgstr ""
-"U stemt ermee in de API&#39;s uitsluitend te gebruiken met als doel het "
-"leveren van inhoud die toegankelijk is via de API&#39;s (de &quot;API-"
-"inhoud&quot;) op uw eigen website, mobiele site, app, blog, "
-"e-maildistributielijst of sociale-media-eigendom (&quot;Uw applicatie "
-"&quot;) of voor een ander commercieel gebruik dat u heeft beschreven in uw "
-"verzoek om toegang en dat {platform_name} van geval tot geval heeft "
-"goedgekeurd. {platform_name_capitalized} kan uw gebruik van de API&#39;s "
-"controleren op naleving van de Voorwaarden en kan uw toegang weigeren of uw "
-"integratie afsluiten als u probeert de vereisten en beperkingen van "
-"{platform_name} te omzeilen of te overschrijden. Uw Applicatie of ander "
-"goedgekeurd gebruik van de API of de API-inhoud mag uw eindgebruikers niet "
-"vragen om hun {platform_name} -gebruikersnaam, wachtwoord of andere "
-"{platform_name} -gebruikersgegevens ergens anders op te geven dan op de "
-"{platform_name} -website op {platform_url} ."
+"U stemt ermee in de API's uitsluitend te gebruiken met als doel het leveren "
+"van inhoud die toegankelijk is via de API's (de \"API-inhoud\") op uw eigen "
+"website, mobiele site, app, blog, e-maildistributielijst of sociale-media-"
+"eigendom (\"Uw applicatie\") of voor een ander commercieel gebruik dat u "
+"heeft beschreven in uw verzoek om toegang en dat {platform_name} van geval "
+"tot geval heeft goedgekeurd. {platform_name_capitalized} kan uw gebruik van "
+"de API's controleren op naleving van de Voorwaarden en kan uw toegang "
+"weigeren of uw integratie afsluiten als u probeert de vereisten en "
+"beperkingen van {platform_name} te omzeilen of te overschrijden. Uw "
+"Applicatie of ander goedgekeurd gebruik van de API of de API-inhoud mag uw "
+"eindgebruikers niet vragen om hun {platform_name} -gebruikersnaam, "
+"wachtwoord of andere {platform_name} -gebruikersgegevens ergens anders op te"
+" geven dan op de {platform_name} -website op {platform_url} ."
 
 #: lms/templates/api_admin/terms_of_service.html:25
 msgid "Prohibited Uses and Activities"
@@ -21056,19 +21052,19 @@ msgid ""
 "interests of {platform_name}, its users and its partners."
 msgstr ""
 "{platform_name_capitalized} heeft het exclusieve recht om te bepalen of een "
-"bepaald gebruik van de API&#39;s al dan niet aanvaardbaar is, en "
-"{platform_name} behoudt zich het recht voor om de API-toegang in te trekken "
-"voor elk gebruik waarvan {platform_name} op enig moment, naar eigen "
-"goeddunken, bepaalt dat het de beste belangen van {platform_name} , zijn "
-"gebruikers en zijn partners."
+"bepaald gebruik van de API's al dan niet aanvaardbaar is, en {platform_name}"
+" behoudt zich het recht voor om de API-toegang in te trekken voor elk "
+"gebruik waarvan {platform_name} op enig moment, naar eigen goeddunken, "
+"bepaalt dat het de beste belangen van {platform_name} , zijn gebruikers en "
+"zijn partners."
 
 #: lms/templates/api_admin/terms_of_service.html:29
 msgid ""
 "The following activities are not acceptable when using the APIs (this is not"
 " an exhaustive list):"
 msgstr ""
-"De volgende activiteiten zijn niet acceptabel bij het gebruik van de "
-"API&#39;s (dit is geen uitputtende lijst):"
+"De volgende activiteiten zijn niet acceptabel bij het gebruik van de API's "
+"(dit is geen uitputtende lijst):"
 
 #: lms/templates/api_admin/terms_of_service.html:32
 msgid ""
@@ -21107,7 +21103,7 @@ msgid ""
 msgstr ""
 "het wijzigen of verwijderen van handelsmerken, auteursrechten of andere "
 "eigendoms- of juridische kennisgevingen die zijn opgenomen in of verschijnen"
-" op de API&#39;s of enige API-inhoud;"
+" op de API's of enige API-inhoud;"
 
 #: lms/templates/api_admin/terms_of_service.html:37
 msgid ""
@@ -21115,7 +21111,7 @@ msgid ""
 "APIs or your client secret to any third party;"
 msgstr ""
 "het in sublicentie geven, opnieuw distribueren, verhuren, verkopen of leasen"
-" van toegang tot de API&#39;s of uw klantgeheim aan een derde partij;"
+" van toegang tot de API's of uw klantgeheim aan een derde partij;"
 
 #: lms/templates/api_admin/terms_of_service.html:38
 msgid ""
@@ -21130,8 +21126,8 @@ msgid ""
 "using the APIs for any purpose which or might overburden, impair or disrupt "
 "the {platform_name} platform, servers or networks."
 msgstr ""
-"het gebruik van de API&#39;s voor enig doel dat het {platform_name} "
-"-platform, de servers of de netwerken overbelast, aantast of ontwricht."
+"het gebruik van de API's voor enig doel dat het {platform_name} -platform, "
+"de servers of de netwerken overbelast, aantast of ontwricht."
 
 #: lms/templates/api_admin/terms_of_service.html:42
 msgid "Usage and Quotas"
@@ -21146,8 +21142,8 @@ msgid ""
 msgstr ""
 "{platform_name_capitalized} behoudt zich het recht voor om, naar eigen "
 "goeddunken, redelijke beperkingen en restricties op te leggen aan het aantal"
-" en de frequentie van oproepen die door u of uw applicatie naar de API&#39;s"
-" worden gedaan. U mag niet proberen de door {platform_name} opgelegde "
+" en de frequentie van oproepen die door u of uw applicatie naar de API's "
+"worden gedaan. U mag niet proberen de door {platform_name} opgelegde "
 "beperkingen of beperkingen te omzeilen."
 
 #: lms/templates/api_admin/terms_of_service.html:46
@@ -23281,7 +23277,7 @@ msgstr "Cijfers bekijken"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:85
 msgid "Course details"
-msgstr "Cursus details"
+msgstr " Cursus informatie"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:90
 msgid "{course_number} {course_name} Home Page"
