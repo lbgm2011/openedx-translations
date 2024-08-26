@@ -11111,14 +11111,12 @@ msgstr "Kan '{student_answer}' niet interpreteren als een getal."
 #: xmodule/capa/responsetypes.py:1614
 #, python-brace-format
 msgid "Factorial function evaluated outside its domain:'{student_answer}'"
-msgstr ""
-"Factoriële functie geëvalueerd buiten zijn "
-"domein:&#39;{student_antwoord}&#39;"
+msgstr "Factoriële functie geëvalueerd buiten zijn domein:'{student_answer}'"
 
 #: xmodule/capa/responsetypes.py:1621
 #, python-brace-format
 msgid "Invalid math syntax: '{student_answer}'"
-msgstr "Ongeldige wiskundesyntaxis: &#39;{student_antwoord}&#39;"
+msgstr "Ongeldige wiskundesyntaxis: '{student_answer}'"
 
 #: xmodule/capa/responsetypes.py:1652
 msgid "You may not use complex numbers in range tolerance problems"
