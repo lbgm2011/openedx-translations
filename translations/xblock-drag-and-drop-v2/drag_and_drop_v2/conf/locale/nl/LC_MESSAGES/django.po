@@ -531,7 +531,7 @@ msgstr "Doorgaan"
 
 #: templates/html/drag_and_drop_edit.html:292
 msgid "Save"
-msgstr "Redden"
+msgstr "Opslaan"
 
 #: templates/html/drag_and_drop_edit.html:296
 msgid "Cancel"

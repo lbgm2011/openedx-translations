@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 00:28+0000\n"
+"POT-Creation-Date: 2024-08-31 00:29+0000\n"
 "PO-Revision-Date: 2023-05-10 00:48+0000\n"
 "Last-Translator: Laoska Benyasca, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/open-edx/teams/6205/nl/)\n"
@@ -48,7 +48,7 @@ msgid ""
 "\"{option_name}\""
 msgstr ""
 "Voorbeeld {example_number} heeft een ongeldige optie voor "
-"&quot;{criterion_name}&quot;: &quot;{option_name}&quot;"
+"\\\"{criterion_name}\\\": \\\"{option_name}\\\""
 
 #: assessment/api/student_training.py:227
 #, python-brace-format

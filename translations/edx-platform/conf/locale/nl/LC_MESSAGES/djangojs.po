@@ -8183,7 +8183,7 @@ msgstr "Video delen"
 
 #: cms/templates/js/course-video-sharing-enable.underscore:13
 msgid "Learn more"
-msgstr "Kom meer te weten"
+msgstr "Meer weten"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:3
 msgid "Transcript Turnaround"
@@ -10356,7 +10356,7 @@ msgstr "Laat minder zien"
 
 #: lms/templates/discovery/course_card.underscore:6
 msgid "LEARN MORE"
-msgstr "KOM MEER TE WETEN"
+msgstr "MEER WETEN"
 
 #: lms/templates/discovery/course_card.underscore:17
 #, python-format
@@ -10365,7 +10365,7 @@ msgstr "Begint: %(start_date)s"
 
 #: lms/templates/discovery/course_card.underscore:26
 msgid "Starts"
-msgstr "Begint"
+msgstr "Beginnen"
 
 #: lms/templates/discovery/filter_bar.underscore:3
 msgid "Clear All"
@@ -11061,7 +11061,7 @@ msgstr "Extra kredietmogelijkheden"
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:203
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:232
 msgid "Learn More"
-msgstr "Kom meer te weten"
+msgstr "Meer weten"
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:97
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:217

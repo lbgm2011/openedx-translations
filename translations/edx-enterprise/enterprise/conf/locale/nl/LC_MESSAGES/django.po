@@ -5,8 +5,8 @@
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
 # Vera Lelie, 2024
+# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
 # 
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Vera Lelie, 2024\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/open-edx/teams/6205/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -238,7 +238,7 @@ msgstr ""
 "Om dit endpoint te gebruiken, moet dit pakket in een Open edX-omgeving "
 "worden geïnstalleerd."
 
-#: integrated_channels/canvas/models.py:42
+#: integrated_channels/canvas/models.py:44
 msgid ""
 "The API Client ID provided to edX by the enterprise customer to be used to "
 "make API calls to Canvas on behalf of the customer."
@@ -246,7 +246,7 @@ msgstr ""
 "De API Client ID die door de zakelijke klant aan edX is verstrekt en die "
 "moet worden gebruikt om namens de klant API-aanroepen naar Canvas te doen."
 
-#: integrated_channels/canvas/models.py:53
+#: integrated_channels/canvas/models.py:89
 msgid ""
 "The API Client Secret provided to edX by the enterprise customer to be used "
 "to make  API calls to Canvas on behalf of the customer."
@@ -255,7 +255,7 @@ msgstr ""
 "dat kan worden gebruikt om namens de klant API-aanroepen naar Canvas te "
 "doen."
 
-#: integrated_channels/canvas/models.py:62
+#: integrated_channels/canvas/models.py:132
 msgid ""
 "Account number to use during api calls. Called account_id in canvas.  "
 "Required to create courses etc."
@@ -263,14 +263,14 @@ msgstr ""
 "Accountnummer dat moet worden gebruikt tijdens API-oproepen. Account_id "
 "aangeroepen in canvas. Vereist om cursussen enz. te maken."
 
-#: integrated_channels/canvas/models.py:71
+#: integrated_channels/canvas/models.py:141
 msgid ""
 "The base URL used for API requests to Canvas, i.e. https://instructure.com."
 msgstr ""
 "De basis-URL die wordt gebruikt voor API-verzoeken aan Canvas, bijvoorbeeld "
 "https://instructure.com."
 
-#: integrated_channels/canvas/models.py:78
+#: integrated_channels/canvas/models.py:148
 msgid ""
 "The refresh token provided by Canvas along with the access token request, "
 "used to re-request the access tokens over multiple client sessions."
@@ -279,10 +279,10 @@ msgstr ""
 "toegangstokenverzoek, dat wordt gebruikt om de toegangstokens opnieuw aan te"
 " vragen voor meerdere clientsessies."
 
-#: integrated_channels/canvas/models.py:85
+#: integrated_channels/canvas/models.py:155
 #: integrated_channels/integrated_channel/models.py:155
 #: integrated_channels/moodle/models.py:163
-#: integrated_channels/sap_success_factors/models.py:141
+#: integrated_channels/sap_success_factors/models.py:170
 msgid ""
 "The maximum number of data items to transmit to the integrated channel with "
 "each request."
@@ -290,16 +290,16 @@ msgstr ""
 "Het maximale aantal gegevensitems dat bij elk verzoek naar het geïntegreerde"
 " kanaal moet worden verzonden."
 
-#: integrated_channels/canvas/models.py:197
+#: integrated_channels/canvas/models.py:267
 msgid "The amount of points that the learner scored on the subsection."
 msgstr "Het aantal punten dat de leerling heeft gescoord op de subsectie."
 
-#: integrated_channels/canvas/models.py:203
+#: integrated_channels/canvas/models.py:273
 msgid ""
 "The total amount of points that the learner could score on the subsection."
 msgstr "Het totale aantal punten dat de leerling op de subsectie kan scoren."
 
-#: integrated_channels/canvas/models.py:276
+#: integrated_channels/canvas/models.py:346
 msgid ""
 "Represents the canvas representation of a timestamp: yyyy-mm-dd, which is "
 "always 10 characters. Can be left unset for audit transmissions."
@@ -645,44 +645,60 @@ msgstr "Inschrijving gesloten"
 msgid "Ends"
 msgstr "Loopt af"
 
-#: integrated_channels/sap_success_factors/models.py:81
+#: integrated_channels/sap_success_factors/models.py:82
 msgid "OAuth client identifier."
 msgstr "OAuth-client-ID."
 
-#: integrated_channels/sap_success_factors/models.py:88
+#: integrated_channels/sap_success_factors/models.py:92
+msgid ""
+"The encrypted OAuth client identifier. It will be encrypted when stored in "
+"the database."
+msgstr ""
+"De versleutelde OAuth client identificatie. Deze wordt versleuteld "
+"opgeslagen in de database."
+
+#: integrated_channels/sap_success_factors/models.py:103
 msgid "Base URL of success factors API."
 msgstr "Basis-URL van succesfactoren-API."
 
-#: integrated_channels/sap_success_factors/models.py:95
+#: integrated_channels/sap_success_factors/models.py:110
 msgid "Success factors company identifier."
 msgstr "Succesfactoren bedrijfsidentificatie."
 
-#: integrated_channels/sap_success_factors/models.py:102
+#: integrated_channels/sap_success_factors/models.py:117
 msgid "Success factors user identifier."
 msgstr "Succesfactoren gebruikers-ID."
 
-#: integrated_channels/sap_success_factors/models.py:109
+#: integrated_channels/sap_success_factors/models.py:124
 msgid "OAuth client secret."
 msgstr "OAuth-clientgeheim."
 
-#: integrated_channels/sap_success_factors/models.py:116
+#: integrated_channels/sap_success_factors/models.py:134
+msgid ""
+"The encrypted OAuth client secret. It will be encrypted when stored in the "
+"database."
+msgstr ""
+"Het versleutelde OAuth-clientgeheim. Het wordt versleuteld opgeslagen in de "
+"database."
+
+#: integrated_channels/sap_success_factors/models.py:145
 msgid "Type of SAP User (admin or user)."
 msgstr "Type SAP-gebruiker (beheerder of gebruiker)."
 
-#: integrated_channels/sap_success_factors/models.py:122
+#: integrated_channels/sap_success_factors/models.py:151
 msgid "A comma-separated list of additional locales."
 msgstr ""
 "Een door komma&#39;s gescheiden lijst met aanvullende landinstellingen."
 
-#: integrated_channels/sap_success_factors/models.py:126
+#: integrated_channels/sap_success_factors/models.py:155
 msgid "Transmit Total Hours"
 msgstr "Totaal aantal uren verzenden"
 
-#: integrated_channels/sap_success_factors/models.py:127
+#: integrated_channels/sap_success_factors/models.py:156
 msgid "Include totalHours in the transmitted completion data"
 msgstr "Neem totalHours op in de verzonden voltooiingsgegevens"
 
-#: integrated_channels/sap_success_factors/models.py:132
+#: integrated_channels/sap_success_factors/models.py:161
 msgid ""
 "When set to True, the integration will use the generic edX service user "
 "('sapsf_user_id') defined in the SAP Customer Configuration for course "

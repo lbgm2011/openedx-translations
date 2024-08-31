@@ -24,8 +24,8 @@
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
-# Vera Lelie, 2024
 # Laoska Benyasca, 2024
+# Vera Lelie, 2024
 # 
 #, fuzzy
 msgid ""
@@ -34,7 +34,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-29 00:34+0000\n"
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Laoska Benyasca, 2024\n"
+"Last-Translator: Vera Lelie, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/open-edx/teams/6205/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -278,7 +278,7 @@ msgstr "Eenheid"
 #: cms/djangoapps/contentstore/views/component.py:215
 #: openedx/core/djangoapps/content_libraries/constants.py:15
 msgid "Problem"
-msgstr "Probleem"
+msgstr "Maak probleem"
 
 #: cms/djangoapps/contentstore/management/commands/git_export.py:33
 msgid ""
@@ -675,15 +675,15 @@ msgstr "Video"
 
 #: cms/djangoapps/contentstore/views/component.py:217
 msgid "Open Response"
-msgstr "Open antwoord"
+msgstr "Open vraag"
 
 #: cms/djangoapps/contentstore/views/component.py:218
 msgid "Library Content"
-msgstr "Bibliotheekinhoud"
+msgstr "Bibliotheeki"
 
 #: cms/djangoapps/contentstore/views/component.py:219
 msgid "Drag and Drop"
-msgstr "Slepen en neerzetten"
+msgstr "Drag & Drop"
 
 #: cms/djangoapps/contentstore/views/component.py:253
 msgid "Blank"
@@ -696,7 +696,7 @@ msgstr "Alleen peer-evaluatie"
 #: cms/djangoapps/contentstore/views/component.py:260
 #: xmodule/capa_block.py:182
 msgid "Blank Problem"
-msgstr "Leeg probleem"
+msgstr "Legen"
 
 #: cms/djangoapps/contentstore/views/component.py:384
 #: xmodule/video_block/video_block.py:152
@@ -4223,7 +4223,7 @@ msgstr "{date}"
 #: cms/templates/group_configurations.html:109
 #: lms/templates/courseware/program_marketing.html:319
 msgid "Learn More"
-msgstr "Kom meer te weten"
+msgstr "Meer weten"
 
 #: lms/djangoapps/courseware/date_summary.py:553
 msgid "Retry Verification"
@@ -4914,9 +4914,9 @@ msgid ""
 "unit blocks) then all blocks under that block will be included in the "
 "report."
 msgstr ""
-"Een gebruikssleutellocatie voor een sectie of een probleem. Als de locatie "
-"een blok is dat andere blokken bevat (zoals de cursus-, sectie-, subsectie- "
-"of eenheidsblokken), worden alle blokken onder dat blok in het rapport "
+"Een gebruikssleutellocatie voor een sectie of een vraag. Als de locatie een "
+"blok is dat andere blokken bevat (zoals de cursus-, sectie-, subsectie- of "
+"eenheidsblokken), worden alle blokken onder dat blok in het rapport "
 "opgenomen."
 
 #: lms/djangoapps/instructor/views/api.py:1135
@@ -4930,7 +4930,7 @@ msgid ""
 "A list of problem/block types to generate the report for. This field can be "
 "omitted if the report should include details of allblock types. "
 msgstr ""
-"Een lijst met probleem-/bloktypen waarvoor het rapport moet worden "
+"Een lijst met vragen-/bloktypen waarvoor het rapport moet worden "
 "gegenereerd. Dit veld kan worden weggelaten als het rapport details van alle"
 " bloktypen moet bevatten. "
 
@@ -4971,11 +4971,11 @@ msgstr "De aanvragende gebruiker heeft geen toegang tot de cursus."
 #: lms/djangoapps/instructor/views/api.py:1322
 #: lms/djangoapps/instructor_task/api_helper.py:109
 msgid "problem responses"
-msgstr "probleem reacties"
+msgstr "reacties"
 
 #: lms/djangoapps/instructor/views/api.py:1328
 msgid "Could not find problem with this location."
-msgstr "Kon geen probleem vinden met deze locatie."
+msgstr "Kon geen vraag vinden met deze locatie."
 
 #: lms/djangoapps/instructor/views/api.py:1379
 msgid "CourseID"
@@ -5307,7 +5307,7 @@ msgstr "cijfer"
 #: lms/djangoapps/instructor/views/api.py:2607
 #: lms/djangoapps/instructor_task/api_helper.py:108
 msgid "problem grade"
-msgstr "probleem graad"
+msgstr "probleem score"
 
 #: lms/djangoapps/instructor/views/api.py:2873
 #, python-brace-format
@@ -5703,7 +5703,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor_task/api_helper.py:378
 msgid "Scores must be between 0 and the value of the problem."
-msgstr "Scores moeten tussen 0 en de waarde van het probleem liggen."
+msgstr "Scores moeten tussen 0 en de waarde van de score liggen."
 
 #: lms/djangoapps/instructor_task/api_helper.py:393
 msgid "Not all problems in entrance exam support re-scoring."
@@ -5763,7 +5763,7 @@ msgstr "beoordeeld"
 #. progress messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py:208
 msgid "problem distribution graded"
-msgstr "probleemverdeling beoordeeld"
+msgstr "Probleem beoordeeld"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
@@ -5855,7 +5855,7 @@ msgstr "Kan inzending {action} voor student &#39;{student}&#39; niet vinden"
 #: lms/djangoapps/instructor_task/views.py:164
 #, python-brace-format
 msgid "Problem failed to be {action} for student '{student}'"
-msgstr "Probleem is niet {action} voor leerling &#39;{student}&#39;"
+msgstr "Probleem is niet {action} voor leerling '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.  # lint-amnesty, pylint: disable=line-
@@ -5863,7 +5863,7 @@ msgstr "Probleem is niet {action} voor leerling &#39;{student}&#39;"
 #: lms/djangoapps/instructor_task/views.py:168
 #, python-brace-format
 msgid "Problem successfully {action} for student '{student}'"
-msgstr "Probleem succesvol {action} voor leerling &#39;{student}&#39;"
+msgstr "Probleen succesvol {action} voor leerling '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
@@ -9843,9 +9843,7 @@ msgstr "Waarde &#39;{preference_value}&#39; is geen geldige tijdzoneselectie."
 #: openedx/core/djangoapps/user_api/preferences/api.py:451
 #, python-brace-format
 msgid "Save failed for user preference '{key}' with value '{value}'."
-msgstr ""
-"Opslaan mislukt voor gebruikersvoorkeur &#39;{key}&#39; met waarde "
-"&#39;{value}&#39;."
+msgstr "Opslaan mislukt voor gebruikersvoorkeur '{key}' met waarde '{value}'"
 
 #: openedx/core/djangoapps/user_api/preferences/views.py:118
 msgid "No data provided for user preference update"
@@ -11774,8 +11772,8 @@ msgid ""
 "Your answers have been saved but not graded. Click '{button_name}' to grade "
 "them."
 msgstr ""
-"Je antwoorden zijn opgeslagen, maar niet beoordeeld. Klik op "
-"&#39;{button_name}&#39; om ze te beoordelen."
+"Je antwoorden zijn opgeslagen, maar niet beoordeeld. Klik op '{button_name}'"
+" om ze te beoordelen."
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
@@ -19833,7 +19831,7 @@ msgstr "U heeft geen toegang tot dit afhankelijkheidsblok."
 
 #: lms/templates/course.html:13
 msgid "LEARN MORE"
-msgstr "KOM MEER TE WETEN"
+msgstr "MEER WETEN"
 
 #: lms/templates/course.html:29 lms/templates/course.html:39
 #: lms/templates/course.html:41
@@ -26628,7 +26626,7 @@ msgstr "Begrepen!"
 
 #: lms/templates/widgets/cookie-consent.html:22
 msgid "Learn more"
-msgstr "Kom meer te weten"
+msgstr "Meer weten"
 
 #: lms/templates/wiki/includes/article_menu.html:14
 #: lms/templates/wiki/includes/article_menu.html:23
@@ -27052,7 +27050,7 @@ msgstr "Hulp nodig bij het registreren met {platform_name} ?"
 
 #: themes/stanford-style/lms/templates/register-sidebar.html:35
 msgid "View our FAQs for answers to commonly asked questions."
-msgstr "Bekijk onze FAQ&#39;s voor antwoorden op veelgestelde vragen."
+msgstr "Bekijk onze FAQ&'s voor antwoorden op veelgestelde vragen."
 
 #: themes/stanford-style/lms/templates/register-sidebar.html:37
 msgid ""
@@ -27060,7 +27058,7 @@ msgid ""
 "discussion forums or through the FAQs."
 msgstr ""
 "Eenmaal geregistreerd, kunnen de meeste vragen worden beantwoord in de "
-"cursusspecifieke discussieforums of via de FAQ&#39;s."
+"cursusspecifieke discussieforums of via de FAQ's."
 
 #: themes/stanford-style/lms/templates/emails/activation_email.txt:2
 msgid "Thank you for signing up for {platform_name}."
