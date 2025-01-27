@@ -15,7 +15,7 @@
   "account.settings.section.linked.accounts": "Gekoppelde accounts",
   "account.settings.section.linked.accounts.description": "U kunt uw identiteitsaccounts koppelen om het aanmelden bij {siteName} te vereenvoudigen.",
   "account.settings.field.username": "Gebruikersnaam",
-  "account.settings.field.username.help.text": "De naam waarmee u wordt geïdentificeerd op {siteName} . U kunt uw gebruikersnaam niet wijzigen.",
+  "account.settings.field.username.help.text": "De naam waarmee u wordt geïdentificeerd op {siteName}. U kunt uw gebruikersnaam niet wijzigen.",
   "account.settings.field.full.name": "Voor-en achternaam",
   "account.settings.field.full.name.empty": "Naam toevoegen",
   "account.settings.field.full.name.help.text": "De naam die wordt gebruikt voor ID-verificatie en die op uw certificaten verschijnt.",

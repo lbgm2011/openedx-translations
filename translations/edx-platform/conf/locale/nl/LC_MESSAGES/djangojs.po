@@ -5233,7 +5233,7 @@ msgid ""
 "The name that identifies you on {platform_name}. You cannot change your "
 "username."
 msgstr ""
-"De naam waarmee u wordt geïdentificeerd op {platform_name} . U kunt uw "
+"De naam waarmee u wordt geïdentificeerd op {platform_name}. U kunt uw "
 "gebruikersnaam niet wijzigen."
 
 #: lms/static/js/student_account/views/account_settings_factory.js:170
