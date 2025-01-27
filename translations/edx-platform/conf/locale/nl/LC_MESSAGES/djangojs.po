@@ -3508,7 +3508,7 @@ msgstr "vragenlijst afsluiten"
 msgid "Viewing %s course"
 msgid_plural "Viewing %s courses"
 msgstr[0] "%s cursus bekijken"
-msgstr[1] "%s -cursussen bekijken"
+msgstr[1] "Alle trainingen (%s) "
 
 #: lms/static/js/discovery/views/search_form.js:57
 #, javascript-format
