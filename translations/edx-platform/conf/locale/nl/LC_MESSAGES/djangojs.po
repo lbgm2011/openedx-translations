@@ -9246,7 +9246,7 @@ msgstr ""
 
 #: cms/templates/js/transcript-organization-credentials.underscore:3
 msgid "Account"
-msgstr "Rekening"
+msgstr "Account"
 
 #: cms/templates/js/transcript-organization-credentials.underscore:5
 msgid ""

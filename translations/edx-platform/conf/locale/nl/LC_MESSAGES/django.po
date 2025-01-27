@@ -7670,7 +7670,7 @@ msgstr "Cursussen"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"
-msgstr "Mijn rekening"
+msgstr "Mijn Account"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:156
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:100
@@ -19535,7 +19535,7 @@ msgstr "Kies een taal"
 #: lms/templates/header/user_dropdown.html:48
 #: lms/templates/user_dropdown.html:31 lms/templates/user_dropdown.html:39
 msgid "Account"
-msgstr "Rekening"
+msgstr "Account"
 
 #: cms/templates/widgets/header.html:346 cms/templates/widgets/header.html:361
 msgid "Account Navigation"
@@ -23529,8 +23529,8 @@ msgid ""
 "The {provider_name} account you selected is already linked to another "
 "{platform_name} account."
 msgstr ""
-"De door u geselecteerde {provider_name} -rekening is al gekoppeld aan een "
-"andere {platform_name} -rekening."
+"De door u geselecteerde {provider_name} account is al gekoppeld aan een "
+"andere {platform_name} account."
 
 #: lms/templates/dashboard/_entitlement_reason_survey.html:7
 msgid ""
