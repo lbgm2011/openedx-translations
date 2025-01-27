@@ -7666,7 +7666,7 @@ msgstr "Ga naar de startpagina van %(platform_name)s"
 #: lms/templates/navigation/navbar-authenticated.html:22
 #: lms/templates/navigation/navbar-not-authenticated.html:20
 msgid "Courses"
-msgstr "Cursussen"
+msgstr "Mijn Trainingen"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"
@@ -24270,7 +24270,7 @@ msgstr ""
 
 #: lms/templates/header/navbar-authenticated.html:51
 msgid "Discover New"
-msgstr "Ontdek Nieuw"
+msgstr "Alle Trainingen"
 
 #: lms/templates/header/navbar-logo-header.html:24
 msgid "{name} Dashboard"
